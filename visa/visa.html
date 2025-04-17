@@ -1,164 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visa Services | Sanskruti Travels</title>
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <title>Visa Types | Sanskruti Travels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Poppins', sans-serif; background: #fdfdfd; }
+    header { background: linear-gradient(45deg, #ff5f6d, #ffc371); padding: 30px 20px; color: #fff; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { margin-top: 8px; font-size: 1.1rem; }
+
+    nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; padding: 15px; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    nav a { text-decoration: none; color: #ff5f6d; font-weight: 600; padding: 8px 14px; transition: 0.3s; border-radius: 6px; }
+    nav a:hover, nav a.active { background: #ff5f6d; color: #fff; }
+
+    .section { padding: 50px 20px; text-align: center; }
+    .section h2 { font-size: 2.2rem; margin-bottom: 20px; }
+
+    .visa-type-grid { display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; margin-top: 30px; }
+    .visa-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 300px; transition: 0.3s; }
+    .visa-card:hover { transform: translateY(-5px); }
+    .visa-card img { width: 100%; height: 200px; object-fit: cover; }
+    .visa-card h3 { margin: 0; padding: 15px; font-size: 1.3rem; color: #333; }
+    .visa-card p { padding: 0 15px 15px; color: #555; font-size: 0.95rem; }
+    .visa-card a { display: inline-block; margin: 0 0 15px; padding: 10px 20px; background: #ffc371; color: #333; border-radius: 25px; text-decoration: none; font-weight: 600; }
+
+    footer { padding: 20px; text-align: center; background: #333; color: #fff; margin-top: 50px; }
+    footer a { color: #ffc371; text-decoration: none; }
+
+    @media(max-width: 768px) {
+      .visa-type-grid { flex-direction: column; align-items: center; }
+    }
+  </style>
 </head>
-<body class="visa-page">
-    <body class="visa-page"></body>
 
-    <header>
-        <div class="logo">
-            <img src="../images/logo.png" alt="Sanskruti Travels">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../tours/himachal.html">Tours</a></li>
-                <li><a href="visa.html" class="active">Visa</a></li>
-                <li><a href="../flights.html">Flights</a></li>
-                <li><a href="../hotels.html">Hotels</a></li>
-                <li><a href="../about.html">About</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body>
 
-    <section class="visa-services">
-        <h1>Visa Services</h1>
-        <p>We offer fast, hassle-free visa processing services for various destinations. Whether it’s an e-Visa, Arrival Card, or Passport Stamp Visa — Sanskruti Travels has you covered!</p>
+<header>
+  <h1>Sanskruti Travels</h1>
+  <p>Your Trusted Visa & Travel Experts</p>
+</header>
 
-        <div class="visa-service-list">
+<nav>
+  <a href="../index.html">Home</a>
+  <a href="../about.html">About</a>
+  <a href="../tours/packages.html">Packages</a>
+  <a href="visa.html" class="active">Visa</a>
+  <a href="../flights.html">Flights</a>
+  <a href="../hotels.html">Hotels</a>
+  <a href="../contact.html">Contact</a>
+</nav>
 
-            <div class="visa-service-item">
-                <img src="../../images/hero-bg.jpg" alt="E-Visa">
-                <h3>E-Visa</h3>
-                <p>Apply for your travel e-visa online with minimal documents and quick processing. Perfect for leisure and business trips.</p>
-                <a href="e-visa.html" class="button">Apply E-Visa</a>
-            </div>
+<div class="section">
+  <h2>Our Visa Services</h2>
+  <p style="max-width: 700px; margin: 0 auto; font-size: 1rem; color: #555;">
+    Sanskruti Travels offers a wide range of visa services for destinations across the globe. From hassle-free e-visas to embassy appointments — we’ve got your journey covered.
+  </p>
 
-            <div class="visa-service-item">
-                <img src="../../images/dubai.jpg" alt="Arrival Card">
-                <h3>Digital Arrival Card</h3>
-                <p>Get your arrival card processed before you land in your destination country. Simplify your immigration process in advance.</p>
-                <a href="arrival-card.html" class="button">Apply Arrival Card</a>
-            </div>
+  <div class="visa-type-grid">
 
-            <div class="visa-service-item">
-                <img src="../../images/manali.jpg" alt="Passport Stamp Visa">
-                <h3>Passport Stamp Visa</h3>
-                <p>We assist with embassy appointments and documentation for passport-stamped visas for UK, Canada, Schengen, and more.</p>
-                <a href="passport-stamp.html" class="button">Apply Passport Visa</a>
-            </div>
+    <div class="visa-card">
+      <img src="../images/hero-bg.jpg" alt="E-Visa">
+      <h3>E-Visa</h3>
+      <p>Apply online for your destination with minimal documentation and fast processing. Best for short trips and holidays.</p>
+      <a href="e-visa.html">Apply Now</a>
+    </div>
 
-        </div>
-          
-          
-      
+    <div class="visa-card">
+      <img src="../images/dubai.jpg" alt="Arrival Card">
+      <h3>Digital Arrival Card</h3>
+      <p>Secure your arrival card before landing. Quick, easy and ensures smooth immigration clearance on arrival.</p>
+      <a href="arrival-card.html">Apply Now</a>
+    </div>
 
-    <footer>
-        <p>&copy; 2025 Sanskruti Travels. All rights reserved. | <a href="tel:7977527874">Call: +91 79775 27874</a></p>
-    </footer>
+    <div class="visa-card">
+      <img src="../images/manali.jpg" alt="Passport Visa">
+      <h3>Passport Stamp Visa</h3>
+      <p>Complete embassy assistance for stamped visas — UK, Canada, USA, Schengen and more with expert document handling.</p>
+      <a href="passport-stamp.html">Apply Now</a>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Sanskruti Travels. All rights reserved. | <a href="tel:7977527874">Call: +91 79775 27874</a></p>
+</footer>
 
 </body>
-<script>
-    // Sample visa data for demonstration purposes
-    const visaData = {
-      "United States": {
-        "Tourist Visa": {
-          documents: "Passport, DS-160 Confirmation, Appointment Confirmation, Photo, Financial Proofs",
-          processing: "15-30 days",
-          fee: "$160",
-          applyLink: "https://www.ustraveldocs.com/"
-        },
-        "Business Visa": {
-          documents: "Passport, Invitation Letter, DS-160 Confirmation, Appointment Confirmation, Photo, Financial Proofs",
-          processing: "15-30 days",
-          fee: "$160",
-          applyLink: "https://www.ustraveldocs.com/"
-        }
-      },
-      "Canada": {
-        "Visitor Visa": {
-          documents: "Passport, Photo, Financial Proofs, Travel History, Purpose of Visit",
-          processing: "20-30 days",
-          fee: "CAD $100",
-          applyLink: "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html"
-        }
-      }
-      // Add more countries and visa types as needed
-    };
-  
-    // Fetch countries from REST Countries API and populate the country dropdown
-    async function fetchCountries() {
-      try {
-        const response = await fetch('https://restcountries.com/v3.1/all');
-        const countries = await response.json();
-        const countrySelect = document.getElementById("country-select");
-  
-        // Sort countries alphabetically
-        countries.sort((a, b) => a.name.common.localeCompare(b.name.common));
-  
-        countries.forEach(country => {
-          const option = document.createElement("option");
-          option.value = country.name.common;
-          option.text = country.name.common;
-          countrySelect.appendChild(option);
-        });
-      } catch (error) {
-        console.error("Error fetching countries:", error);
-      }
-    }
-  
-    // Populate visa types based on selected country
-    function populateVisaTypes() {
-      const country = document.getElementById("country-select").value;
-      const visaTypeSelect = document.getElementById("visa-type-select");
-      const visaInfoDisplay = document.getElementById("visa-info-display");
-  
-      visaTypeSelect.innerHTML = '<option value="">-- Choose Visa Type --</option>';
-      visaInfoDisplay.innerHTML = "";
-  
-      if (visaData[country]) {
-        const visaTypes = Object.keys(visaData[country]);
-        visaTypes.forEach(type => {
-          const option = document.createElement("option");
-          option.value = type;
-          option.text = type;
-          visaTypeSelect.appendChild(option);
-        });
-        visaTypeSelect.disabled = false;
-      } else {
-        visaTypeSelect.disabled = true;
-      }
-    }
-  
-    // Display visa details based on selected visa type
-    function showVisaDetails() {
-      const country = document.getElementById("country-select").value;
-      const visaType = document.getElementById("visa-type-select").value;
-      const display = document.getElementById("visa-info-display");
-  
-      if (visaData[country] && visaData[country][visaType]) {
-        const data = visaData[country][visaType];
-        display.innerHTML = `
-          <h3>${country} - ${visaType}</h3>
-          <p><strong>Required Documents:</strong> ${data.documents}</p>
-          <p><strong>Processing Time:</strong> ${data.processing}</p>
-          <p><strong>Government Fee:</strong> ${data.fee}</p>
-          <p><a href="${data.applyLink}" target="_blank">Apply Online</a></p>
-        `;
-      } else {
-        display.innerHTML = "<p>No visa information available for the selected country and visa type.</p>";
-      }
-    }
-  
-    // Initialize the country dropdown on page load
-    window.onload = fetchCountries;
-  </script>
-  
-
-  
 </html>

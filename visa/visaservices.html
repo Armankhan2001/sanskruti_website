@@ -2,28 +2,129 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Visa Services | Sanskruti Travel</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Visa Services | Sanskruti Travels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: #fdfdfd; }
+    header { background: linear-gradient(45deg, #ff5f6d, #ffc371); padding: 50px 20px; text-align: center; color: #fff; }
+    header h1 { margin: 0; font-size: 3rem; }
+
+    nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 15px; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    nav a { text-decoration: none; color: #ff5f6d; font-weight: 600; transition: 0.3s; }
+    nav a:hover { color: #333; }
+
+    .subnav { margin-top: 10px; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 10px 0; background: #ffe8d1; }
+    .subnav a { text-decoration: none; color: #333; font-weight: 600; transition: 0.3s; }
+    .subnav a:hover { color: #ff5f6d; }
+
+    .section { padding: 50px 20px; text-align: center; }
+    .section h2 { font-size: 2.5rem; margin-bottom: 30px; }
+
+    .grid { display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; }
+    .card { background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); max-width: 320px; transition: 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    .card img { width: 100%; height: 200px; object-fit: cover; }
+    .card-content { padding: 20px; }
+    .card-content h3 { margin: 0 0 10px; font-size: 1.4rem; color: #333; }
+    .card-content p { font-size: 1rem; color: #555; margin-bottom: 15px; }
+    .btn { display: inline-block; padding: 10px 20px; background: #ffc371; color: #333; border-radius: 30px; text-decoration: none; font-weight: 600; transition: 0.3s; }
+    .btn:hover { background: #ff5f6d; color: #fff; }
+
+    footer { padding: 20px; text-align: center; background: #333; color: #fff; margin-top: 50px; }
+  </style>
 </head>
+
 <body>
 
-  <header>
-    <h1>Visa Services</h1>
-    <nav>
-      <ul>
-        <li><a href="../t2/index.html" id="countryDetails">Visa-County-Details</a></li>
-        <li><a href="visa.html" id="visaCategories">Visa Categories</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <h1>Visa Services</h1>
+</header>
 
-  <main>
-    <section class="intro">
-      <h2>Explore Our Visa Services</h2>
-      <p>Quickly access visa information for any country or browse by categories.</p>
-    </section>
-  </main>
+<nav>
+  <a href="../index.html">Home</a>
+  <a href="../about.html">About</a>
+  <a href="../tours/packages.html">Packages</a>
+  <a href="visaservices.html">Visa</a>
+  <a href="../flights.html">Flights</a>
+  <a href="../hotels.html">Hotels</a>
+  <a href="../contact.html">Contact</a>
+</nav>
 
-  <script src="script.js"></script>
+<div class="subnav">
+  <a href="../t2/index.html" id="countryDetails">Visa-Country-Details</a>
+  <a href="visa.html" id="visaCategories">Visa Categories</a>
+</div>
+
+<section class="section">
+  <h2>Explore Our Visa Services</h2>
+  <p>Quickly access visa information for any country or browse by categories.</p>
+</section>
+
+<section class="section">
+  <h2>Popular Visa Assistance</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="../images/uk-visa.jpg" alt="UK Visa">
+      <div class="card-content">
+        <h3>UK Visa</h3>
+        <p>Get hassle-free tourist, business, and student visa processing for the UK with expert support.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../images/canada-visa.jpg" alt="Canada Visa">
+      <div class="card-content">
+        <h3>Canada Visa</h3>
+        <p>Apply for Canadian tourist and visitor visas with smooth documentation and guidance services.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../images/dubai-visa.jpg" alt="Dubai Visa">
+      <div class="card-content">
+        <h3>Dubai Visa</h3>
+        <p>Quick and reliable visa services for Dubai, including transit, tourist, and work visas.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../images/schengen-visa.jpg" alt="Schengen Visa">
+      <div class="card-content">
+        <h3>Schengen Visa</h3>
+        <p>Travel across Europe easily with our Schengen Visa support for multiple countries.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../images/singapore-visa.jpg" alt="Singapore Visa">
+      <div class="card-content">
+        <h3>Singapore Visa</h3>
+        <p>Effortless Singapore visa application and approval for tourism, business, and family visits.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../images/thailand-visa.jpg" alt="Thailand Visa">
+      <div class="card-content">
+        <h3>Thailand Visa</h3>
+        <p>Enjoy fast Thailand tourist visa approvals with seamless application management.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Sanskruti Travels | Designed by Your Travel Partner
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

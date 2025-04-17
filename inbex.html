@@ -10,10 +10,10 @@
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Poppins', sans-serif; background: #fdfdfd; color: #333; }
-    
+    body { font-family: 'Poppins', sans-serif; background: #fefefe; color: #333; }
+
     header {
-      background: linear-gradient(45deg, #FF8C00, #FF4500); /* Updated colors */
+      background: linear-gradient(45deg, #fc466b, #3f5efb);
       padding: 60px 20px;
       text-align: center;
       color: #fff;
@@ -21,29 +21,54 @@
     header h1 { font-size: 3.5rem; font-family: 'Playfair Display', serif; }
     header p { margin-top: 10px; font-size: 1.3rem; }
 
+    /* Navbar */
     nav {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      padding: 18px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 30px;
       background: #fff;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
       position: sticky;
       top: 0;
       z-index: 99;
     }
-    nav a {
+    .logo {
+      color: #fc466b;
+      font-weight: 700;
+      font-size: 1.5rem;
       text-decoration: none;
-      color: #FF8C00; /* Updated color */
+    }
+    .nav-links {
+      display: flex;
+      gap: 22px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: #3f5efb;
       font-weight: 600;
       transition: 0.3s;
     }
-    nav a:hover {
-      color: #333;
+    .nav-links a:hover {
+      color: #fc466b;
       transform: scale(1.05);
     }
 
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    .hamburger span {
+      height: 3px;
+      width: 25px;
+      background: #333;
+      margin: 4px 0;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    /* Hero */
     .hero {
       position: relative;
       overflow: hidden;
@@ -76,7 +101,7 @@
       display: inline-block;
       margin-top: 25px;
       padding: 14px 30px;
-      background: #FF4500; /* Updated color */
+      background: #fc466b;
       color: #fff;
       border-radius: 30px;
       text-decoration: none;
@@ -85,8 +110,7 @@
       animation: fadeInUp 2s ease forwards;
     }
     .btn:hover {
-      background: #FF8C00;
-      color: #333;
+      background: #3f5efb;
     }
 
     .section {
@@ -99,13 +123,13 @@
       font-family: 'Playfair Display', serif;
     }
 
-    .services {
+    .services, .grid {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
       justify-content: center;
     }
-    .service {
+    .service, .card {
       background: #fff;
       padding: 25px;
       border-radius: 12px;
@@ -113,19 +137,17 @@
       width: 280px;
       transition: 0.4s;
     }
-    .service:hover {
+    .service:hover, .card:hover {
       transform: translateY(-10px);
     }
     .service h3 {
       margin: 10px 0;
       font-size: 1.4rem;
     }
-
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
     }
     .card {
       width: 300px;
@@ -135,22 +157,20 @@
       background: #fff;
       transition: 0.4s;
     }
-    .card:hover {
-      transform: scale(1.03);
-    }
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
     .card h3 {
       margin: 0;
       padding: 18px;
       font-size: 1.3rem;
     }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
 
     .cta {
-      background: linear-gradient(45deg, #FF8C00, #FF4500); /* Updated colors */
+      background: linear-gradient(45deg, #3f5efb, #fc466b);
       color: #fff;
       padding: 50px 20px;
       text-align: center;
@@ -181,7 +201,7 @@
       margin-top: 50px;
     }
     footer a {
-      color: #FF4500; /* Updated color */
+      color: #ffc371;
       margin: 0 8px;
       text-decoration: none;
       transition: 0.3s;
@@ -197,23 +217,22 @@
       .hero img { height: 60vh; }
       .hero-text h2 { font-size: 2.2rem; }
       .hero-text p { font-size: 1rem; }
-      .services {
+
+      .nav-links {
+        display: none;
         flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 30px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+        padding: 20px;
+        gap: 16px;
+        z-index: 100;
       }
-      .service {
-        width: 100%;
-        margin-bottom: 20px;
-      }
-      .grid {
-        flex-direction: column;
-      }
-      .card {
-        width: 90%;
-        margin-bottom: 20px;
-      }
-      .cta h2 {
-        font-size: 2rem;
-      }
+      .nav-links.open { display: flex; }
+      .hamburger { display: flex; }
     }
   </style>
 </head>
@@ -226,13 +245,19 @@
 </header>
 
 <nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="tours/packages.html">Packages</a>
-  <a href="visa/visaservices.html">Visa</a>
-  <a href="flights.html">Flights</a>
-  <a href="hotels.html">Hotels</a>
-  <a href="contact.html">Contact</a>
+  <a href="#" class="logo">Sanskruti</a>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="tours/packages.html">Packages</a>
+    <a href="visa/visaservices.html">Visa</a>
+    <a href="flights.html">Flights</a>
+    <a href="hotels.html">Hotels</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
 </nav>
 
 <div class="hero">
@@ -281,7 +306,6 @@
 <script>
   AOS.init();
   const accessKey = 'LQ9FkUky9DVBryQ9sw5CPKU7U2G3siY7pilIEuJEyEU';
-
   fetch(`https://api.unsplash.com/search/photos?query=vacation&per_page=6&client_id=${accessKey}`)
     .then(res => res.json())
     .then(data => {
@@ -299,6 +323,10 @@
       });
     })
     .catch(err => console.error(err));
+
+  function toggleMenu() {
+    document.getElementById('navLinks').classList.toggle('open');
+  }
 </script>
 
 </body>

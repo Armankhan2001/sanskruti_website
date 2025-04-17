@@ -1,1 +1,83 @@
-<!-- contact.html content to be added here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | Sanskruti Travels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: #fdfdfd; }
+    header { background: linear-gradient(45deg, #ff5f6d, #ffc371); padding: 50px 20px; text-align: center; color: #fff; }
+    header h1 { margin: 0; font-size: 3rem; }
+    nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 15px; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    nav a { text-decoration: none; color: #ff5f6d; font-weight: 600; transition: 0.3s; }
+    nav a:hover { color: #333; }
+
+    .contact-section { padding: 50px 20px; max-width: 1100px; margin: auto; }
+    .contact-section h2 { text-align: center; font-size: 2.5rem; margin-bottom: 30px; }
+    .contact-container { display: flex; flex-wrap: wrap; gap: 30px; }
+    .contact-info, .contact-form { flex: 1; min-width: 300px; }
+    .contact-info h3 { font-size: 1.5rem; margin-bottom: 20px; }
+    .contact-info p { margin: 8px 0; }
+    .contact-info a { color: #ff5f6d; text-decoration: none; }
+
+    form { display: flex; flex-direction: column; gap: 15px; }
+    input, textarea { padding: 12px 15px; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem; }
+    input:focus, textarea:focus { border-color: #ff5f6d; outline: none; }
+    button { background: #ffc371; padding: 12px 20px; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; transition: 0.3s; }
+    button:hover { background: #ff5f6d; color: #fff; }
+
+    .map { margin-top: 40px; border-radius: 15px; overflow: hidden; }
+    footer { padding: 20px; text-align: center; background: #333; color: #fff; margin-top: 50px; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Contact Sanskruti Travels</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="tours/packages.html">Packages</a>
+  <a href="visa/visaservices.html">Visa</a>
+  <a href="flights.html">Flights</a>
+  <a href="hotels.html">Hotels</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section class="contact-section">
+  <h2>Get In Touch</h2>
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3>Our Office</h3>
+      <p><strong>Address:</strong> Shop No. 12, Shree Complex, Pune, India</p>
+      <p><strong>Phone:</strong> <a href="tel:+917977527874">+91 79775 27874</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@sanskrutitravels.com">info@sanskrutitravels.com</a></p>
+      <p><strong>Working Hours:</strong> Mon-Sat: 10:00 AM - 7:00 PM</p>
+    </div>
+
+    <div class="contact-form">
+      <form action="mailto:info@sanskrutitravels.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Phone Number">
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.078866508498!2d73.85625597467188!3d18.562007482541388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c07d81f08b29%3A0x66f7a7b7f1e9c5a0!2sShree%20Complex%2C%20Pune!5e0!3m2!1sen!2sin!4v1681234567890!5m2!1sen!2sin" 
+      width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Sanskruti Travels | Designed by Your Travel Partner
+</footer>
+
+</body>
+</html>
