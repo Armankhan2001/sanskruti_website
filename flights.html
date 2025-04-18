@@ -1,1 +1,88 @@
-<!-- flights.html content to be added here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Flights | Sanskruti Travels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: #fdfdfd; }
+    header { background: linear-gradient(45deg, #FF8C00, #FF4500); padding: 50px 20px; text-align: center; color: #fff; }
+    header h1 { margin: 0; font-size: 3rem; }
+
+    nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 15px; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    nav a { text-decoration: none; color: #ff5f6d; font-weight: 600; transition: 0.3s; }
+    nav a:hover { color: #333; }
+
+    .section { padding: 50px 20px; max-width: 1100px; margin: auto; text-align: center; }
+    .section h2 { font-size: 2.5rem; margin-bottom: 30px; }
+
+    .flight-grid { display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; }
+    .flight-card { background: #fff; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); padding: 20px; max-width: 320px; text-align: left; transition: 0.3s; }
+    .flight-card:hover { transform: translateY(-5px); }
+    .flight-card img { width: 100%; height: 180px; object-fit: cover; border-radius: 10px; }
+    .flight-card h3 { color: #ff5f6d; margin-top: 15px; }
+    .flight-card p { font-size: 0.95rem; line-height: 1.5; color: #555; }
+    .flight-card a { display: inline-block; margin-top: 10px; color: #ffc371; text-decoration: none; font-weight: 600; }
+    .flight-card a:hover { color: #ff5f6d; }
+
+    footer { padding: 20px; text-align: center; background: #333; color: #fff; margin-top: 50px; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Book Your Flights</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="tours/packages.html">Packages</a>
+  <a href="visa/visaservices.html">Visa</a>
+  <a href="flights.html">Flights</a>
+  <a href="hotels.html">Hotels</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section class="section">
+  <h2>Top Flight Deals</h2>
+  <div class="flight-grid">
+
+    <div class="flight-card">
+      <img src="images/flight1.jpg" alt="Dubai Flight Offer">
+      <h3>Mumbai to Dubai</h3>
+      <p>Starting at ₹18,500 with top airlines. Book your tickets now for your luxury holiday in Dubai.</p>
+      <a href="#">Book Now</a>
+    </div>
+
+    <div class="flight-card">
+      <img src="images/flight2.jpg" alt="London Flight Offer">
+      <h3>Delhi to London</h3>
+      <p>Grab return tickets at ₹49,999 only. Limited time offer with premium service options.</p>
+      <a href="#">Book Now</a>
+    </div>
+
+    <div class="flight-card">
+      <img src="images/flight3.jpg" alt="Thailand Flight Offer">
+      <h3>Mumbai to Bangkok</h3>
+      <p>Budget-friendly flights from ₹14,200. Escape to tropical beaches and stunning nightlife.</p>
+      <a href="#">Book Now</a>
+    </div>
+
+    <div class="flight-card">
+      <img src="images/flight4.jpg" alt="Singapore Flight Offer">
+      <h3>Bangalore to Singapore</h3>
+      <p>Fly at just ₹19,800. Explore Singapore’s futuristic attractions and gourmet dining.</p>
+      <a href="#">Book Now</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Sanskruti Travels | Designed by Your Travel Partner
+</footer>
+
+</body>
+</html>

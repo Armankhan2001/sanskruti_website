@@ -1,35 +1,203 @@
-<!-- about.html content to be added here -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Sanskruti Travels</title>
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <title>About Us | Sanskruti Travels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: #fdfdfd; }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 25px;
+      background: #ff5f6d;
+      color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .navbar .logo img { height: 50px; }
+    .navbar nav {
+      display: flex;
+      gap: 20px;
+    }
+    .navbar nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .navbar nav a:hover {
+      color: #ffc371;
+    }
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      gap: 5px;
+    }
+    .hamburger div {
+      width: 25px;
+      height: 3px;
+      background: #fff;
+    }
+
+    @media(max-width: 768px) {
+      .navbar nav {
+        display: none;
+        flex-direction: column;
+        background: #ff5f6d;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        padding: 15px;
+        gap: 10px;
+      }
+      .navbar nav.show {
+        display: flex;
+      }
+      .hamburger {
+        display: flex;
+      }
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(45deg, #FF8C00, #FF4500);
+      color: #fff;
+    }
+    .hero h1 { font-size: 3rem; margin: 0; }
+    .hero p { font-size: 1.1rem; margin-top: 10px; }
+
+    /* About Content */
+    .about-content {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+      line-height: 1.7;
+      color: #555;
+    }
+    .about-content h2 {
+      color: #ff5f6d;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    /* Highlights / Features */
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .highlight-item {
+      background: #fff;
+      padding: 30px 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+      transition: 0.3s;
+    }
+    .highlight-item:hover {
+      transform: translateY(-5px);
+    }
+    .highlight-item h3 {
+      color: #FF8C00;
+      margin-bottom: 10px;
+    }
+    .highlight-item p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background: #333;
+      color: #fff;
+      margin-top: 50px;
+    }
+    footer a {
+      color: #ffc371;
+      text-decoration: none;
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-            <img src="../images/logo.png" alt="Sanskruti Travels">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-                <li><a href="../visa/evisa.html">Visa Services</a></li>
-                <li><a href="../tours/himachal.html">Tour Packages</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="about-us">
-        <h1>About Sanskruti Travels</h1>
-        <p>We are a trusted travel agency based in India, specializing in providing customized tour packages, visa services, and travel solutions. Whether you are planning your next domestic trip or an international adventure, we have you covered with the best services at competitive prices.</p>
-    </section>
+<!-- Navbar -->
+<div class="navbar">
+  <div class="logo">
+    <img src="../images/logo.png" alt="Sanskruti Travels">
+  </div>
+  <nav id="nav-links">
+    <a href="./index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./visa/visaservices.html">Visa Services</a>
+    <a href="./tours/packages.html">Tour Packages</a>
+    <a href="./flights.html">Flights</a>
+    <a href="./hotels.html">Hotels</a>
+  </nav>
+  <div class="hamburger" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
 
-    <footer>
-        <p>&copy; 2025 Sanskruti Travels | <a href="../contact.html">Contact Us</a></p>
-    </footer>
+<!-- Hero Section -->
+<section class="hero">
+  <h1>About Sanskruti Travels</h1>
+  <p>Your trusted partner for seamless travel, visa, and holiday experiences</p>
+</section>
+
+<!-- About Content -->
+<section class="about-content">
+  <h2>Our Story</h2>
+  <p>Founded with a passion for making travel simple, exciting, and hassle-free, Sanskruti Travels has quickly become a reliable name in the travel industry. From our modest beginnings as a local travel consultancy, we've grown into a full-fledged travel service provider, offering a wide array of domestic and international travel solutions to suit every traveler’s needs.</p>
+
+  <p>Whether you’re planning a family holiday, a honeymoon getaway, a corporate trip, or simply need efficient visa and flight booking services — we’ve got you covered. Our team ensures personalized assistance, transparent processes, and unforgettable travel experiences for our clients.</p>
+
+  <h2>Why Choose Us?</h2>
+
+  <div class="highlights">
+    <div class="highlight-item">
+      <h3>Trusted Visa Services</h3>
+      <p>We process tourist, business, and transit visas for over 150+ countries with accuracy and ease.</p>
+    </div>
+    <div class="highlight-item">
+      <h3>Custom Tour Packages</h3>
+      <p>Handpicked domestic and international holiday packages tailored to suit every travel style and budget.</p>
+    </div>
+    <div class="highlight-item">
+      <h3>24x7 Support</h3>
+      <p>Round-the-clock assistance for your travel queries, bookings, and visa processes.</p>
+    </div>
+    <div class="highlight-item">
+      <h3>Best Price Guarantee</h3>
+      <p>Competitive pricing on flights, hotels, and complete travel packages without compromising on quality.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Sanskruti Travels | <a href="../contact.html">Contact Us</a>
+</footer>
+
+<script>
+  function toggleMenu() {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('show');
+  }
+</script>
+
 </body>
 </html>
