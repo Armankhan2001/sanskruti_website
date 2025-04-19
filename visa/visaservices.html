@@ -30,8 +30,14 @@
     .btn { display: inline-block; padding: 10px 20px; background: #ffc371; color: #333; border-radius: 30px; text-decoration: none; font-weight: 600; transition: 0.3s; }
     .btn:hover { background: #ff5f6d; color: #fff; }
 
+    .visa-assistance { max-width: 800px; margin: 30px auto; padding: 30px; background: #fff; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center; }
+    .visa-assistance select { padding: 12px 20px; font-size: 1rem; border: 1px solid #ddd; border-radius: 5px; width: 80%; max-width: 300px; margin-top: 20px; }
+    #visaInfo { text-align: left; margin-top: 25px; padding: 20px; background: #fafafa; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+
     footer { padding: 20px; text-align: center; background: #333; color: #fff; margin-top: 50px; }
   </style>
+  <link rel="stylesheet" href="visaassistance.css">
+
 </head>
 
 <body>
@@ -50,15 +56,102 @@
   <a href="../contact.html">Contact</a>
 </nav>
 
-<div class="subnav">
-  <a href="../t2/index.html" id="countryDetails">Visa-Country-Details</a>
-  <a href="visa.html" id="visaCategories">Visa Categories</a>
-</div>
-
 <section class="section">
   <h2>Explore Our Visa Services</h2>
-  <p>Quickly access visa information for any country or browse by categories.</p>
+  <p>Quickly access visa information for any country and Apply from here</p>
+  <div class="container">
+    <h1>🌏 Visa Assistant</h1>
+
+    <label for="countrySelect">Select a Country:</label>
+    <select id="countrySelect">
+      <option value="">-- Choose Country --</option>
+    </select>
+
+    <div id="visaInfo"></div>
+     <!-- Link to Apply Now Page -->
+  <p><a href="applynow.html" class="btn">Apply Now for Visa</a></p>
+  </div>
 </section>
+
+<section class="section">
+  <h2>What Our Clients Say</h2>
+  <div class="grid">
+
+    <div class="card">
+      <div class="card-content">
+        <p>"Super fast service for my UK visa — got it in less than a week! Highly recommend Sanskruti Travels."</p>
+        <h3>- Ramesh P.</h3>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <p>"The team guided me through Canada visitor visa documents smoothly. Very professional and responsive."</p>
+        <h3>- Meena D.</h3>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <p>"Sanskruti Travels handled my Schengen visa application perfectly. Seamless process from start to finish."</p>
+        <h3>- Arvind S.</h3>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" style="background:#ffe8d1;">
+  <h2>Latest Reviews & Ratings</h2>
+  <div class="grid">
+
+    <div class="card">
+      <div class="card-content">
+        <h3>⭐️⭐️⭐️⭐️⭐️</h3>
+        <p>"Excellent visa consultancy. Timely updates and expert documentation support."</p>
+        <h4>- Sneha K.</h4>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <h3>⭐️⭐️⭐️⭐️</h3>
+        <p>"Good service, would definitely apply my family visas through them again."</p>
+        <h4>- Jay M.</h4>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <h2>Frequently Asked Questions</h2>
+  <div class="grid">
+
+    <div class="card">
+      <div class="card-content">
+        <h3>How long does a tourist visa take?</h3>
+        <p>Processing times vary by country — generally 7-15 working days for most destinations.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <h3>Do I need confirmed flight tickets for visa application?</h3>
+        <p>In most cases, a tentative flight booking is sufficient for the application.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <h3>Is visa fee refundable if rejected?</h3>
+        <p>Visa application fees are typically non-refundable if an application is denied.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 <section class="section">
   <h2>Popular Visa Assistance</h2>
@@ -69,57 +162,31 @@
       <div class="card-content">
         <h3>UK Visa</h3>
         <p>Get hassle-free tourist, business, and student visa processing for the UK with expert support.</p>
-        <a href="#" class="btn">Apply Now</a>
+        <a href="applynow.html?country=UK" class="btn">Apply Now</a>
       </div>
     </div>
 
     <div class="card">
       <img src="../images/canada-visa.jpg" alt="Canada Visa">
       <div class="card-content">
-        <h3>Canada Visa</h3>
+        <h3>Greece Visa</h3>
         <p>Apply for Canadian tourist and visitor visas with smooth documentation and guidance services.</p>
-        <a href="#" class="btn">Apply Now</a>
+        <a href="applynow.html?country=Greece" class="btn">Apply Now</a>
       </div>
     </div>
 
     <div class="card">
-      <img src="../images/dubai-visa.jpg" alt="Dubai Visa">
+      <img src="../images/uae-visa.jpg" alt="UAE Visa">
       <div class="card-content">
-        <h3>Dubai Visa</h3>
-        <p>Quick and reliable visa services for Dubai, including transit, tourist, and work visas.</p>
-        <a href="#" class="btn">Apply Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="../images/schengen-visa.jpg" alt="Schengen Visa">
-      <div class="card-content">
-        <h3>Schengen Visa</h3>
-        <p>Travel across Europe easily with our Schengen Visa support for multiple countries.</p>
-        <a href="#" class="btn">Apply Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="../images/singapore-visa.jpg" alt="Singapore Visa">
-      <div class="card-content">
-        <h3>Singapore Visa</h3>
-        <p>Effortless Singapore visa application and approval for tourism, business, and family visits.</p>
-        <a href="#" class="btn">Apply Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="../images/thailand-visa.jpg" alt="Thailand Visa">
-      <div class="card-content">
-        <h3>Thailand Visa</h3>
-        <p>Enjoy fast Thailand tourist visa approvals with seamless application management.</p>
-        <a href="#" class="btn">Apply Now</a>
+        <h3>Australia Visa</h3>
+        <p>Instant Dubai and UAE tourist visa with minimal documentation and fast processing.</p>
+        <a href="applynow.html?country=Australia" class="btn">Apply Now</a>
       </div>
     </div>
 
   </div>
 </section>
+
 
 <footer>
   &copy; 2025 Sanskruti Travels | Designed by Your Travel Partner
@@ -127,4 +194,90 @@
 
 <script src="script.js"></script>
 </body>
+
+<script>
+  const apiUrl = 'https://raw.githubusercontent.com/Armankhan2001/visaDatabase/refs/heads/main/visaDatabase.json';
+let visaDatabase = [];
+
+async function fetchData() {
+  try {
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    visaDatabase = data.visaDatabase;
+    populateCountrySelect();
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    document.getElementById('visaInfo').innerHTML = "<p style='color:red'>Failed to load visa data.</p>";
+  }
+}
+
+function populateCountrySelect() {
+  const select = document.getElementById('countrySelect');
+  visaDatabase.forEach(item => {
+    const option = document.createElement('option');
+    option.value = item.country;
+    option.textContent = item.country;
+    select.appendChild(option);
+  });
+
+  select.addEventListener('change', showVisaInfo);
+}
+
+function showVisaInfo() {
+  const selectedCountry = document.getElementById('countrySelect').value;
+  const infoDiv = document.getElementById('visaInfo');
+  infoDiv.innerHTML = '';
+
+  if (!selectedCountry) return;
+
+  const countryData = visaDatabase.find(item => item.country === selectedCountry);
+  if (!countryData) {
+    infoDiv.innerHTML = "<p>No visa information found for this country.</p>";
+    return;
+  }
+
+  countryData.visaTypes.forEach(visa => {
+    const visaTypeDiv = document.createElement('div');
+    visaTypeDiv.className = 'category';
+    visaTypeDiv.innerHTML = `<h3>${visa.type}</h3>`;
+
+    visa.categories.forEach(cat => {
+      visaTypeDiv.innerHTML += `
+        <p><strong>${cat.name}</strong><br>
+        Max Stay: ${cat.maxStay}<br>
+        Visa Validity: ${cat.visaValidity}<br>
+        Processing Time: ${cat.processingTime}<br>
+        Fees: ${cat.fees}</p>
+      `;
+
+      cat.documentsRequired.forEach(docCat => {
+        let docList = `<h4>${docCat.category}</h4><ul>`;
+        docCat.documents.forEach(doc => {
+          docList += `<li><strong>${doc.name}</strong>: ${doc.description}</li>`;
+        });
+        docList += '</ul>';
+        visaTypeDiv.innerHTML += docList;
+      });
+    });
+
+    infoDiv.appendChild(visaTypeDiv);
+  });
+}
+
+fetchData();
+// On page load, check for query parameters
+window.addEventListener('DOMContentLoaded', () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const countryParam = urlParams.get('country');
+
+  if (countryParam) {
+    // Set country dropdown value if available
+    document.getElementById('visaCountry').value = countryParam;
+    // Manually trigger change event to populate visa types
+    const event = new Event('change');
+    document.getElementById('visaCountry').dispatchEvent(event);
+  }
+});
+  </script>
+  
 </html>
