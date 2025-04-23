@@ -35,8 +35,25 @@
     #visaInfo { text-align: left; margin-top: 25px; padding: 20px; background: #fafafa; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
 
     footer { padding: 20px; text-align: center; background: #333; color: #fff; margin-top: 50px; }
+  #evisaBtn {
+  padding: 6px 12px;
+  background-color: #4c647d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+#evisaBtn:hover {
+  background-color: #69a1dd;
+}
+
   </style>
   <link rel="stylesheet" href="visaassistance.css">
+  
 
 </head>
 
@@ -59,19 +76,20 @@
 <section class="section">
   <h2>Explore Our Visa Services</h2>
   <p>Quickly access visa information for any country and Apply from here</p>
-  <div class="container">
-    <h1>🌏 Visa Assistant</h1>
-
+  <div class="container" >
+    <h1>🌏 All Visa Assistant </h1>
     <label for="countrySelect">Select a Country:</label>
     <select id="countrySelect">
       <option value="">-- Choose Country --</option>
     </select>
 
-    <div id="visaInfo"></div>
+    <div id="visaInfo"><a href="e-visa.html" id="evisaBtn">Check E-Visa Here</a></div>
      <!-- Link to Apply Now Page -->
   <p><a href="applynow.html" class="btn">Apply Now for Visa</a></p>
   </div>
 </section>
+
+
 
 <section class="section">
   <h2>What Our Clients Say</h2>
