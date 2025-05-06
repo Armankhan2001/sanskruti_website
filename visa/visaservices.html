@@ -32,11 +32,11 @@
 
     .visa-assistance { max-width: 800px; margin: 30px auto; padding: 30px; background: #fff; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center; }
     .visa-assistance select { padding: 12px 20px; font-size: 1rem; border: 1px solid #ddd; border-radius: 5px; width: 80%; max-width: 300px; margin-top: 20px; }
-    /* #visaInfo { text-align: left; margin-top: 25px; padding: 20px; background: #fafafa; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-    #SvisaInfo { text-align: left; margin-top: 0px; margin-left: 500px; padding: 20px; background: #fafafa; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); } */
+    #visaInfo { text-align: left; margin-top: 25px; padding: 20px; background: #fafafa; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .visa-buttons-wrapper { text-align: center; margin-top: 0px; margin-left: 500px; padding: 20px; background: #fafafa; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
 
     footer { padding: 20px; text-align: center; background: #333; color: #fff; margin-top: 50px; }
-  /* #evisaBtn {
+  #evisaBtn {
   padding: 6px 12px;
   background-color: #4c647d;
   color: white;
@@ -46,31 +46,60 @@
   font-size: 14px;
   transition: background-color 0.2s ease-in-out;
   text-decoration: none;
-} */
+  /* margin-left: 120px; */
+}
+#SVisaBtn {
+  padding: 6px 12px;
+  background-color: #4c647d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none;
+  /* margin-left: 200px; */
+}
 
 #evisaBtn:hover {
   background-color: #69a1dd;
 }
 
-#visaLinksWrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+#SVisaBtn:hover {
+  background-color: #69a1dd;
 }
 
-#leftBtn, #rightBtn {
-  background-color:  #4c647d;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
+
+
+.visa-buttons-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-#leftBtn:hover, #rightBtn:hover {
-  background-color: #0056b3;
+.sections{
+  padding: 50px 20px;
+  text-align: center;
+
 }
+
+
+/* 
+@media (max-width: 600px) {
+  .visa-buttons-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .visa-button {
+    width: 100%;
+    max-width: 300px;
+  }
+} */
+
 
 
   </style>
@@ -105,16 +134,17 @@
       <option value="">-- Choose Country --</option>
     </select>
 
-    <div id="visaLinksWrapper">
-      <a href="e-visa.html" id="leftBtn">Check E-Visa</a>
-      <a href="schenzen.html" id="rightBtn">Check Schenzen-Visa</a>
-    </div>
+    <div id="visaInfo"></div>
     
     <!-- <div id="SvisaInfo"><a href="e-visa.html" id="evisaBtn">Check E-Visa Here</a></div> -->
      <!-- Link to Apply Now Page -->
   <p><a href="applynow.html" class="btn">Apply Now for Visa</a></p>
   </div>
 </section>
+<section class="sections">
+<div class="visa-buttons-wrapper"><a href="e-visa.html" id="evisaBtn">Check E-Visa</a>
+  <a href="schenzen.html" id="SVisaBtn">Check Schenzen Visa</a></div></section>
+
 
 
 
