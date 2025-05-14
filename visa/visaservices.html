@@ -60,12 +60,28 @@
   text-decoration: none;
   /* margin-left: 200px; */
 }
+#GVisaBtn {
+  padding: 6px 12px;
+  background-color: #4c647d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none;
+  margin-top: 0px;
+}
 
 #evisaBtn:hover {
   background-color: #69a1dd;
 }
 
 #SVisaBtn:hover {
+  background-color: #69a1dd;
+  
+}
+#GVisaBtn:hover {
   background-color: #69a1dd;
 }
 
@@ -76,6 +92,7 @@
   margin: 0 auto;
   background: #fff;
   padding: 25px;
+  padding-bottom: 50px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -87,18 +104,35 @@
 }
 
 
-/* 
-@media (max-width: 600px) {
+
+@media (max-width: 510px) {
   .visa-buttons-wrapper {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    /* padding-top: 10px; */
+    margin-top: 12px;
   }
 
-  .visa-button {
+  #evisaBtn{
     width: 100%;
-    max-width: 300px;
+    max-width: 130px;
+    /* margin-bottom: 5px; */
+
   }
-} */
+  #SVisaBtn{
+    width: 100%;
+    max-width: 130px;
+    margin: 10px;
+
+  }
+  #GVisaBtn{
+    width: 100%;
+    max-width: 130px;
+    /* margin-top: 5px; */
+
+  }
+}
 
 
 
@@ -142,8 +176,11 @@
   </div>
 </section>
 <section class="sections">
-<div class="visa-buttons-wrapper"><a href="e-visa.html" id="evisaBtn">Check E-Visa</a>
-  <a href="schenzen.html" id="SVisaBtn">Check Schenzen Visa</a></div></section>
+<div class="visa-buttons-wrapper">
+  <a href="e-visa.html" id="evisaBtn">Check E-Visa</a>
+  <a href="schenzen.html" id="SVisaBtn">Check Schenzen Visa</a>
+  <a href="GCC.html" id="GVisaBtn">GCC Visa</a></div>
+</section>
 
 
 
