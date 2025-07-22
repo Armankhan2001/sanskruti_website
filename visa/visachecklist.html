@@ -30,10 +30,10 @@
   </footer>
 
   <script>
-    // Define all your visa VisaForms files here
+    // Define all your visa checklist files here
     const visaFiles = [
-      "Australia-Tourist,Business,Visitor-Form.pdf",
-      "Schengen-tourist-Form.pdf"
+      "Australia-Tourist,Business,Visitor-Checklist.pdf",
+      "Schengen-tourist-checklist.pdf"
     ];
 
     const container = document.getElementById("visaCards");
@@ -51,7 +51,7 @@
       card.innerHTML = `
         <h2 class="text-xl font-semibold text-gray-800">${country}</h2>
         <p class="text-sm text-gray-500">${code}</p>
-        <a href="visaforms/${file}" target="_blank" class="mt-3 inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Download Form</a>
+        <a href="visachecklist/${file}" target="_blank" class="mt-3 inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Download Form</a>
       `;
 
       container.appendChild(card);
