@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskruti Travels - Your Gateway to Incredible Journeys</title>
+    <meta name="description" content="Discover amazing travel packages with Sanskruti Travels. National and international holiday packages, honeymoon specials, adventure tours and more.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/index.html">
+                <i class="fas fa-plane me-2"></i>Sanskruti Travels
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="packages.html">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link text-warning" href="admin.html">Admin</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-warning text-dark px-3 ms-2" href="https://wa.me/919820979944" target="_blank">
+                            <i class="fab fa-whatsapp me-1"></i>Book Now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="display-4 fw-bold text-white mb-4">
+                            Discover Your Next Adventure
+                        </h1>
+                        <p class="lead text-white mb-4">
+                            Experience the world with Sanskruti Travels. From serene hill stations to exotic international destinations, we craft unforgettable journeys tailored just for you.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="packages.html" class="btn btn-warning btn-lg me-3">
+                                <i class="fas fa-search me-2"></i>Explore Packages
+                            </a>
+                            <a href="https://wa.me/919820979944?text=Hi! I'm interested in booking a travel package. Can you help me?" 
+                               class="btn btn-outline-light btn-lg" target="_blank">
+                                <i class="fab fa-whatsapp me-2"></i>Chat with Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-search-card">
+                        <div class="card shadow-lg">
+                            <div class="card-body p-4">
+                                <h4 class="card-title mb-4">Find Your Perfect Holiday</h4>
+                                <form id="search-form">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label class="form-label">Destination</label>
+                                            <select class="form-select" id="destination">
+                                                <option value="">Choose destination</option>
+                                                <option value="domestic">India & Around</option>
+                                                <option value="international">International</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label">Budget per person</label>
+                                            <select class="form-select" id="budget">
+                                                <option value="">Select budget</option>
+                                                <option value="budget">Less than ₹30,000</option>
+                                                <option value="mid">₹30,000 to ₹1 Lac</option>
+                                                <option value="premium">₹1 Lac to ₹2 Lac</option>
+                                                <option value="luxury">More than ₹2 Lac</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label">Duration</label>
+                                            <select class="form-select" id="duration">
+                                                <option value="">Select duration</option>
+                                                <option value="short">1-3 days</option>
+                                                <option value="medium">4-7 days</option>
+                                                <option value="long">8+ days</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label">Travel Month</label>
+                                            <select class="form-select" id="month">
+                                                <option value="">Select month</option>
+                                                <option value="aug">August 2025</option>
+                                                <option value="sep">September 2025</option>
+                                                <option value="oct">October 2025</option>
+                                                <option value="nov">November 2025</option>
+                                                <option value="dec">December 2025</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary w-100">
+                                                <i class="fas fa-search me-2"></i>Search Packages
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Offers -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-3">Special Offers</h2>
+                    <p class="lead text-muted">Don't miss out on these limited-time deals for your dream vacation</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="offer-card h-100">
+                        <div class="offer-badge">BOGO</div>
+                        <img src="https://pixabay.com/get/g66a42f609e88e9f2a59108b439699f8704a98864cb632014d720fc115e0e17e2f440bae8a4633ed14c3ea1cfb3a21e1f2ebd4541de8a4ef0eb96e3f24cb9aa6e_1280.jpg" class="card-img-top" alt="Kerala">
+                        <div class="card-body">
+                            <h5 class="card-title">Kerala Backwaters</h5>
+                            <p class="card-text">Experience the serene backwaters, lush greenery, and rich culture of God's Own Country.</p>
+                            <div class="price-section">
+                                <span class="original-price">₹45,000</span>
+                                <span class="offer-price">₹32,000</span>
+                                <small class="text-muted">per person</small>
+                            </div>
+                            <a href="package-detail.html?id=kerala-delight" class="btn btn-primary mt-3">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="offer-card h-100">
+                        <div class="offer-badge">50% OFF</div>
+                        <img src="https://pixabay.com/get/gf9fd4d9eb927e95724a64e76ad351f884e9c6403cb401f82db1ff54d7ac0d7544b77144882f860e6cc45d07e50c6a229955b6a604ae8a6f1c73146c5b7c0c44a_1280.jpg" class="card-img-top" alt="Rajasthan">
+                        <div class="card-body">
+                            <h5 class="card-title">Golden Triangle</h5>
+                            <p class="card-text">Discover the royal heritage of Delhi, Agra, and Jaipur in this classic India tour.</p>
+                            <div class="price-section">
+                                <span class="original-price">₹55,000</span>
+                                <span class="offer-price">₹27,500</span>
+                                <small class="text-muted">per person</small>
+                            </div>
+                            <a href="package-detail.html?id=golden-triangle" class="btn btn-primary mt-3">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="offer-card h-100">
+                        <div class="offer-badge">EARLY BIRD</div>
+                        <img src="https://pixabay.com/get/g9a0d87c6ef8bbff40df44023f24147f413cd9a85fdbb86ccc3445cf829469a34cd3bb3bb1cb7539c9bab0c4e1022091f9aea29335d47250224e2f6784f37ac51_1280.jpg" class="card-img-top" alt="Bali">
+                        <div class="card-body">
+                            <h5 class="card-title">Exotic Bali</h5>
+                            <p class="card-text">Tropical paradise with stunning beaches, ancient temples, and vibrant culture awaits you.</p>
+                            <div class="price-section">
+                                <span class="original-price">₹85,000</span>
+                                <span class="offer-price">₹68,000</span>
+                                <small class="text-muted">per person</small>
+                            </div>
+                            <a href="package-detail.html?id=exotic-bali" class="btn btn-primary mt-3">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-3">Popular Destinations</h2>
+                    <p class="lead text-muted">Explore our most loved destinations chosen by thousands of travelers</p>
+                </div>
+            </div>
+            
+            <!-- Domestic Destinations -->
+            <div class="mb-5">
+                <h3 class="h4 mb-4">India & Around</h3>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destination-card">
+                            <img src="https://pixabay.com/get/g5101a8ea5403e6628183b880a050f731664339ad7f5756fa2e647ead61b3ab0a37e37eef17403b0361ba4c6469eb102ee60edc57581c2f413451d1a2585f95e5_1280.jpg" alt="Himachal Pradesh">
+                            <div class="destination-overlay">
+                                <h5>Himachal Pradesh</h5>
+                                <p>Starting from ₹25,000</p>
+                                <a href="packages.html?destination=himachal" class="btn btn-outline-light">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destination-card">
+                            <img src="https://pixabay.com/get/g63ced132cdb12226eff49624e962caccaa74a212dcbdf846f77b116a5afdcdcdf63e2dd99feac10c9e9bec473ea0dc9241e78a8166dd5c72370bdcbe82aa0f22_1280.jpg" alt="Goa">
+                            <div class="destination-overlay">
+                                <h5>Goa</h5>
+                                <p>Starting from ₹22,000</p>
+                                <a href="packages.html?destination=goa" class="btn btn-outline-light">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destination-card">
+                            <img src="https://pixabay.com/get/g2436f2e3e0e5df397ba0e6e0921fa5169b5985c7756c8cf6255bb273aa83ae98ac40981da316c2658fe3c9977506e3579250b6190c1ea33838b4c25e9df8c5a0_1280.jpg" alt="Andaman">
+                            <div class="destination-overlay">
+                                <h5>Andaman</h5>
+                                <p>Starting from ₹35,000</p>
+                                <a href="packages.html?destination=andaman" class="btn btn-outline-light">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destination-card">
+                            <img src="https://pixabay.com/get/g04571b1fc78dec7547f738e2e76e56a120a8aae03724b2376551db73ce5fadc7db76293825586c057b652aded98b92bbf3b21de7de78693723bf99cff6b6fbc8_1280.jpg" alt="Ladakh">
+                            <div class="destination-overlay">
+                                <h5>Ladakh</h5>
+                                <p>Starting from ₹42,000</p>
+                                <a href="packages.html?destination=ladakh" class="btn btn-outline-light">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- International Destinations -->
+            <div class="mb-5">
+                <h3 class="h4 mb-4">International</h3>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destination-card">
+                            <img src="https://pixabay.com/get/g00a3809ca5806194d101f219d5904e4f0c0f1caaaa6941050d3ee4624e1e4c6d226d89d24c2658148a7828e3308f3c5c0113865d3d2ae69cf07025bafa4f3fdc_1280.jpg" alt="Dubai">
+                            <div class="destination-overlay">
+                                <h5>Dubai</h5>
+                                <p>Starting from ₹75,000</p>
+                                <a href="packages.html?destination=dubai" class="btn btn-outline-light">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destination-card">
+                            <img src="https://pixabay.com/get/g04bcbd15ab3b67b5fa0c9bbec20a86d91c430b90a0d07487f7dba72abd49d7ba7ac42519676d22dc0ca5204006620e21f3ee1eb0128128328c8d7d95ca7c135e_1280.jpg" alt="Thailand">
+                            <div class="destination-overlay">
+                                <h5>Thailand</h5>
+                                <p>Starting from ₹58,000</p>
+                                <a href="packages.html?destination=thailand" class="btn btn-outline-light">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destination-card">
+                            <img src="https://pixabay.com/get/ge80836a7e42872b11af95d5206ddf9ac933303809ca5e98b94fa86358e308bcdcecc4ec3145fd4d6a88d35a773e7503c0b330229e64bb91742babe66807e690c_1280.jpg" alt="Singapore">
+                            <div class="destination-overlay">
+                                <h5>Singapore</h5>
+                                <p>Starting from ₹85,000</p>
+                                <a href="packages.html?destination=singapore" class="btn btn-outline-light">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destination-card">
+                            <img src="https://pixabay.com/get/g050467aac4f2e8f0989c9a435d341076699bb33a0b0b12b63835fa40376f58471e7c31b573ddf9b083e72696e45e0000f67c6b9b8d7c0c485cd10c472b70fd1d_1280.jpg" alt="Europe">
+                            <div class="destination-overlay">
+                                <h5>Europe</h5>
+                                <p>Starting from ₹1,85,000</p>
+                                <a href="packages.html?destination=europe" class="btn btn-outline-light">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-3">Why Choose Sanskruti Travels?</h2>
+                    <p class="lead text-muted">Experience the difference with our personalized service and expertise</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h5>Expert Team</h5>
+                        <p>Experienced travel consultants to help plan your perfect trip</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h5>Safe & Secure</h5>
+                        <p>Your safety is our priority with comprehensive travel insurance</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h5>24/7 Support</h5>
+                        <p>Round-the-clock assistance throughout your journey</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <h5>Best Prices</h5>
+                        <p>Competitive pricing with no hidden costs or surprises</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h3 class="h2 mb-2">Ready to Start Your Journey?</h3>
+                    <p class="lead mb-0">Contact us today and let's plan your dream vacation together</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="https://wa.me/919820979944?text=Hi! I would like to know more about your travel packages." 
+                       class="btn btn-warning btn-lg" target="_blank">
+                        <i class="fab fa-whatsapp me-2"></i>Contact on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5>Sanskruti Travels</h5>
+                    <p>Your trusted partner in creating unforgettable travel experiences. We specialize in crafting personalized journeys that create memories for a lifetime.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/919820979944" class="text-white" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50">Home</a></li>
+                        <li><a href="packages.html" class="text-white-50">Packages</a></li>
+                        <li><a href="about.html" class="text-white-50">About</a></li>
+                        <li><a href="contact.html" class="text-white-50">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Package Categories</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="packages.html?category=domestic" class="text-white-50">India & Around</a></li>
+                        <li><a href="packages.html?category=international" class="text-white-50">International</a></li>
+                        <li><a href="packages.html?category=honeymoon" class="text-white-50">Honeymoon</a></li>
+                        <li><a href="packages.html?category=adventure" class="text-white-50">Adventure</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Contact Info</h6>
+                    <p class="text-white-50 mb-1"><i class="fas fa-phone me-2"></i>+91 70213 60582</p>
+                    <p class="text-white-50 mb-1"><i class="fas fa-envelope me-2"></i>info@sanskrutitravels.com</p>
+                    <p class="text-white-50"><i class="fas fa-map-marker-alt me-2"></i>Mumbai, Maharashtra, India</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Sanskruti Travels. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white-50 me-3">Privacy Policy</a>
+                    <a href="#" class="text-white-50">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Packages - Sanskruti Travels</title>
+    <meta name="description" content="Browse our comprehensive collection of travel packages including domestic India tours, international holidays, honeymoon specials and adventure tours.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-plane me-2"></i>Sanskruti Travels
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="packages.html">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-warning text-dark px-3 ms-2" href="https://wa.me/919820979944" target="_blank">
+                            <i class="fab fa-whatsapp me-1"></i>Book Now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-4 fw-bold text-white">Holiday Packages</h1>
+                    <p class="lead text-white">Discover amazing destinations with our carefully crafted travel packages</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="py-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="filter-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Filter Packages</h5>
+                                <div class="row g-3">
+                                    <div class="col-lg-2 col-md-4">
+                                        <select class="form-select" id="categoryFilter">
+                                            <option value="">All Categories</option>
+                                            <option value="domestic">India & Around</option>
+                                            <option value="international">International</option>
+                                            <option value="honeymoon">Honeymoon</option>
+                                            <option value="adventure">Adventure</option>
+                                            <option value="group">Group Tours</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4">
+                                        <select class="form-select" id="budgetFilter">
+                                            <option value="">Budget Range</option>
+                                            <option value="budget">Less than ₹30,000</option>
+                                            <option value="mid">₹30,000 - ₹1,00,000</option>
+                                            <option value="premium">₹1,00,000 - ₹2,00,000</option>
+                                            <option value="luxury">More than ₹2,00,000</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4">
+                                        <select class="form-select" id="durationFilter">
+                                            <option value="">Duration</option>
+                                            <option value="short">1-3 days</option>
+                                            <option value="medium">4-7 days</option>
+                                            <option value="long">8+ days</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <input type="text" class="form-control" id="searchInput" placeholder="Search destinations...">
+                                    </div>
+                                    <div class="col-lg-2 col-md-6">
+                                        <button class="btn btn-primary w-100" onclick="applyFiltersGlobal()">
+                                            <i class="fas fa-filter me-1"></i>Filter
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-1 col-md-6">
+                                        <button class="btn btn-outline-secondary w-100" onclick="clearFilters()">
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Package Categories Tabs -->
+    <section class="py-4">
+        <div class="container">
+            <ul class="nav nav-pills nav-fill mb-4" id="packageTabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-category="all">All Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-category="domestic">India & Around</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-category="international">International</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-category="honeymoon">Honeymoon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-category="adventure">Adventure</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Packages Grid -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">Showing <span id="packageCount">0</span> packages</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <select class="form-select w-auto d-inline-block" id="sortFilter">
+                        <option value="name">Sort by Name</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="duration">Duration</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- Loading -->
+            <div id="loading" class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Loading packages...</p>
+            </div>
+
+            <!-- Packages Container -->
+            <div id="packagesContainer" class="row g-4 d-none">
+                <!-- Packages will be dynamically loaded here -->
+            </div>
+
+            <!-- No Results -->
+            <div id="noResults" class="text-center py-5 d-none">
+                <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                <h4>No packages found</h4>
+                <p class="text-muted">Try adjusting your filters or search criteria</p>
+                <button class="btn btn-primary" onclick="clearFilters()">Clear Filters</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/919820979944?text=Hi! I'm interested in your travel packages. Can you help me?" 
+           target="_blank" class="btn btn-success rounded-circle p-3">
+            <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5>Sanskruti Travels</h5>
+                    <p>Your trusted partner in creating unforgettable travel experiences.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/919820979944" class="text-white" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50">Home</a></li>
+                        <li><a href="packages.html" class="text-white-50">Packages</a></li>
+                        <li><a href="about.html" class="text-white-50">About</a></li>
+                        <li><a href="contact.html" class="text-white-50">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Package Categories</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="packages.html?category=domestic" class="text-white-50">India & Around</a></li>
+                        <li><a href="packages.html?category=international" class="text-white-50">International</a></li>
+                        <li><a href="packages.html?category=honeymoon" class="text-white-50">Honeymoon</a></li>
+                        <li><a href="packages.html?category=adventure" class="text-white-50">Adventure</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Contact Info</h6>
+                    <p class="text-white-50 mb-1"><i class="fas fa-phone me-2"></i>+91 70213 60582</p>
+                    <p class="text-white-50 mb-1"><i class="fas fa-envelope me-2"></i>info@sanskrutitravels.com</p>
+                    <p class="text-white-50"><i class="fas fa-map-marker-alt me-2"></i>Mumbai, Maharashtra, India</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Sanskruti Travels. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white-50 me-3">Privacy Policy</a>
+                    <a href="#" class="text-white-50">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/packages.js"></script>
+</body>
+</html>

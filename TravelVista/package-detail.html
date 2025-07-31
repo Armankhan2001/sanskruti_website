@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Details - Sanskruti Travels</title>
+    <meta name="description" content="Detailed information about our travel packages including itinerary, pricing, inclusions and booking options.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-plane me-2"></i>Sanskruti Travels
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="packages.html">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-warning text-dark px-3 ms-2" href="https://wa.me/919820979944" target="_blank">
+                            <i class="fab fa-whatsapp me-1"></i>Book Now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Loading -->
+    <div id="loading" class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="text-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-2">Loading package details...</p>
+        </div>
+    </div>
+
+    <!-- Package Detail Content -->
+    <div id="packageContent" class="d-none">
+        <!-- Package Header -->
+        <section class="package-detail-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="packages.html">Packages</a></li>
+                                <li class="breadcrumb-item active" id="breadcrumbTitle">Package Details</li>
+                            </ol>
+                        </nav>
+                        <h1 id="packageTitle" class="display-4 fw-bold text-white mb-2"></h1>
+                        <p id="packageSubtitle" class="lead text-white"></p>
+                        <div class="package-badges">
+                            <span id="packageCategory" class="badge bg-warning text-dark me-2"></span>
+                            <span id="packageDuration" class="badge bg-info text-dark"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Package Gallery -->
+        <section class="py-4">
+            <div class="container">
+                <div id="packageCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" id="carouselImages">
+                        <!-- Images will be loaded dynamically -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#packageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#packageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Package Details -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- Overview -->
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h3 class="card-title">Package Overview</h3>
+                                <p id="packageDescription" class="card-text"></p>
+                                <div class="row g-3">
+                                    <div class="col-md-3">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-clock text-primary me-2"></i>
+                                            <div>
+                                                <small class="text-muted">Duration</small>
+                                                <div id="packageDurationDetail" class="fw-bold"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                            <div>
+                                                <small class="text-muted">Destinations</small>
+                                                <div id="packageDestinations" class="fw-bold"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-users text-primary me-2"></i>
+                                            <div>
+                                                <small class="text-muted">Group Size</small>
+                                                <div id="packageGroupSize" class="fw-bold"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-star text-primary me-2"></i>
+                                            <div>
+                                                <small class="text-muted">Rating</small>
+                                                <div id="packageRating" class="fw-bold"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Itinerary -->
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h3 class="card-title">Detailed Itinerary</h3>
+                                <div id="packageItinerary">
+                                    <!-- Itinerary will be loaded dynamically -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Inclusions & Exclusions -->
+                        <div class="row g-4 mb-4">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-success">
+                                            <i class="fas fa-check-circle me-2"></i>Inclusions
+                                        </h5>
+                                        <ul id="packageInclusions" class="list-unstyled">
+                                            <!-- Inclusions will be loaded dynamically -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-danger">
+                                            <i class="fas fa-times-circle me-2"></i>Exclusions
+                                        </h5>
+                                        <ul id="packageExclusions" class="list-unstyled">
+                                            <!-- Exclusions will be loaded dynamically -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Important Notes -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-info-circle text-info me-2"></i>Important Notes
+                                </h5>
+                                <ul id="packageNotes" class="mb-0">
+                                    <!-- Notes will be loaded dynamically -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <!-- Booking Card -->
+                        <div class="card sticky-top">
+                            <div class="card-body">
+                                <div class="pricing-section mb-4">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <span class="text-muted">Starting from</span>
+                                        <span id="packageOffer" class="badge bg-danger d-none">Limited Offer</span>
+                                    </div>
+                                    <div class="price-display">
+                                        <span id="packageOriginalPrice" class="original-price"></span>
+                                        <span id="packagePrice" class="offer-price h3 mb-0"></span>
+                                        <small class="text-muted">per person</small>
+                                    </div>
+                                    <small class="text-muted">*Taxes and fees extra</small>
+                                </div>
+
+                                <div class="booking-form">
+                                    <h6 class="mb-3">Quick Inquiry</h6>
+                                    <form id="inquiryForm">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="customerName" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="tel" class="form-control" id="customerPhone" placeholder="Phone Number" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control" id="customerEmail" placeholder="Email Address">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="date" class="form-control" id="travelDate" placeholder="Preferred Travel Date">
+                                        </div>
+                                        <div class="mb-3">
+                                            <select class="form-select" id="travelers">
+                                                <option value="">Number of Travelers</option>
+                                                <option value="1">1 Person</option>
+                                                <option value="2">2 People</option>
+                                                <option value="3">3 People</option>
+                                                <option value="4">4 People</option>
+                                                <option value="5+">5+ People</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <textarea class="form-control" id="specialRequests" rows="3" placeholder="Special requests or questions..."></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-success btn-lg w-100 mb-3">
+                                            <i class="fab fa-whatsapp me-2"></i>Send WhatsApp Inquiry
+                                        </button>
+                                    </form>
+                                    
+                                    <div class="text-center">
+                                        <p class="mb-2"><strong>Or call us directly:</strong></p>
+                                        <a href="tel:+919820979944" class="btn btn-outline-primary w-100 mb-3">
+                                            <i class="fas fa-phone me-2"></i>+91 9820979944
+                                        </a>
+                                    </div>
+
+                                    <!-- Share Itinerary Section -->
+                                    <div class="text-center">
+                                        <div class="dropdown">
+                                            <button class="btn btn-success w-100 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                                <i class="fas fa-share-alt me-2"></i>Share Itinerary
+                                            </button>
+                                            <ul class="dropdown-menu w-100">
+                                                <li><a class="dropdown-item" href="#" onclick="shareViaWhatsApp()"><i class="fab fa-whatsapp me-2"></i>WhatsApp</a></li>
+                                                <li><a class="dropdown-item" href="#" onclick="shareViaEmail()"><i class="fas fa-envelope me-2"></i>Email</a></li>
+                                                <li><a class="dropdown-item" href="#" onclick="downloadItinerary()"><i class="fas fa-download me-2"></i>Download</a></li>
+                                                <li><a class="dropdown-item" href="#" onclick="copyItinerary()"><i class="fas fa-copy me-2"></i>Copy Text</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <div class="assurance-section">
+                                    <h6 class="mb-3">Why Book with Us?</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">
+                                            <i class="fas fa-shield-alt text-success me-2"></i>
+                                            <small>Best Price Guarantee</small>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="fas fa-headset text-success me-2"></i>
+                                            <small>24/7 Customer Support</small>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="fas fa-undo text-success me-2"></i>
+                                            <small>Free Cancellation Available</small>
+                                        </li>
+                                        <li class="mb-0">
+                                            <i class="fas fa-certificate text-success me-2"></i>
+                                            <small>IATA Certified Agency</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Error State -->
+    <div id="errorState" class="d-none">
+        <section class="py-5 text-center" style="margin-top: 100px;">
+            <div class="container">
+                <i class="fas fa-exclamation-triangle fa-3x text-warning mb-3"></i>
+                <h2>Package Not Found</h2>
+                <p class="text-muted">The package you're looking for doesn't exist or has been removed.</p>
+                <a href="packages.html" class="btn btn-primary">Browse All Packages</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/919820979944?text=Hi! I'm interested in booking a travel package. Can you help me?" 
+           target="_blank" class="btn btn-success rounded-circle p-3">
+            <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5>Sanskruti Travels</h5>
+                    <p>Your trusted partner in creating unforgettable travel experiences.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/919820979944" class="text-white" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50">Home</a></li>
+                        <li><a href="packages.html" class="text-white-50">Packages</a></li>
+                        <li><a href="about.html" class="text-white-50">About</a></li>
+                        <li><a href="contact.html" class="text-white-50">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Package Categories</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="packages.html?category=domestic" class="text-white-50">India & Around</a></li>
+                        <li><a href="packages.html?category=international" class="text-white-50">International</a></li>
+                        <li><a href="packages.html?category=honeymoon" class="text-white-50">Honeymoon</a></li>
+                        <li><a href="packages.html?category=adventure" class="text-white-50">Adventure</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Contact Info</h6>
+                    <p class="text-white-50 mb-1"><i class="fas fa-phone me-2"></i>+91 70213 60582</p>
+                    <p class="text-white-50 mb-1"><i class="fas fa-envelope me-2"></i>info@sanskrutitravels.com</p>
+                    <p class="text-white-50"><i class="fas fa-map-marker-alt me-2"></i>Mumbai, Maharashtra, India</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Sanskruti Travels. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white-50 me-3">Privacy Policy</a>
+                    <a href="#" class="text-white-50">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script>
+        // Package detail specific JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            loadPackageDetails();
+            
+            // Handle inquiry form submission
+            document.getElementById('inquiryForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                sendWhatsAppInquiry();
+            });
+        });
+
+        async function loadPackageDetails() {
+            try {
+                const urlParams = new URLSearchParams(window.location.search);
+                const packageId = urlParams.get('id');
+                
+                if (!packageId) {
+                    showError();
+                    return;
+                }
+
+                const response = await fetch('data/packages.json');
+                const data = await response.json();
+                const package = data.packages.find(p => p.id === packageId);
+                
+                if (!package) {
+                    showError();
+                    return;
+                }
+
+                displayPackageDetails(package);
+                window.currentPackage = package; // Make package available globally for sharing
+                document.getElementById('loading').classList.add('d-none');
+                document.getElementById('packageContent').classList.remove('d-none');
+            } catch (error) {
+                console.error('Error loading package details:', error);
+                showError();
+            }
+        }
+
+        function displayPackageDetails(package) {
+            // Update page title and meta
+            document.title = `${package.name} - Sanskruti Travels`;
+            document.getElementById('breadcrumbTitle').textContent = package.name;
+            document.getElementById('packageTitle').textContent = package.name;
+            document.getElementById('packageSubtitle').textContent = package.location;
+            document.getElementById('packageCategory').textContent = package.category.charAt(0).toUpperCase() + package.category.slice(1);
+            document.getElementById('packageDuration').textContent = package.duration;
+            
+            // Gallery
+            const carouselInner = document.getElementById('carouselImages');
+            package.images.forEach((image, index) => {
+                const div = document.createElement('div');
+                div.className = `carousel-item ${index === 0 ? 'active' : ''}`;
+                div.innerHTML = `<img src="${image}" class="d-block w-100" alt="${package.name}" style="height: 400px; object-fit: cover;">`;
+                carouselInner.appendChild(div);
+            });
+            
+            // Details
+            document.getElementById('packageDescription').textContent = package.description;
+            document.getElementById('packageDurationDetail').textContent = package.duration;
+            document.getElementById('packageDestinations').textContent = package.destinations;
+            document.getElementById('packageGroupSize').textContent = package.groupSize;
+            document.getElementById('packageRating').textContent = package.rating + '/5';
+            
+            // Itinerary
+            const itineraryContainer = document.getElementById('packageItinerary');
+            package.itinerary.forEach((day, index) => {
+                const dayDiv = document.createElement('div');
+                dayDiv.className = 'itinerary-day mb-4 border rounded p-3';
+                dayDiv.innerHTML = `
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="d-flex mb-3">
+                                <div class="day-number bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; flex-shrink: 0; font-weight: bold;">
+                                    ${day.day || index + 1}
+                                </div>
+                                <div>
+                                    <h5 class="mb-1 text-primary">${day.title}</h5>
+                                    ${day.hotel ? `<p class="mb-1"><i class="fas fa-bed text-success me-2"></i><strong>Hotel:</strong> ${day.hotel}</p>` : ''}
+                                    ${day.meals ? `<p class="mb-1"><i class="fas fa-utensils text-warning me-2"></i><strong>Meals:</strong> ${day.meals}</p>` : ''}
+                                    ${day.activities ? `<p class="mb-2"><i class="fas fa-map-marker-alt text-info me-2"></i><strong>Activities:</strong> ${day.activities}</p>` : ''}
+                                </div>
+                            </div>
+                            <p class="text-muted mb-0">${day.description}</p>
+                        </div>
+                        <div class="col-md-4">
+                            ${day.image ? `<img src="${day.image}" class="img-fluid rounded" alt="Day ${day.day || index + 1}" style="max-height: 120px; object-fit: cover; width: 100%;">` : ''}
+                        </div>
+                    </div>
+                `;
+                itineraryContainer.appendChild(dayDiv);
+            });
+            
+            // Inclusions
+            const inclusionsList = document.getElementById('packageInclusions');
+            package.inclusions.forEach(item => {
+                const li = document.createElement('li');
+                li.innerHTML = `<i class="fas fa-check text-success me-2"></i>${item}`;
+                inclusionsList.appendChild(li);
+            });
+            
+            // Exclusions
+            const exclusionsList = document.getElementById('packageExclusions');
+            package.exclusions.forEach(item => {
+                const li = document.createElement('li');
+                li.innerHTML = `<i class="fas fa-times text-danger me-2"></i>${item}`;
+                exclusionsList.appendChild(li);
+            });
+            
+            // Notes
+            const notesList = document.getElementById('packageNotes');
+            package.notes.forEach(note => {
+                const li = document.createElement('li');
+                li.textContent = note;
+                notesList.appendChild(li);
+            });
+            
+            // Pricing
+            document.getElementById('packagePrice').textContent = `₹${package.price.toLocaleString()}`;
+            if (package.originalPrice && package.originalPrice > package.price) {
+                document.getElementById('packageOriginalPrice').textContent = `₹${package.originalPrice.toLocaleString()}`;
+                document.getElementById('packageOffer').classList.remove('d-none');
+            }
+        }
+
+        function sendWhatsAppInquiry() {
+            const name = document.getElementById('customerName').value;
+            const phone = document.getElementById('customerPhone').value;
+            const email = document.getElementById('customerEmail').value;
+            const travelDate = document.getElementById('travelDate').value;
+            const travelers = document.getElementById('travelers').value;
+            const requests = document.getElementById('specialRequests').value;
+            
+            const packageTitle = document.getElementById('packageTitle').textContent;
+            
+            let message = `Hi! I'm interested in the "${packageTitle}" package.\n\n`;
+            message += `My details:\n`;
+            message += `Name: ${name}\n`;
+            message += `Phone: ${phone}\n`;
+            if (email) message += `Email: ${email}\n`;
+            if (travelDate) message += `Preferred Travel Date: ${travelDate}\n`;
+            if (travelers) message += `Number of Travelers: ${travelers}\n`;
+            if (requests) message += `Special Requests: ${requests}\n`;
+            message += `\nPlease provide more details and pricing information.`;
+            
+            const whatsappUrl = `https://wa.me/919820979944?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+
+        function showError() {
+            document.getElementById('loading').classList.add('d-none');
+            document.getElementById('errorState').classList.remove('d-none');
+        }
+    </script>
+</body>
+</html>

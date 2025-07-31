@@ -1,0 +1,1188 @@
+{
+  "packages": [
+    {
+      "id": "kerala-delight",
+      "name": "Kerala Delight",
+      "category": "domestic",
+      "location": "Kerala, India",
+      "price": 32000,
+      "originalPrice": 45000,
+      "duration": "6 Days 5 Nights",
+      "groupSize": "2-15 people",
+      "rating": 4.8,
+      "destinations": "Kochi, Munnar, Alleppey",
+      "description": "Experience the serene backwaters, lush tea gardens, and rich cultural heritage of God's Own Country. This comprehensive tour covers the best of Kerala including houseboat stays and spice plantation visits.",
+      "images": [
+        "https://pixabay.com/get/g66a42f609e88e9f2a59108b439699f8704a98864cb632014d720fc115e0e17e2f440bae8a4633ed14c3ea1cfb3a21e1f2ebd4541de8a4ef0eb96e3f24cb9aa6e_1280.jpg",
+        "https://pixabay.com/get/gf10a431abd55e911389056b65b9044fd15fc1e8c012838e8268cb41d1ccff53edb7466eef490c27222dce01982bdbcf6d0422ae793b3a8f060bc5e64e4f42646_1280.jpg",
+        "https://pixabay.com/get/g5101a8ea5403e6628183b880a050f731664339ad7f5756fa2e647ead61b3ab0a37e37eef17403b0361ba4c6469eb102ee60edc57581c2f413451d1a2585f95e5_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Kochi",
+          "description": "Arrive at Kochi airport. Visit Chinese Fishing Nets, St. Francis Church, and Mattancherry Palace. Evening Kathakali dance performance."
+        },
+        {
+          "title": "Kochi to Munnar",
+          "description": "Drive to Munnar (4 hours). En route visit Cheeyappara Waterfalls. Check into hotel and evening at leisure."
+        },
+        {
+          "title": "Munnar Sightseeing",
+          "description": "Visit Eravikulam National Park, Tea Museum, Mattupetty Dam, and Echo Point. Experience tea plantation walk."
+        },
+        {
+          "title": "Munnar to Alleppey",
+          "description": "Drive to Alleppey. Board traditional houseboat and cruise through backwaters. Overnight stay on houseboat."
+        },
+        {
+          "title": "Alleppey to Kochi",
+          "description": "Disembark from houseboat. Visit local markets and spice shops. Evening departure preparations."
+        },
+        {
+          "title": "Departure",
+          "description": "Transfer to Kochi airport for onward journey. Tour concludes with beautiful memories."
+        }
+      ],
+      "inclusions": [
+        "5 nights accommodation in premium hotels",
+        "1 night houseboat stay with full board",
+        "Daily breakfast and dinner",
+        "All transfers and sightseeing by AC vehicle",
+        "Professional English-speaking guide",
+        "All entry fees and taxes",
+        "Traditional Kerala cultural show"
+      ],
+      "exclusions": [
+        "Airfare to and from Kochi",
+        "Personal expenses and shopping",
+        "Travel insurance",
+        "Lunch on non-houseboat days",
+        "Camera fees at monuments",
+        "Any items not mentioned in inclusions"
+      ],
+      "notes": [
+        "Best time to visit: October to March",
+        "Carry light cotton clothes and comfortable walking shoes",
+        "Houseboat has limited electrical facilities",
+        "Respect local customs and traditions",
+        "Keep original ID proof handy for check-ins"
+      ]
+    },
+    {
+      "id": "golden-triangle",
+      "name": "Golden Triangle Classic",
+      "category": "domestic",
+      "location": "Delhi, Agra, Jaipur",
+      "price": 27500,
+      "originalPrice": 55000,
+      "duration": "7 Days 6 Nights",
+      "groupSize": "2-20 people",
+      "rating": 4.7,
+      "destinations": "Delhi, Agra, Jaipur",
+      "description": "Discover India's royal heritage through Delhi's monuments, Agra's Taj Mahal, and Jaipur's palaces. This classic tour showcases the best of North Indian culture, architecture, and history.",
+      "images": [
+        "https://pixabay.com/get/gf9fd4d9eb927e95724a64e76ad351f884e9c6403cb401f82db1ff54d7ac0d7544b77144882f860e6cc45d07e50c6a229955b6a604ae8a6f1c73146c5b7c0c44a_1280.jpg",
+        "https://pixabay.com/get/g4a3170941edd5fc8cf64b4a8641703f945b001ee7f837da09c57f6cc54e53cd7ebba4cdb3fbd15029afc72885913bb7855225529193a4f18e1920ba1a77a3675_1280.jpg",
+        "https://pixabay.com/get/g63ced132cdb12226eff49624e962caccaa74a212dcbdf846f77b116a5afdcdcdf63e2dd99feac10c9e9bec473ea0dc9241e78a8166dd5c72370bdcbe82aa0f22_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Delhi",
+          "description": "Arrive in Delhi. Visit India Gate, President's House, and Connaught Place. Evening at leisure for shopping."
+        },
+        {
+          "title": "Delhi Sightseeing",
+          "description": "Full day tour of Old and New Delhi. Visit Red Fort, Jama Masjid, Raj Ghat, Humayun's Tomb, and Qutub Minar."
+        },
+        {
+          "title": "Delhi to Agra",
+          "description": "Drive to Agra (3 hours). Visit Taj Mahal at sunset. Check into hotel and evening at leisure."
+        },
+        {
+          "title": "Agra to Jaipur via Fatehpur Sikri",
+          "description": "Visit Agra Fort in morning. Drive to Jaipur via Fatehpur Sikri (5 hours). Evening arrival in Jaipur."
+        },
+        {
+          "title": "Jaipur Sightseeing",
+          "description": "Visit Amber Fort, City Palace, Hawa Mahal, and Jantar Mantar. Evening shopping at local bazaars."
+        },
+        {
+          "title": "Jaipur to Delhi",
+          "description": "Morning at leisure. Optional visit to Birla Temple. Drive back to Delhi (5 hours). Evening departure preparations."
+        },
+        {
+          "title": "Departure",
+          "description": "Transfer to airport for onward journey. Tour concludes with unforgettable memories of India's golden triangle."
+        }
+      ],
+      "inclusions": [
+        "6 nights accommodation in 4-star hotels",
+        "Daily breakfast and dinner",
+        "All transfers by AC vehicle",
+        "Professional guide for sightseeing",
+        "All monument entry fees",
+        "Rickshaw ride in Old Delhi",
+        "Traditional Rajasthani cultural show"
+      ],
+      "exclusions": [
+        "Domestic/International airfare",
+        "Personal expenses and tips",
+        "Travel insurance",
+        "Lunch during the tour",
+        "Camera fees at Taj Mahal",
+        "Any items not specifically mentioned"
+      ],
+      "notes": [
+        "Taj Mahal is closed on Fridays",
+        "Carry comfortable walking shoes",
+        "Best time to visit: October to March",
+        "Respect photography restrictions",
+        "Keep passport copy for hotel check-ins"
+      ]
+    },
+    {
+      "id": "himalayan-adventure",
+      "name": "Himalayan Adventure",
+      "category": "adventure",
+      "location": "Himachal Pradesh",
+      "price": 42000,
+      "originalPrice": null,
+      "duration": "8 Days 7 Nights",
+      "groupSize": "6-12 people",
+      "rating": 4.9,
+      "destinations": "Shimla, Manali, Rohtang Pass",
+      "description": "Adventure-packed journey through the majestic Himalayas featuring trekking, river rafting, paragliding, and stunning mountain vistas. Perfect for thrill-seekers and nature lovers.",
+      "images": [
+        "https://pixabay.com/get/g3b3f29840609d8f6478ecff3f354eb2a52ffa408962cfebde6e3380f97669e6e61bca24507bdf3aaa086f8666adea15ab17822ea4bf36514625ae5b8296c0065_1280.jpg",
+        "https://pixabay.com/get/gad36e0b1a02fc1095d90fe57278da5369d06507ed50719de8e4c0742cce922c7dfa84b8b9b48153b6adf9fce85118952a69c903a73a9a59b530a7e10eecdee0c_1280.jpg",
+        "https://pixabay.com/get/g7539955b1613649d3dbb30f177dcc3fccef1428515c076d22d93ebe591f16b386f6093235b8ad1fdeec78756fea48784226c15739eb1711a942b999f3975c79a_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Shimla",
+          "description": "Arrive in Shimla. Check into hotel. Evening walk on Mall Road and visit Christ Church. Acclimatization day."
+        },
+        {
+          "title": "Shimla to Manali",
+          "description": "Scenic drive to Manali (7 hours) through Kullu Valley. Check into hotel and evening at leisure."
+        },
+        {
+          "title": "Manali Local Sightseeing",
+          "description": "Visit Hadimba Temple, Manu Temple, and Vashisht Hot Springs. Evening paragliding session (weather permitting)."
+        },
+        {
+          "title": "Solang Valley Adventure",
+          "description": "Full day at Solang Valley. Activities include zorbing, skiing (seasonal), and ropeway ride. Adventure sports day."
+        },
+        {
+          "title": "Rohtang Pass Excursion",
+          "description": "Early morning trip to Rohtang Pass (13,050 ft). Snow activities and mountain photography. Return to Manali."
+        },
+        {
+          "title": "River Rafting & Trekking",
+          "description": "River rafting on Beas River. Afternoon trek to nearby waterfalls. Evening bonfire and BBQ."
+        },
+        {
+          "title": "Manali to Shimla",
+          "description": "Drive back to Shimla. Evening shopping for local handicrafts and woolens."
+        },
+        {
+          "title": "Departure",
+          "description": "Transfer to airport/railway station. Tour concludes with thrilling adventure memories."
+        }
+      ],
+      "inclusions": [
+        "7 nights accommodation in mountain hotels",
+        "All meals (breakfast, lunch, dinner)",
+        "All transfers by AC vehicle",
+        "Adventure activity costs",
+        "Professional trek guide",
+        "All permits and entry fees",
+        "Safety equipment for activities"
+      ],
+      "exclusions": [
+        "Airfare to Shimla/Chandigarh",
+        "Personal adventure gear",
+        "Travel insurance (mandatory)",
+        "Medical expenses",
+        "Rohtang Pass permit fees",
+        "Any additional activities"
+      ],
+      "notes": [
+        "Good physical fitness required",
+        "Carry warm clothing and trekking shoes",
+        "Activities subject to weather conditions",
+        "Rohtang Pass closed during winter",
+        "Travel insurance mandatory for adventure activities"
+      ]
+    },
+    {
+      "id": "goa-beach-paradise",
+      "name": "Goa Beach Paradise",
+      "category": "domestic",
+      "location": "Goa",
+      "price": 25000,
+      "originalPrice": 35000,
+      "duration": "5 Days 4 Nights",
+      "groupSize": "2-10 people",
+      "rating": 4.6,
+      "destinations": "North Goa, South Goa",
+      "description": "Relax on pristine beaches, explore Portuguese heritage, enjoy water sports, and experience Goa's vibrant nightlife. Perfect blend of relaxation and adventure.",
+      "images": [
+        "https://pixabay.com/get/g63ced132cdb12226eff49624e962caccaa74a212dcbdf846f77b116a5afdcdcdf63e2dd99feac10c9e9bec473ea0dc9241e78a8166dd5c72370bdcbe82aa0f22_1280.jpg",
+        "https://pixabay.com/get/g5be2d0aa5e936d590097a435fd6add2f32ca5f2d3d5e3cccf99a5666a348c9ce61643e084c40f150441d48feb83f4dfedf7abb3f3e93db84014d6ab37ccc4fbb_1280.jpg",
+        "https://pixabay.com/get/g378b9e3258fa885b0e77cd84d9a8ba88a95930acd05bcee75c26b40a4170986c862a711df7d34fb7b52593ae0dd43dcbf7d27386cf8139411c93c9bae6f933de_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Goa",
+          "hotel": "Novotel Goa Dona Sylvia Resort or Similar",
+          "meals": "Dinner",
+          "activities": "Airport pickup, hotel check-in, Calangute Beach visit",
+          "description": "Arrive at Goa airport. Transfer to hotel in North Goa. Check-in at the hotel (standard time approx. 1400 hrs). Evening visit to Calangute Beach and local market exploration. Welcome dinner at the hotel.",
+          "image": "https://cdn.pixabay.com/photo/2017/12/10/17/40/goa-3010034_1280.jpg"
+        },
+        {
+          "day": 2,
+          "title": "North Goa Exploration",
+          "hotel": "Novotel Goa Dona Sylvia Resort or Similar",
+          "meals": "Breakfast, Lunch",
+          "activities": "Baga Beach, Anjuna Beach, Fort Aguada, Water sports",
+          "description": "Enjoy breakfast at hotel. Full day exploration of North Goa. Visit the famous Baga Beach and Anjuna Beach. Explore the historic Fort Aguada with panoramic views. Experience thrilling water sports at Baga Beach. Evening at Saturday Night Market.",
+          "image": "https://cdn.pixabay.com/photo/2018/11/29/21/19/ocean-3846874_1280.jpg"
+        },
+        {
+          "day": 3,
+          "title": "Old Goa Heritage Tour",
+          "hotel": "Novotel Goa Dona Sylvia Resort or Similar",
+          "meals": "Breakfast, Lunch",
+          "activities": "Basilica of Bom Jesus, Se Cathedral, Spice plantation",
+          "description": "Enjoy breakfast at hotel. Explore the rich Portuguese heritage of Old Goa. Visit Basilica of Bom Jesus, Se Cathedral, and Church of St. Francis. Experience traditional spice plantation tour with authentic Goan lunch and cultural performances.",
+          "image": "https://cdn.pixabay.com/photo/2016/11/29/05/45/beach-1867285_1280.jpg"
+        },
+        {
+          "day": 4,
+          "title": "South Goa Discovery",
+          "hotel": "Novotel Goa Dona Sylvia Resort or Similar",
+          "meals": "Breakfast, Dinner",
+          "activities": "Palolem Beach, Colva Beach, Dolphin cruise",
+          "description": "Enjoy breakfast at hotel. Discover the serene beauty of South Goa. Visit pristine Palolem Beach and Colva Beach. Explore Margao market for local shopping. Evening dolphin watching cruise with breathtaking sunset views and dinner on board.",
+          "image": "https://cdn.pixabay.com/photo/2017/08/03/21/48/water-sports-2579209_1280.jpg"
+        },
+        {
+          "day": 5,
+          "title": "Departure",
+          "hotel": "N/A",
+          "meals": "Breakfast",
+          "activities": "Beach relaxation, Shopping, Airport transfer",
+          "description": "Morning breakfast at hotel. Final beach relaxation and last-minute shopping for souvenirs. Check-out from hotel. Transfer to Goa airport for departure with beautiful beach memories.",
+          "image": "https://cdn.pixabay.com/photo/2016/11/29/05/45/beach-1867285_1280.jpg"
+        }
+      ],
+      "inclusions": [
+        "4 nights beach resort accommodation",
+        "Daily breakfast and 2 dinners",
+        "Airport transfers and local transport",
+        "Water sports activities",
+        "Spice plantation tour with lunch",
+        "Dolphin watching cruise",
+        "All taxes and service charges"
+      ],
+      "exclusions": [
+        "Flights to/from Goa",
+        "Lunch on most days",
+        "Alcoholic beverages",
+        "Personal expenses",
+        "Travel insurance",
+        "Additional water sports"
+      ],
+      "notes": [
+        "Best time to visit: November to February",
+        "Carry beach wear and sunscreen",
+        "Respect local customs at religious sites",
+        "Try local Goan cuisine",
+        "Swimming in sea requires caution"
+      ]
+    },
+    {
+      "id": "exotic-bali",
+      "name": "Exotic Bali",
+      "category": "international",
+      "location": "Bali, Indonesia",
+      "price": 68000,
+      "originalPrice": 85000,
+      "duration": "6 Days 5 Nights",
+      "groupSize": "2-12 people",
+      "rating": 4.8,
+      "destinations": "Ubud, Kuta, Seminyak",
+      "description": "Discover Bali's spiritual temples, lush rice terraces, pristine beaches, and vibrant culture. Experience traditional ceremonies, art villages, and stunning sunsets.",
+      "images": [
+        "https://pixabay.com/get/g9a0d87c6ef8bbff40df44023f24147f413cd9a85fdbb86ccc3445cf829469a34cd3bb3bb1cb7539c9bab0c4e1022091f9aea29335d47250224e2f6784f37ac51_1280.jpg",
+        "https://pixabay.com/get/g2a2ed9af508cbe4ed1b5852c0f293969027dea423a568b743b5621631b63223c5b956cccfd524e8d46b21ae6b065dae3810622bbd930ea8340c8bb9c472b14af_1280.jpg",
+        "https://pixabay.com/get/gf10a431abd55e911389056b65b9044fd15fc1e8c012838e8268cb41d1ccff53edb7466eef490c27222dce01982bdbcf6d0422ae793b3a8f060bc5e64e4f42646_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Bali",
+          "description": "Arrive at Ngurah Rai Airport. Transfer to Ubud hotel. Evening at leisure exploring Ubud market and local cafes."
+        },
+        {
+          "title": "Ubud Cultural Tour",
+          "description": "Visit Tegalalang Rice Terraces, Tirta Empul Temple, and traditional art villages. Coffee plantation tour and tasting."
+        },
+        {
+          "title": "Ubud to Kuta",
+          "description": "Transfer to Kuta. Visit Tanah Lot Temple for sunset. Check into beachfront hotel and evening at leisure."
+        },
+        {
+          "title": "Water Sports & Beach Day",
+          "description": "Water sports at Tanjung Benoa. Visit Uluwatu Temple and traditional Kecak dance performance at sunset."
+        },
+        {
+          "title": "Seminyak & Shopping",
+          "description": "Explore Seminyak beaches and boutique shopping. Spa treatment and traditional Balinese massage. Farewell dinner."
+        },
+        {
+          "title": "Departure",
+          "description": "Last-minute shopping at local markets. Transfer to airport for departure with beautiful Bali memories."
+        }
+      ],
+      "inclusions": [
+        "5 nights accommodation in 4-star hotels",
+        "Daily breakfast and 3 dinners",
+        "All airport and hotel transfers",
+        "Full-day sightseeing tours",
+        "Cultural show tickets",
+        "Spa treatment session",
+        "English-speaking local guide"
+      ],
+      "exclusions": [
+        "International flights",
+        "Visa fees (Visa on arrival)",
+        "Travel insurance",
+        "Lunch on most days",
+        "Personal expenses and tips",
+        "Optional activities"
+      ],
+      "notes": [
+        "Visa on arrival available for Indians",
+        "Carry modest clothing for temple visits",
+        "Respect local customs and traditions",
+        "Indonesian Rupiah is local currency",
+        "English is widely spoken in tourist areas"
+      ]
+    },
+    {
+      "id": "dubai-luxury",
+      "name": "Dubai Luxury Escape",
+      "category": "international",
+      "location": "Dubai, UAE",
+      "price": 89000,
+      "originalPrice": 120000,
+      "duration": "5 Days 4 Nights",
+      "groupSize": "2-8 people",
+      "rating": 4.9,
+      "destinations": "Dubai, Abu Dhabi",
+      "description": "Experience Dubai's luxury shopping, towering skyscrapers, desert safaris, and world-class attractions. A perfect blend of modern marvels and traditional culture.",
+      "images": [
+        "https://pixabay.com/get/g00a3809ca5806194d101f219d5904e4f0c0f1caaaa6941050d3ee4624e1e4c6d226d89d24c2658148a7828e3308f3c5c0113865d3d2ae69cf07025bafa4f3fdc_1280.jpg",
+        "https://pixabay.com/get/g8127f7d041114ceb8fe71f2734360758b42dfc70471740c7387d224b25cc4403bb0620ec7b6c50531e61a85391c50f552ad363c160f64790ca1727a296e4f98a_1280.jpg",
+        "https://pixabay.com/get/gb3bc780abdc76c4f5dbdba3e0fd7689aefbbe86af0ccd20143162e129d36cd24e8a909a4f8ede2064dc84338196de10429c9ad3e29a427d50ca5404b88831eec_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Dubai",
+          "description": "Arrive at Dubai International Airport. Transfer to luxury hotel. Evening Dubai Fountain show and Burj Khalifa visit."
+        },
+        {
+          "title": "Dubai City Tour",
+          "description": "Visit Dubai Museum, Gold Souk, Spice Souk, and Jumeirah Mosque. Abra ride across Dubai Creek. Palm Jumeirah monorail."
+        },
+        {
+          "title": "Desert Safari Adventure",
+          "description": "Desert safari with dune bashing, camel riding, and traditional BBQ dinner. Belly dance and Tanoura show under stars."
+        },
+        {
+          "title": "Abu Dhabi Day Trip",
+          "description": "Full day Abu Dhabi tour. Visit Sheikh Zayed Grand Mosque, Emirates Palace, and Ferrari World theme park."
+        },
+        {
+          "title": "Shopping & Departure",
+          "description": "Shopping at Dubai Mall and Mall of Emirates. Last-minute sightseeing. Transfer to airport for departure."
+        }
+      ],
+      "inclusions": [
+        "4 nights luxury hotel accommodation",
+        "Daily breakfast and 2 dinners",
+        "All transfers in luxury vehicles",
+        "Dubai city tour with guide",
+        "Desert safari with BBQ dinner",
+        "Abu Dhabi day trip",
+        "Burj Khalifa tickets (Level 124)"
+      ],
+      "exclusions": [
+        "International flight tickets",
+        "UAE visa fees",
+        "Travel insurance",
+        "Lunch during tours",
+        "Personal shopping expenses",
+        "Additional attraction tickets"
+      ],
+      "notes": [
+        "UAE visa required (can be arranged)",
+        "Modest dress code for mosque visits",
+        "Friday is weekend in UAE",
+        "Carry sunscreen and light clothing",
+        "English is widely spoken"
+      ]
+    },
+    {
+      "id": "thailand-adventure",
+      "name": "Thailand Grand Tour",
+      "category": "international",
+      "location": "Bangkok, Pattaya",
+      "price": 58000,
+      "originalPrice": 75000,
+      "duration": "7 Days 6 Nights",
+      "groupSize": "2-15 people",
+      "rating": 4.7,
+      "destinations": "Bangkok, Pattaya, Coral Island",
+      "description": "Explore Thailand's bustling capital, beautiful beaches, ornate temples, floating markets, and vibrant nightlife. Includes island hopping and cultural experiences.",
+      "images": [
+        "https://pixabay.com/get/g04bcbd15ab3b67b5fa0c9bbec20a86d91c430b90a0d07487f7dba72abd49d7ba7ac42519676d22dc0ca5204006620e21f3ee1eb0128128328c8d7d95ca7c135e_1280.jpg",
+        "https://pixabay.com/get/g23e0bd4c0c133e14226378c1364c97df8c25921743794dff3c9f2f23f2847caa697ab7ddfc83e41d8877f322a821613c2abfedc994dc80fc43becae74da9e971_1280.jpg",
+        "https://pixabay.com/get/ga5bb026a4adbc385c729e11b1b42868141c04849f3fd7b49ec91eeb898e84954e0cd84f12778dc9504ca7eee3f9f8de80963bc8b62f57016c657392083fc2780_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Bangkok",
+          "description": "Arrive at Suvarnabhumi Airport. Transfer to hotel. Evening visit to Chatuchak Night Market for shopping and street food."
+        },
+        {
+          "title": "Bangkok Temple Tour",
+          "description": "Visit Wat Pho (Reclining Buddha), Wat Arun (Temple of Dawn), and Grand Palace. Long-tail boat ride on Chao Phraya River."
+        },
+        {
+          "title": "Floating Market & Safari World",
+          "description": "Damnoen Saduak floating market tour. Afternoon at Safari World with marine park shows and wildlife safari."
+        },
+        {
+          "title": "Bangkok to Pattaya",
+          "description": "Transfer to Pattaya (2 hours). Check into beachfront hotel. Evening Alcazar Cabaret Show and Walking Street exploration."
+        },
+        {
+          "title": "Coral Island Trip",
+          "description": "Full day Coral Island tour with speedboat. Water sports, parasailing, and beach relaxation. Seafood lunch on island."
+        },
+        {
+          "title": "Pattaya to Bangkok",
+          "description": "Transfer back to Bangkok. Last-minute shopping at MBK Center or Siam Paragon. Thai massage experience."
+        },
+        {
+          "title": "Departure",
+          "description": "Transfer to airport for departure. Tour concludes with amazing Thailand memories and cultural experiences."
+        }
+      ],
+      "inclusions": [
+        "6 nights hotel accommodation",
+        "Daily breakfast and 4 dinners",
+        "All transfers and transportation",
+        "Bangkok city tour with guide",
+        "Floating market tour",
+        "Coral Island trip with lunch",
+        "Alcazar Show tickets"
+      ],
+      "exclusions": [
+        "International flight tickets",
+        "Thailand visa fees",
+        "Travel insurance",
+        "Lunch on non-included days",
+        "Personal expenses and shopping",
+        "Optional tours and activities"
+      ],
+      "notes": [
+        "Visa on arrival available for Indians",
+        "Carry light cotton clothing",
+        "Respect Buddhist customs at temples",
+        "Thai Baht is local currency",
+        "Tipping is customary in Thailand"
+      ]
+    },
+    {
+      "id": "singapore-getaway",
+      "name": "Singapore Family Fun",
+      "category": "international",
+      "location": "Singapore",
+      "price": 95000,
+      "originalPrice": null,
+      "duration": "5 Days 4 Nights",
+      "groupSize": "2-10 people",
+      "rating": 4.8,
+      "destinations": "Singapore City, Sentosa",
+      "description": "Family-friendly Singapore tour featuring Universal Studios, Gardens by the Bay, Marina Bay Sands, and cultural districts. Perfect blend of fun and sightseeing.",
+      "images": [
+        "https://pixabay.com/get/ge80836a7e42872b11af95d5206ddf9ac933303809ca5e98b94fa86358e308bcdcecc4ec3145fd4d6a88d35a773e7503c0b330229e64bb91742babe66807e690c_1280.jpg",
+        "https://pixabay.com/get/g8127f7d041114ceb8fe71f2734360758b42dfc70471740c7387d224b25cc4403bb0620ec7b6c50531e61a85391c50f552ad363c160f64790ca1727a296e4f98a_1280.jpg",
+        "https://pixabay.com/get/g3016871c3f441336f1d0597d646b448aba0b8ef7c51ae4285a102ca9461eeffa6338afd4ea37b49476e9defae34c3c7c7b111f52aa65ebe1e3b6d9ccca278502_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Singapore",
+          "description": "Arrive at Changi Airport. Transfer to hotel. Evening visit to Marina Bay Sands SkyPark and light show."
+        },
+        {
+          "title": "City Tour & Gardens by the Bay",
+          "description": "Singapore city tour including Merlion Park, Chinatown, and Little India. Evening at Gardens by the Bay with Supertree Grove."
+        },
+        {
+          "title": "Sentosa Island Adventure",
+          "description": "Full day at Sentosa Island. Universal Studios Singapore with thrilling rides and shows. Evening at Sentosa beaches."
+        },
+        {
+          "title": "Singapore Zoo & Shopping",
+          "description": "Morning at Singapore Zoo and River Safari. Afternoon shopping at Orchard Road and ION Orchard mall."
+        },
+        {
+          "title": "Departure",
+          "description": "Last-minute shopping at Changi Airport (duty-free). Departure with wonderful family memories from Singapore."
+        }
+      ],
+      "inclusions": [
+        "4 nights hotel accommodation",
+        "Daily breakfast and 2 dinners",
+        "Airport transfers and city transport",
+        "Singapore city tour",
+        "Universal Studios tickets",
+        "Gardens by the Bay admission",
+        "Singapore Zoo entry"
+      ],
+      "exclusions": [
+        "International flight tickets",
+        "Singapore visa (if required)",
+        "Travel insurance",
+        "Meals not mentioned",
+        "Personal shopping expenses",
+        "Optional activities"
+      ],
+      "notes": [
+        "Visa-free entry for Indian tourists (30 days)",
+        "Singapore Dollar is local currency",
+        "Public transport is excellent",
+        "English is widely spoken",
+        "Carry umbrella for tropical showers"
+      ]
+    },
+    {
+      "id": "europe-discovery",
+      "name": "Europe Grand Discovery",
+      "category": "international",
+      "location": "Paris, Switzerland, Rome",
+      "price": 185000,
+      "originalPrice": 225000,
+      "duration": "12 Days 11 Nights",
+      "groupSize": "2-20 people",
+      "rating": 4.9,
+      "destinations": "Paris, Zurich, Interlaken, Rome",
+      "description": "Comprehensive Europe tour covering France's romantic capital, Switzerland's scenic beauty, and Italy's eternal city. Experience art, culture, cuisine, and breathtaking landscapes.",
+      "images": [
+        "https://pixabay.com/get/g050467aac4f2e8f0989c9a435d341076699bb33a0b0b12b63835fa40376f58471e7c31b573ddf9b083e72696e45e0000f67c6b9b8d7c0c485cd10c472b70fd1d_1280.jpg",
+        "https://pixabay.com/get/g23e0bd4c0c133e14226378c1364c97df8c25921743794dff3c9f2f23f2847caa697ab7ddfc83e41d8877f322a821613c2abfedc994dc80fc43becae74da9e971_1280.jpg",
+        "https://pixabay.com/get/gf10a431abd55e911389056b65b9044fd15fc1e8c012838e8268cb41d1ccff53edb7466eef490c27222dce01982bdbcf6d0422ae793b3a8f060bc5e64e4f42646_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Paris",
+          "description": "Arrive at Charles de Gaulle Airport. Transfer to hotel. Evening Seine River cruise with dinner and illuminated monuments."
+        },
+        {
+          "title": "Paris Sightseeing",
+          "description": "Visit Eiffel Tower, Louvre Museum, Notre Dame Cathedral, and Champs-Élysées. Evening at Montmartre and Sacré-Cœur."
+        },
+        {
+          "title": "Paris - Versailles Day Trip",
+          "description": "Day trip to Palace of Versailles and gardens. Return to Paris for evening at leisure and optional Moulin Rouge show."
+        },
+        {
+          "title": "Paris to Zurich",
+          "description": "High-speed train to Zurich. City orientation tour including Lake Zurich and Old Town. Swiss welcome dinner."
+        },
+        {
+          "title": "Zurich to Interlaken",
+          "description": "Scenic train journey to Interlaken. Jungfraujoch excursion - 'Top of Europe' with snow activities and mountain views."
+        },
+        {
+          "title": "Swiss Alps Adventure",
+          "description": "Mount Titlis cable car ride and glacier experience. Visit Lucerne with Chapel Bridge and Lake Lucerne boat cruise."
+        },
+        {
+          "title": "Switzerland to Rome",
+          "description": "Scenic train journey through Alps to Rome. Evening walking tour of illuminated Rome and Italian dinner."
+        },
+        {
+          "title": "Rome Classical Tour",
+          "description": "Visit Colosseum, Roman Forum, Palatine Hill, and Capitoline Museums. Evening at Trevi Fountain and Spanish Steps."
+        },
+        {
+          "title": "Vatican City Tour",
+          "description": "Vatican Museums, Sistine Chapel, and St. Peter's Basilica. Afternoon exploring Trastevere district and local cuisine."
+        },
+        {
+          "title": "Rome Exploration",
+          "description": "Visit Pantheon, Piazza Navona, and Villa Borghese. Shopping at Via del Corso and farewell dinner with Italian opera."
+        },
+        {
+          "title": "Rome Free Day",
+          "description": "Free day for personal exploration, shopping, or optional day trips. Evening departure preparations."
+        },
+        {
+          "title": "Departure",
+          "description": "Transfer to Fiumicino Airport for departure. Tour concludes with lifetime memories of European grandeur."
+        }
+      ],
+      "inclusions": [
+        "11 nights accommodation in 4-star hotels",
+        "Daily breakfast and 8 dinners",
+        "High-speed train tickets between cities",
+        "All sightseeing tours with guides",
+        "Museum and attraction entry fees",
+        "Seine River cruise in Paris",
+        "Jungfraujoch and Mount Titlis excursions"
+      ],
+      "exclusions": [
+        "International flight tickets",
+        "Schengen visa fees",
+        "Travel insurance (mandatory)",
+        "Lunch during the tour",
+        "Personal expenses and shopping",
+        "Optional shows and activities"
+      ],
+      "notes": [
+        "Schengen visa required",
+        "Euro is the common currency",
+        "Pack layers for varying weather",
+        "Comfortable walking shoes essential",
+        "Travel insurance mandatory for Europe"
+      ]
+    },
+    {
+      "id": "andaman-paradise",
+      "name": "Andaman Island Paradise",
+      "category": "domestic",
+      "location": "Andaman & Nicobar Islands",
+      "price": 45000,
+      "originalPrice": 60000,
+      "duration": "6 Days 5 Nights",
+      "groupSize": "2-12 people",
+      "rating": 4.8,
+      "destinations": "Port Blair, Havelock, Neil Island",
+      "description": "Pristine beaches, crystal-clear waters, coral reefs, and historical sites. Perfect for water sports, snorkeling, and experiencing untouched natural beauty.",
+      "images": [
+        "https://pixabay.com/get/g2436f2e3e0e5df397ba0e6e0921fa5169b5985c7756c8cf6255bb273aa83ae98ac40981da316c2658fe3c9977506e3579250b6190c1ea33838b4c25e9df8c5a0_1280.jpg",
+        "https://pixabay.com/get/g5be2d0aa5e936d590097a435fd6add2f32ca5f2d3d5e3cccf99a5666a348c9ce61643e084c40f150441d48feb83f4dfedf7abb3f3e93db84014d6ab37ccc4fbb_1280.jpg",
+        "https://pixabay.com/get/g378b9e3258fa885b0e77cd84d9a8ba88a95930acd05bcee75c26b40a4170986c862a711df7d34fb7b52593ae0dd43dcbf7d27386cf8139411c93c9bae6f933de_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Port Blair",
+          "description": "Arrive at Veer Savarkar Airport. Visit Cellular Jail and attend Sound & Light show. Evening at Corbyn's Cove Beach."
+        },
+        {
+          "title": "Port Blair to Havelock",
+          "description": "Ferry to Havelock Island. Check into beach resort. Visit Radhanagar Beach (Asia's best beach). Sunset photography."
+        },
+        {
+          "title": "Havelock Water Activities",
+          "description": "Snorkeling at Elephant Beach. Water sports including kayaking and jet skiing. Evening beach relaxation and bonfire."
+        },
+        {
+          "title": "Havelock to Neil Island",
+          "description": "Ferry to Neil Island. Visit Bharatpur Beach, Laxmanpur Beach, and Natural Bridge. Coral viewing and swimming."
+        },
+        {
+          "title": "Neil to Port Blair",
+          "description": "Return to Port Blair. Visit Samudrika Naval Marine Museum and local markets. Last-minute souvenir shopping."
+        },
+        {
+          "title": "Departure",
+          "description": "Transfer to airport for departure. Tour concludes with beautiful island memories and pristine beach experiences."
+        }
+      ],
+      "inclusions": [
+        "5 nights accommodation (Port Blair & Havelock)",
+        "Daily breakfast and 3 dinners",
+        "Inter-island ferry transfers",
+        "Snorkeling equipment and guide",
+        "Cellular Jail Sound & Light show",
+        "All sightseeing and entry fees",
+        "Airport transfers"
+      ],
+      "exclusions": [
+        "Flights to/from Port Blair",
+        "Lunch on most days",
+        "Personal water sports activities",
+        "Travel insurance",
+        "Scuba diving (optional)",
+        "Any items not mentioned"
+      ],
+      "notes": [
+        "Permit required for foreign nationals",
+        "Carry reef-safe sunscreen",
+        "Limited ATMs on islands",
+        "Ferry schedules subject to weather",
+        "Respect marine ecosystem"
+      ]
+    },
+    {
+      "id": "ladakh-expedition",
+      "name": "Ladakh High Altitude Expedition",
+      "category": "adventure",
+      "location": "Ladakh, J&K",
+      "price": 55000,
+      "originalPrice": null,
+      "duration": "9 Days 8 Nights",
+      "groupSize": "6-15 people",
+      "rating": 4.9,
+      "destinations": "Leh, Nubra Valley, Pangong Lake",
+      "description": "Ultimate high-altitude adventure through moonscapes, ancient monasteries, highest motorable passes, and pristine lakes. Experience Ladakhi culture and Buddhist heritage.",
+      "images": [
+        "https://pixabay.com/get/g04571b1fc78dec7547f738e2e76e56a120a8aae03724b2376551db73ce5fadc7db76293825586c057b652aded98b92bbf3b21de7de78693723bf99cff6b8_1280.jpg",
+        "https://pixabay.com/get/g7539955b1613649d3dbb30f177dcc3fccef1428515c076d22d93ebe591f16b386f6093235b8ad1fdeec78756fea48784226c15739eb1711a942b999f3975c79a_1280.jpg",
+        "https://pixabay.com/get/g6c273649cdef110397140ea46a208f909fec9ea45287f8fd95f18fee82df3a62c59776d9d7dee427e7b377b9b7be1761dcf9ed55efe53b700ccd464021d1c3b9_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Leh",
+          "description": "Arrive at Leh airport (11,500 ft). Complete rest for acclimatization. Light evening walk in Leh market. Oxygen and medical check."
+        },
+        {
+          "title": "Leh Acclimatization",
+          "description": "Gentle sightseeing: Shanti Stupa, Leh Palace, and local monasteries. Traditional Ladakhi lunch. Evening at leisure."
+        },
+        {
+          "title": "Leh to Nubra Valley",
+          "description": "Drive to Nubra Valley via Khardung La Pass (18,390 ft) - world's highest motorable road. Check into camps in Hunder."
+        },
+        {
+          "title": "Nubra Valley Exploration",
+          "description": "Camel safari on double-humped Bactrian camels. Visit Diskit Monastery and giant Buddha statue. Sand dunes photography."
+        },
+        {
+          "title": "Nubra to Pangong Lake",
+          "description": "Drive to Pangong Lake via Shyok River route. Camp near the famous blue lake at 14,270 ft altitude."
+        },
+        {
+          "title": "Pangong Lake to Leh",
+          "description": "Sunrise at Pangong Lake. Return to Leh via Chang La Pass (17,590 ft). Evening rest and celebration dinner."
+        },
+        {
+          "title": "Monastery Circuit",
+          "description": "Visit Hemis, Thiksey, and Shey monasteries. Learn about Buddhist culture and Ladakhi traditions. Local interaction."
+        },
+        {
+          "title": "Leh Local Exploration",
+          "description": "Free day for personal exploration, shopping for Pashmina shawls, and last-minute photography. Farewell dinner."
+        },
+        {
+          "title": "Departure",
+          "description": "Transfer to airport for departure. Tour concludes with unforgettable high-altitude adventure memories."
+        }
+      ],
+      "inclusions": [
+        "8 nights accommodation (hotels & camps)",
+        "All meals (breakfast, lunch, dinner)",
+        "All transfers by SUV vehicles",
+        "Experienced mountain guide",
+        "All permits and entry fees",
+        "Oxygen cylinder and first aid",
+        "Cultural interaction sessions"
+      ],
+      "exclusions": [
+        "Flights to/from Leh",
+        "Personal trekking gear",
+        "Travel and medical insurance",
+        "Emergency evacuation costs",
+        "Personal expenses",
+        "Tips to driver and guide"
+      ],
+      "notes": [
+        "Good physical fitness essential",
+        "Medical clearance recommended",
+        "Acclimatization time mandatory",
+        "Altitude sickness precautions needed",
+        "Carry warm clothing and sunscreen"
+      ]
+    },
+    {
+      "id": "rajasthan-royal",
+      "name": "Royal Rajasthan Heritage",
+      "category": "domestic",
+      "location": "Rajasthan",
+      "price": 52000,
+      "originalPrice": 70000,
+      "duration": "10 Days 9 Nights",
+      "groupSize": "2-18 people",
+      "rating": 4.8,
+      "destinations": "Jaipur, Udaipur, Jodhpur, Jaisalmer",
+      "description": "Experience royal Rajasthan's magnificent palaces, desert safaris, colorful markets, and rich cultural heritage. Stay in heritage hotels and witness traditional performances.",
+      "images": [
+        "https://pixabay.com/get/gf9fd4d9eb927e95724a64e76ad351f884e9c6403cb401f82db1ff54d7ac0d7544b77144882f860e6cc45d07e50c6a229955b6a604ae8a6f1c73146c5b7c0c44a_1280.jpg",
+        "https://pixabay.com/get/g4a3170941edd5fc8cf64b4a8641703f945b001ee7f837da09c57f6cc54e53cd7ebba4cdb3fbd15029afc72885913bb7855225529193a4f18e1920ba1a77a3675_1280.jpg",
+        "https://pixabay.com/get/gb3bc780abdc76c4f5dbdba3e0fd7689aefbbe86af0ccd20143162e129d36cd24e8a909a4f8ede2064dc84338196de10429c9ad3e29a427d50ca5404b88831eec_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Jaipur",
+          "description": "Arrive in Pink City. Check into heritage hotel. Evening visit to local markets and Rajasthani dinner with folk show."
+        },
+        {
+          "title": "Jaipur Sightseeing",
+          "description": "Visit Amber Fort, City Palace, Hawa Mahal, and Jantar Mantar. Elephant ride at Amber Fort. Traditional craft workshop."
+        },
+        {
+          "title": "Jaipur to Jodhpur",
+          "description": "Drive to Blue City Jodhpur (5 hours). Check into hotel. Evening visit to Jodhpur fort and sunset views."
+        },
+        {
+          "title": "Jodhpur Exploration",
+          "description": "Explore Mehrangarh Fort, Jaswant Thada, and local blue-painted houses. Flying fox adventure at fort (optional)."
+        },
+        {
+          "title": "Jodhpur to Jaisalmer",
+          "description": "Drive to Golden City Jaisalmer (5 hours). Check into heritage hotel. Evening walk in golden sandstone streets."
+        },
+        {
+          "title": "Jaisalmer Fort & Desert",
+          "description": "Explore Jaisalmer Fort, Patwon Ki Haveli. Afternoon desert safari with camel ride and overnight desert camping."
+        },
+        {
+          "title": "Jaisalmer to Udaipur",
+          "description": "Drive to City of Lakes Udaipur (8 hours). Check into lake-facing hotel. Evening boat ride on Lake Pichola."
+        },
+        {
+          "title": "Udaipur Palace Tour",
+          "description": "Visit City Palace complex, Jagdish Temple, and Saheliyon Ki Bari. Sunset at Monsoon Palace. Royal dinner experience."
+        },
+        {
+          "title": "Udaipur Cultural Day",
+          "description": "Visit local art galleries, handicraft workshops, and spice markets. Optional cooking class. Cultural performance evening."
+        },
+        {
+          "title": "Departure",
+          "description": "Transfer to airport/railway station. Tour concludes with royal memories and cultural experiences of Rajasthan."
+        }
+      ],
+      "inclusions": [
+        "9 nights heritage hotel accommodation",
+        "Daily breakfast and 6 dinners",
+        "All transfers by AC vehicle",
+        "Monument entry fees",
+        "Camel safari and desert camping",
+        "Boat ride on Lake Pichola",
+        "Cultural shows and folk performances"
+      ],
+      "exclusions": [
+        "Flights/trains to Jaipur",
+        "Lunch during the tour",
+        "Personal expenses and shopping",
+        "Travel insurance",
+        "Camera fees at monuments",
+        "Optional activities"
+      ],
+      "notes": [
+        "Heritage hotels may have old-world charm",
+        "Carry light cotton clothes",
+        "Respect local customs and photography rules",
+        "Bargaining is common in markets",
+        "Stay hydrated in desert areas"
+      ]
+    },
+    {
+      "id": "honeymoon-maldives",
+      "name": "Maldives Honeymoon Bliss",
+      "category": "honeymoon",
+      "location": "Maldives",
+      "price": 125000,
+      "originalPrice": 150000,
+      "duration": "5 Days 4 Nights",
+      "groupSize": "2 people",
+      "rating": 4.9,
+      "destinations": "Male, Resort Island",
+      "description": "Ultimate romantic getaway with overwater villas, private beaches, couple spa treatments, underwater dining, and sunset cruises. Perfect for honeymooners.",
+      "images": [
+        "https://pixabay.com/get/g5be2d0aa5e936d590097a435fd6add2f32ca5f2d3d5e3cccf99a5666a348c9ce61643e084c40f150441d48feb83f4dfedf7abb3f3e93db84014d6ab37ccc4fbb_1280.jpg",
+        "https://pixabay.com/get/g2903f84070513fef0b0d250aa8d54615a77158432a4a82e9f993177c24a0e4a198f2a2bae40c65fcc95bfff850dca43922cebb938e2365fdd9a970642711a06f_1280.jpg",
+        "https://pixabay.com/get/g378b9e3258fa885b0e77cd84d9a8ba88a95930acd05bcee75c26b40a4170986c862a711df7d34fb7b52593ae0dd43dcbf7d27386cf8139411c93c9bae6f933de_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Paradise",
+          "description": "Arrive at Male Airport. Seaplane transfer to luxury resort. Welcome drink and check into overwater villa. Sunset dinner on private deck."
+        },
+        {
+          "title": "Romantic Water Activities",
+          "description": "Snorkeling in coral gardens. Couple's dolphin watching cruise. Private beach picnic lunch. Sunset fishing expedition."
+        },
+        {
+          "title": "Spa & Relaxation Day",
+          "description": "Couple's spa treatment at overwater spa. Private yoga session on beach. Underwater restaurant dining experience. Stargazing from villa."
+        },
+        {
+          "title": "Adventure & Romance",
+          "description": "Scuba diving or glass-bottom boat tour. Private sandbank excursion with champagne lunch. Traditional Maldivian cultural show."
+        },
+        {
+          "title": "Farewell to Paradise",
+          "description": "Final breakfast overlooking lagoon. Last-minute relaxation and photography. Seaplane transfer back to Male for departure."
+        }
+      ],
+      "inclusions": [
+        "4 nights overwater villa accommodation",
+        "All meals and premium beverages",
+        "Seaplane transfers both ways",
+        "Couple's spa treatment",
+        "Daily water sports activities",
+        "Private beach dinner setup",
+        "Honeymoon decorations and amenities"
+      ],
+      "exclusions": [
+        "International flights",
+        "Maldives tourism tax",
+        "Scuba diving certification",
+        "Personal expenses",
+        "Travel insurance",
+        "Additional spa treatments"
+      ],
+      "notes": [
+        "Visa on arrival for Indian citizens",
+        "USD is widely accepted",
+        "Alcohol available at resorts only",
+        "Respect Islamic traditions on local islands",
+        "Carry reef-safe sunscreen"
+      ]
+    },
+    {
+      "id": "kashmir-valley",
+      "name": "Kashmir Valley Beauty",
+      "category": "domestic",
+      "location": "Kashmir, J&K",
+      "price": 38000,
+      "originalPrice": 48000,
+      "duration": "7 Days 6 Nights",
+      "groupSize": "2-12 people",
+      "rating": 4.7,
+      "destinations": "Srinagar, Gulmarg, Pahalgam",
+      "description": "Experience the paradise on earth with Dal Lake houseboats, snow-capped mountains, meadows of flowers, and Mughal gardens. Includes shikara rides and mountain adventures.",
+      "images": [
+        "https://pixabay.com/get/g5101a8ea5403e6628183b880a050f731664339ad7f5756fa2e647ead61b3ab0a37e37eef17403b0361ba4c6469eb102ee60edc57581c2f413451d1a2585f95e5_1280.jpg",
+        "https://pixabay.com/get/gad36e0b1a02fc1095d90fe57278da5369d06507ed50719de8e4c0742cce922c7dfa84b8b9b48153b6adf9fce85118952a69c903a73a9a59b530a7e10eecdee0c_1280.jpg",
+        "https://pixabay.com/get/g7539955b1613649d3dbb30f177dcc3fccef1428515c076d22d93ebe591f16b386f6093235b8ad1fdeec78756fea48784226c15739eb1711a942b999f3975c79a_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Srinagar",
+          "description": "Arrive at Srinagar airport. Check into luxury houseboat on Dal Lake. Evening shikara ride and floating market visit."
+        },
+        {
+          "title": "Srinagar Mughal Gardens",
+          "description": "Visit Nishat Bagh, Shalimar Bagh, and Chashme Shahi gardens. Explore local carpet and handicraft workshops. Evening on houseboat."
+        },
+        {
+          "title": "Srinagar to Gulmarg",
+          "description": "Drive to Gulmarg (Meadow of Flowers). Gondola cable car ride to Apharwat Peak. Snow activities and mountain photography."
+        },
+        {
+          "title": "Gulmarg Adventure Day",
+          "description": "Adventure activities: skiing (seasonal), sledging, or hiking. Visit St. Mary's Church. Evening bonfire and local music."
+        },
+        {
+          "title": "Gulmarg to Pahalgam",
+          "description": "Drive to Pahalgam (Valley of Shepherds) via saffron fields. Check into hotel. Evening walk along Lidder River."
+        },
+        {
+          "title": "Pahalgam Exploration",
+          "description": "Visit Betaab Valley, Aru Valley, and Chandanwari. Optional pony rides. Traditional Kashmiri Wazwan dinner experience."
+        },
+        {
+          "title": "Return to Srinagar & Departure",
+          "description": "Drive back to Srinagar. Last-minute shopping for saffron and Kashmiri handicrafts. Transfer to airport for departure."
+        }
+      ],
+      "inclusions": [
+        "6 nights accommodation (houseboat & hotels)",
+        "Daily breakfast and 4 dinners",
+        "All transfers and sightseeing",
+        "Shikara ride on Dal Lake",
+        "Gondola cable car tickets",
+        "All entry fees and permits",
+        "Traditional Wazwan dinner"
+      ],
+      "exclusions": [
+        "Flights to/from Srinagar",
+        "Lunch during the tour",
+        "Personal expenses",
+        "Travel insurance",
+        "Pony rides and adventure activities",
+        "Shopping expenses"
+      ],
+      "notes": [
+        "Weather can be unpredictable",
+        "Carry warm clothes even in summer",
+        "Respect local customs and traditions",
+        "Photography restrictions at sensitive areas",
+        "Road conditions may vary"
+      ]
+    },
+    {
+      "id": "japan-cherry-blossom",
+      "name": "Japan Cherry Blossom Special",
+      "category": "international",
+      "location": "Japan",
+      "price": 145000,
+      "originalPrice": 180000,
+      "duration": "8 Days 7 Nights",
+      "groupSize": "2-15 people",
+      "rating": 4.9,
+      "destinations": "Tokyo, Kyoto, Osaka",
+      "description": "Experience Japan during cherry blossom season with traditional temples, modern cities, bullet trains, cultural ceremonies, and authentic Japanese cuisine.",
+      "images": [
+        "https://pixabay.com/get/g23e0bd4c0c133e14226378c1364c97df8c25921743794dff3c9f2f23f2847caa697ab7ddfc83e41d8877f322a821613c2abfedc994dc80fc43becae74da9e971_1280.jpg",
+        "https://pixabay.com/get/g050467aac4f2e8f0989c9a435d341076699bb33a0b0b12b63835fa40376f58471e7c31b573ddf9b083e72696e45e0000f67c6b9b8d7c0c485cd10c472b70fd1d_1280.jpg",
+        "https://pixabay.com/get/gf10a431abd55e911389056b65b9044fd15fc1e8c012838e8268cb41d1ccff53edb7466eef490c27222dce01982bdbcf6d0422ae793b3a8f060bc5e64e4f42646_1280.jpg"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Tokyo",
+          "description": "Arrive at Narita Airport. Transfer to hotel in Shibuya. Evening explore neon-lit districts and traditional izakaya dinner."
+        },
+        {
+          "title": "Tokyo Modern & Traditional",
+          "description": "Visit Senso-ji Temple, Imperial Palace Gardens (cherry blossoms), and Tokyo Skytree. Experience sumo wrestling demonstration."
+        },
+        {
+          "title": "Tokyo Day Trip",
+          "description": "Day trip to Nikko for Toshogu Shrine and natural beauty. Return to Tokyo for evening in Harajuku and Omotesando."
+        },
+        {
+          "title": "Tokyo to Kyoto",
+          "description": "Bullet train to Kyoto. Visit Kinkaku-ji (Golden Pavilion) and philosopher's path with cherry blossoms. Traditional ryokan stay."
+        },
+        {
+          "title": "Kyoto Cultural Immersion",
+          "description": "Visit Fushimi Inari Shrine, Gion district for geisha spotting, and participate in tea ceremony. Bamboo grove walk."
+        },
+        {
+          "title": "Kyoto to Osaka",
+          "description": "Travel to Osaka. Visit Osaka Castle surrounded by cherry blossoms. Explore Dotonbori district and street food culture."
+        },
+        {
+          "title": "Nara Day Trip",
+          "description": "Day trip to Nara for deer park and Todaiji Temple. Return to Osaka for farewell dinner and shopping."
+        },
+        {
+          "title": "Departure",
+          "description": "Last-minute shopping in Osaka. Transfer to Kansai Airport for departure with beautiful Japanese memories."
+        }
+      ],
+      "inclusions": [
+        "7 nights accommodation (hotels & ryokan)",
+        "Daily breakfast and 4 dinners",
+        "Bullet train tickets",
+        "All transfers and metro passes",
+        "English-speaking guide",
+        "Cultural experiences and ceremonies",
+        "All entry fees and taxes"
+      ],
+      "exclusions": [
+        "International flights",
+        "Japan visa fees",
+        "Travel insurance",
+        "Lunch on most days",
+        "Personal shopping expenses",
+        "Optional activities"
+      ],
+      "notes": [
+        "Japan visa required",
+        "Japanese Yen is local currency",
+        "Bow as greeting gesture",
+        "Remove shoes when entering homes/temples",
+        "Cherry blossom season: late March to early May"
+      ]
+    },
+    {
+      "id": "pkg_1753951868651_w0yyb",
+      "name": "Dubai Burg",
+      "category": "international",
+      "location": "Dubai ",
+      "destinations": " La Qunita / Sea View or Similar",
+      "price": 50000,
+      "originalPrice": 100000,
+      "duration": "4 days 4 Nights",
+      "groupSize": "2-10",
+      "rating": 3.4,
+      "description": " Book 3* Howard Johnson and Upgrade to 4* La Quinta Hotel\n 01 child below 8-year travels free on Child No Bed Basis\n",
+      "images": [
+        "https://cdn-imgix.headout.com/media/images/0ecaeb67fd0466ae619324056bc3483a-25676---Dubai---Private-Transfers-from-to-Dubai-Airport---04.jpg?w=1680&h=1050&crop=faces&auto=compress%2Cformat&fit=min",
+        "https://cdn-imgix.headout.com/media/images/0ecaeb67fd0466ae619324056bc3483a-25676---Dubai---Private-Transfers-from-to-Dubai-Airport---04.jpg?w=1680&h=1050&crop=faces&auto=compress%2Cformat&fit=min",
+        "https://cdn-imgix.headout.com/media/images/0ecaeb67fd0466ae619324056bc3483a-25676---Dubai---Private-Transfers-from-to-Dubai-Airport---04.jpg?w=1680&h=1050&crop=faces&auto=compress%2Cformat&fit=min"
+      ],
+      "inclusions": [
+        " 04 nights stay at the selected hotel option or similar in Dubai.",
+        " Daily breakfast, except on Day 1",
+        " Airport / hotel / airport transfers Dubai on (SIC Basis)",
+        " La Qunita / Sea View or Similar",
+        "Airport / hotel / airport transfers Dubai on (SIC Basis)",
+        " Arrive at Dubai - Marina Dhow Cruise with Buffet Dinner (SIC basis)",
+        " Half Day City Tour of Dubai (SIC basis),",
+        " Dubai Frame (SIC basis)",
+        " Desert Safari with BBQ Dinner, Belly dance, Tanoora show and many more activities",
+        " 5% VAT",
+        " Dubai Visa",
+        " Travel Insurance (Valid for the age group till 60 Yrs.)"
+      ],
+      "exclusions": [
+        "TCS and GST",
+        " Departure PCR test, if applicable",
+        " All flights services",
+        " Meals not mentioned in the itinerary.",
+        " Any tips for guide and Driver",
+        " Anything not mentioned in the inclusions.",
+        " Pre and Post tour services and cost",
+        "Pre and Post tour services and cost",
+        " Expenditure of a personal nature (Such as uses of Mini - Bar and Refrigerator, laundry service, telephone call,",
+        " camera fee, tips and Etc)",
+        " All drink and beverages",
+        " Hotel promotional rates not valid during Black out Period / Surcharge Dates / Stop Sales on Hotel",
+        " Tourism Tax (if applicable)",
+        " Midnight surcharge",
+        " Black Out Dates Surcharge - 01 JUN - 10 JUN EID AL ADHA",
+        " The rates are valid for a minimum of 02 adults always travelling together"
+      ],
+      "itinerary": [
+        {
+          "title": "Arrival in Dubai",
+          "description": "Arrive at Dubai International Airport, transfer to hotel. In the evening, enjoy a relaxing Dhow Cruise with dinner on Dubai Creek."
+        },
+        {
+          "title": "Dubai City Tour & Burj Khalifa",
+          "description": "Explore the city highlights: Jumeirah Mosque, Burj Al Arab (outside), Atlantis, and visit the iconic Burj Khalifa observation deck."
+        },
+        {
+          "title": "Desert Safari",
+          "description": "Enjoy thrilling desert adventures and traditional performances under the stars."
+        },
+        {
+          "title": "Day at Leisure / Optional Tour",
+          "description": "Relax or choose to explore nearby cities or theme parks."
+        },
+        {
+          "title": "Departure",
+          "description": "After breakfast, check out and transfer to the airport for your flight home."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "lastUpdated": "2025-07-31T09:15:53.596Z",
+  "totalPackages": 16
+}

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sanskruti Travels</title>
+    <meta name="description" content="Get in touch with Sanskruti Travels for personalized travel planning, booking assistance, and any queries about our travel packages.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-plane me-2"></i>Sanskruti Travels
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="packages.html">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-warning text-dark px-3 ms-2" href="https://wa.me/919820979944" target="_blank">
+                            <i class="fab fa-whatsapp me-1"></i>Book Now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold text-white">Contact Us</h1>
+                    <p class="lead text-white">We're here to help plan your perfect journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Contact Form -->
+                <div class="col-lg-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body p-5">
+                            <h3 class="card-title mb-4">Send us a Message</h3>
+                            <form id="contactForm">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="firstName" class="form-label">First Name *</label>
+                                        <input type="text" class="form-control" id="firstName" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="lastName" class="form-label">Last Name *</label>
+                                        <input type="text" class="form-control" id="lastName" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email Address *</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="phone" class="form-label">Phone Number *</label>
+                                        <input type="tel" class="form-control" id="phone" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="subject" class="form-label">Subject *</label>
+                                        <select class="form-select" id="subject" required>
+                                            <option value="">Choose a subject</option>
+                                            <option value="package-inquiry">Package Inquiry</option>
+                                            <option value="booking-assistance">Booking Assistance</option>
+                                            <option value="custom-package">Custom Package Request</option>
+                                            <option value="general-query">General Query</option>
+                                            <option value="feedback">Feedback</option>
+                                            <option value="complaint">Complaint</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="destination" class="form-label">Interested Destination (Optional)</label>
+                                        <input type="text" class="form-control" id="destination" placeholder="e.g., Kerala, Dubai, Europe">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="travelDate" class="form-label">Preferred Travel Date (Optional)</label>
+                                        <input type="date" class="form-control" id="travelDate">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="travelers" class="form-label">Number of Travelers (Optional)</label>
+                                        <select class="form-select" id="travelers">
+                                            <option value="">Select number</option>
+                                            <option value="1">1 Person</option>
+                                            <option value="2">2 People</option>
+                                            <option value="3">3 People</option>
+                                            <option value="4">4 People</option>
+                                            <option value="5+">5+ People</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Message *</label>
+                                        <textarea class="form-control" id="message" rows="5" 
+                                                  placeholder="Tell us about your travel requirements, preferences, or any questions you have..." required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                                            <label class="form-check-label" for="agreeTerms">
+                                                I agree to the <a href="#" class="text-primary">Terms & Conditions</a> and <a href="#" class="text-primary">Privacy Policy</a> *
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-lg">
+                                            <i class="fas fa-paper-plane me-2"></i>Send Message
+                                        </button>
+                                        <button type="button" class="btn btn-success btn-lg ms-2" onclick="sendWhatsAppMessage()">
+                                            <i class="fab fa-whatsapp me-2"></i>Send via WhatsApp
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <!-- Quick Contact -->
+                        <div class="card mb-4">
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title">Quick Contact</h5>
+                                <div class="mb-3">
+                                    <i class="fas fa-phone fa-2x text-primary mb-2"></i>
+                                    <p class="mb-1"><strong>Phone</strong></p>
+                                    <a href="tel:+919820979944" class="text-primary">+91 70213 60582</a>
+                                </div>
+                                <div class="mb-3">
+                                    <i class="fas fa-envelope fa-2x text-primary mb-2"></i>
+                                    <p class="mb-1"><strong>Email</strong></p>
+                                    <a href="mailto:info@sanskrutitravels.com" class="text-primary">info@sanskrutitravels.com</a>
+                                </div>
+                                <div class="mb-3">
+                                    <i class="fab fa-whatsapp fa-2x text-success mb-2"></i>
+                                    <p class="mb-1"><strong>WhatsApp</strong></p>
+                                    <a href="https://wa.me/919820979944" class="text-success" target="_blank">+91 70213 60582</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Office Hours -->
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-clock text-primary me-2"></i>Office Hours
+                                </h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="d-flex justify-content-between">
+                                        <span>Monday - Friday</span>
+                                        <span>9:00 AM - 7:00 PM</span>
+                                    </li>
+                                    <li class="d-flex justify-content-between">
+                                        <span>Saturday</span>
+                                        <span>9:00 AM - 5:00 PM</span>
+                                    </li>
+                                    <li class="d-flex justify-content-between">
+                                        <span>Sunday</span>
+                                        <span>10:00 AM - 4:00 PM</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <p class="small text-muted mb-0">
+                                    <i class="fas fa-info-circle me-1"></i>
+                                    Emergency support available 24/7 during your travels
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Office Location -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-map-marker-alt text-primary me-2"></i>Office Location
+                                </h5>
+                                <address class="mb-3">
+                                    <strong>Sanskruti Travels</strong><br>
+                                    123 Business Center<br>
+                                    Andheri East<br>
+                                    Mumbai, Maharashtra 400069<br>
+                                    India
+                                </address>
+                                <a href="https://maps.google.com" class="btn btn-outline-primary btn-sm" target="_blank">
+                                    <i class="fas fa-directions me-1"></i>Get Directions
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    How can I book a travel package?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can book a travel package by contacting us through WhatsApp (+91 70213 60582), calling us directly, or filling out the contact form above. Our travel experts will guide you through the entire booking process.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Do you offer customized travel packages?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! We specialize in creating customized travel packages based on your preferences, budget, and travel dates. Just let us know your requirements and we'll craft the perfect itinerary for you.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    What is included in your travel packages?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Our packages typically include accommodation, transportation, meals (as specified), sightseeing activities, and local transfers. Specific inclusions vary by package and are clearly listed in each package description.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    What is your cancellation policy?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Our cancellation policy varies based on the package and timing of cancellation. We offer flexible cancellation options and will provide detailed terms during booking. Contact us for specific cancellation terms for your chosen package.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    Do you provide travel insurance?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we strongly recommend and can arrange comprehensive travel insurance for all our travelers. This covers medical emergencies, trip cancellations, lost baggage, and other unforeseen circumstances during your travel.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/919820979944?text=Hi! I need help with travel planning. Can you assist me?" 
+           target="_blank" class="btn btn-success rounded-circle p-3">
+            <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5>Sanskruti Travels</h5>
+                    <p>Your trusted partner in creating unforgettable travel experiences. We specialize in crafting personalized journeys that create memories for a lifetime.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/919820979944" class="text-white" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50">Home</a></li>
+                        <li><a href="packages.html" class="text-white-50">Packages</a></li>
+                        <li><a href="about.html" class="text-white-50">About</a></li>
+                        <li><a href="contact.html" class="text-white-50">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Package Categories</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="packages.html?category=domestic" class="text-white-50">India & Around</a></li>
+                        <li><a href="packages.html?category=international" class="text-white-50">International</a></li>
+                        <li><a href="packages.html?category=honeymoon" class="text-white-50">Honeymoon</a></li>
+                        <li><a href="packages.html?category=adventure" class="text-white-50">Adventure</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6>Contact Info</h6>
+                    <p class="text-white-50 mb-1"><i class="fas fa-phone me-2"></i>+91 70213 60582</p>
+                    <p class="text-white-50 mb-1"><i class="fas fa-envelope me-2"></i>info@sanskrutitravels.com</p>
+                    <p class="text-white-50"><i class="fas fa-map-marker-alt me-2"></i>Mumbai, Maharashtra, India</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Sanskruti Travels. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white-50 me-3">Privacy Policy</a>
+                    <a href="#" class="text-white-50">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script>
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            sendWhatsAppMessage();
+        });
+
+        function sendWhatsAppMessage() {
+            const firstName = document.getElementById('firstName').value;
+            const lastName = document.getElementById('lastName').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const subject = document.getElementById('subject').value;
+            const destination = document.getElementById('destination').value;
+            const travelDate = document.getElementById('travelDate').value;
+            const travelers = document.getElementById('travelers').value;
+            const message = document.getElementById('message').value;
+
+            let whatsappMessage = `Hi! I'm contacting you through your website.\n\n`;
+            whatsappMessage += `Name: ${firstName} ${lastName}\n`;
+            whatsappMessage += `Email: ${email}\n`;
+            whatsappMessage += `Phone: ${phone}\n`;
+            whatsappMessage += `Subject: ${subject}\n`;
+            
+            if (destination) whatsappMessage += `Interested Destination: ${destination}\n`;
+            if (travelDate) whatsappMessage += `Preferred Travel Date: ${travelDate}\n`;
+            if (travelers) whatsappMessage += `Number of Travelers: ${travelers}\n`;
+            
+            whatsappMessage += `\nMessage: ${message}`;
+
+            const whatsappUrl = `https://wa.me/919820979944?text=${encodeURIComponent(whatsappMessage)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
