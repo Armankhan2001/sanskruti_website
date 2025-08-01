@@ -410,9 +410,9 @@ footer {
         margin: 0 !important;
     }
     .logo-img {
-    width: 120px;
     margin-right: 15px;
     padding-right: 20px;
+    transform: scale(1.1)
   }
     
     
