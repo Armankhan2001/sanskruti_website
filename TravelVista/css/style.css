@@ -412,7 +412,7 @@ footer {
     .logo-img {
     margin-right: 15px;
     padding-right: 20px;
-    transform: scale(1.1)
+    transform: scale(0.8)
   }
     
     
@@ -570,9 +570,9 @@ footer {
     }
 
     .logo-img {
-        width: 100px;
         margin-right: 10px;
         padding-right: 10px;
+        transform: scale(0.8)
     }
 
     .hero-buttons {
