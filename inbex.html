@@ -1,333 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sanskruti Travels | Dynamic Travel Site</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <!-- AOS Animation -->
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Poppins', sans-serif; background: #fefefe; color: #333; }
-
-    header {
-      background: linear-gradient(45deg, #5016bd, #3f5efb);
-      padding: 60px 20px;
-      text-align: center;
-      color: #fff;
-    }
-    header h1 { font-size: 3.5rem; font-family: 'Playfair Display', serif; }
-    header p { margin-top: 10px; font-size: 1.3rem; }
-
-    /* Navbar */
-    nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 16px 30px;
-      background: #fff;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-      position: sticky;
-      top: 0;
-      z-index: 99;
-    }
-    .logo {
-      color: #fc466b;
-      font-weight: 700;
-      font-size: 1.5rem;
-      text-decoration: none;
-    }
-    .nav-links {
-      display: flex;
-      gap: 22px;
-    }
-    .nav-links a {
-      text-decoration: none;
-      color: #3f5efb;
-      font-weight: 600;
-      transition: 0.3s;
-    }
-    .nav-links a:hover {
-      color: #fc466b;
-      transform: scale(1.05);
-    }
-
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      cursor: pointer;
-    }
-    .hamburger span {
-      height: 3px;
-      width: 25px;
-      background: #333;
-      margin: 4px 0;
-      border-radius: 10px;
-      transition: 0.3s;
-    }
-
-    /* Hero */
-    .hero {
-      position: relative;
-      overflow: hidden;
-    }
-    .hero img {
-      width: 100%;
-      height: 85vh;
-      object-fit: cover;
-    }
-    .hero-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-      text-align: center;
-      text-shadow: 0 3px 8px #000;
-    }
-    .hero-text h2 {
-      font-size: 3.2rem;
-      margin: 0;
-      animation: fadeInUp 1s ease forwards;
-    }
-    .hero-text p {
-      font-size: 1.3rem;
-      margin-top: 10px;
-      animation: fadeInUp 1.5s ease forwards;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 14px 30px;
-      background: #fc466b;
-      color: #fff;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: 0.3s;
-      animation: fadeInUp 2s ease forwards;
-    }
-    .btn:hover {
-      background: #3f5efb;
-    }
-
-    .section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-    .section h2 {
-      font-size: 2.6rem;
-      margin-bottom: 30px;
-      font-family: 'Playfair Display', serif;
-    }
-
-    .services, .grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-    .service, .card {
-      background: #fff;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 5px 18px rgba(0,0,0,0.06);
-      width: 280px;
-      transition: 0.4s;
-    }
-    .service:hover, .card:hover {
-      transform: translateY(-10px);
-    }
-    .service h3 {
-      margin: 10px 0;
-      font-size: 1.4rem;
-    }
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-    .card {
-      width: 300px;
-      overflow: hidden;
-      border-radius: 15px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      background: #fff;
-      transition: 0.4s;
-    }
-    .card h3 {
-      margin: 0;
-      padding: 18px;
-      font-size: 1.3rem;
-    }
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-
-    .cta {
-      background: linear-gradient(45deg, #3f5efb, #fc466b);
-      color: #fff;
-      padding: 50px 20px;
-      text-align: center;
-    }
-    .cta h2 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-    }
-    .cta a {
-      background: #fff;
-      color: #333;
-      padding: 12px 25px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: 0.3s;
-    }
-    .cta a:hover {
-      background: #333;
-      color: #fff;
-    }
-
-    footer {
-      padding: 25px 20px;
-      text-align: center;
-      background: #333;
-      color: #fff;
-      margin-top: 50px;
-    }
-    footer a {
-      color: #ffc371;
-      margin: 0 8px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    footer a:hover { color: #fff; }
-
-    @keyframes fadeInUp {
-      0% { opacity: 0; transform: translateY(40px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-
-    @media(max-width: 768px) {
-      .hero img { height: 60vh; }
-      .hero-text h2 { font-size: 2.2rem; }
-      .hero-text p { font-size: 1rem; }
-
-      .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 70px;
-        right: 30px;
-        background: #fff;
-        border-radius: 12px;
-        box-shadow: 0 5px 18px rgba(0,0,0,0.08);
-        padding: 20px;
-        gap: 16px;
-        z-index: 100;
-      }
-      .nav-links.open { display: flex; }
-      .hamburger { display: flex; }
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sanskruti Travels | Winter Package 2025-26</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
-<body>
-
-<header>
-  <h1>Sanskruti Travels</h1>
-  <p>Your Trusted Visa & Holiday Experts</p>
-</header>
-
-<nav>
-  <a href="#" class="logo">Sanskruti</a>
-  <div class="nav-links" id="navLinks">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="tours/packages.html">Packages</a>
-    <a href="visa/visaservices.html">Visa</a>
-    <a href="flights.html">Flights</a>
-    <a href="hotels.html">Hotels</a>
-    <a href="contact.html">Contact</a>
-  </div>
-  <div class="hamburger" onclick="toggleMenu()">
-    <span></span><span></span><span></span>
-  </div>
-</nav>
-
-<div class="hero">
-  <img src="images/tour1.jpg" alt="Packages">
-  <div class="hero-text">
-    <h2>Plan Your Dream Journey</h2>
-    <p>Luxury Tours, Seamless Visa & Travel Solutions</p>
-    <a href="tours/packages.html" class="btn">Explore Packages</a>
-  </div>
-</div>
-
-<div class="section" data-aos="fade-up">
-  <h2>Our Top Services</h2>
-  <div class="services">
-    <div class="service">
-      <h3>Visa Assistance</h3>
-      <p>Get seamless visa approvals for UK, Canada, Europe, Dubai & more.</p>
-    </div>
-    <div class="service">
-      <h3>Custom Tour Packages</h3>
-      <p>Luxury tours & travel itineraries crafted specially for you.</p>
-    </div>
-    <div class="service">
-      <h3>Flight Bookings</h3>
-      <p>Book international & domestic flights at the best prices.</p>
-    </div>
-  </div>
-</div>
-
-<div class="section" data-aos="fade-up">
-  <h2>Popular Tour Packages</h2>
-  <div class="grid" id="package-grid"></div>
-</div>
-
-<div class="cta">
-  <h2>Start Your Holiday Booking Today!</h2>
-  <a href="contact.html">Get In Touch</a>
-</div>
-
-<footer>
-  &copy; 2025 Sanskruti Travels | Designed by Your Travel Partner
-</footer>
-
-<!-- AOS Animation -->
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init();
-  const accessKey = 'LQ9FkUky9DVBryQ9sw5CPKU7U2G3siY7pilIEuJEyEU';
-  fetch(`https://api.unsplash.com/search/photos?query=vacation&per_page=6&client_id=${accessKey}`)
-    .then(res => res.json())
-    .then(data => {
-      const packageGrid = document.getElementById('package-grid');
-      data.results.forEach((img, index) => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        const image = document.createElement('img');
-        image.src = img.urls.small;
-        const title = document.createElement('h3');
-        title.textContent = `Package ${index + 1}`;
-        card.appendChild(image);
-        card.appendChild(title);
-        packageGrid.appendChild(card);
-      });
-    })
-    .catch(err => console.error(err));
-
-  function toggleMenu() {
-    document.getElementById('navLinks').classList.toggle('open');
+<style>
+  #root {
+    display: block;
   }
-</script>
+  body {
+    display:block;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #e0f2ff, #ffffff);
+  color: #003366;
+}
 
+.flyer-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #004a80;
+}
+
+header h1 span {
+  color: #ff8c00;
+}
+
+.places-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.places-grid img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.package-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.package-table th,
+.package-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.package-table th {
+  background: #004a80;
+  color: white;
+}
+
+.rates {
+  background: #f4f9ff;
+  padding: 15px;
+  border-left: 4px solid #004a80;
+  margin-bottom: 20px;
+}
+
+.rates h3 {
+  margin: 0 0 10px 0;
+  color: #004a80;
+}
+
+.includes-excludes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.includes-excludes div {
+  flex: 1;
+  min-width: 280px;
+}
+
+.includes-excludes h4 {
+  background: #004a80;
+  color: white;
+  padding: 8px;
+  border-radius: 5px 5px 0 0;
+  margin: 0;
+}
+
+.includes-excludes ul {
+  list-style: square;
+  background: #f0f8ff;
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 0 0 8px 8px;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background: #004a80;
+  color: white;
+  border-radius: 8px;
+}
+
+footer a {
+  color: #ffea00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+</style>
+<body>
+  <div class="flyer-container">
+    <header>
+      <img src="images/sanskrutilogo.png" alt="Sanskruti Travels Logo" class="logo" />
+      <h1>WINTER PACKAGE <span>2025 – 26</span></h1>
+    </header>
+
+    <section class="places-grid">
+      <img src="images/udaipur.jpg" alt="Udaipur" />
+      <img src="images/jodhpur.jpg" alt="Jodhpur" />
+      <img src="images/jaisalmer.jpg" alt="Jaisalmer" />
+      <img src="images/sam.jpg" alt="Sam Desert" />
+    </section>
+
+    <section class="package-table">
+      <table>
+        <thead>
+          <tr>
+            <th>PLACES</th>
+            <th>DELUXE</th>
+            <th>SUPER DELUXE</th>
+            <th>NIGHTS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>UDAIPUR</td>
+            <td>Park Exotica Resort</td>
+            <td>Hotel Pride</td>
+            <td>02</td>
+          </tr>
+          <tr>
+            <td>JODHPUR</td>
+            <td>Madhuram Royale (Pure Veg)</td>
+            <td>Kasturi Orchid (Pure Veg)</td>
+            <td>01</td>
+          </tr>
+          <tr>
+            <td>JAISALMER</td>
+            <td>Golden Haveli</td>
+            <td>The Desert Tulip</td>
+            <td>01</td>
+          </tr>
+          <tr>
+            <td>SAM DESERT</td>
+            <td>Winds Desert Camps</td>
+            <td>Winds Desert Camps</td>
+            <td>01</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="rates">
+      <h3>PACKAGE RATE</h3>
+      <p>02 Persons: <strong>Rs.31250/-</strong> per person (Deluxe) | <strong>Rs.33250/-</strong> per person (Super Deluxe)</p>
+      <p>04 Persons: <strong>Rs.25500/-</strong> per person (Deluxe) | <strong>Rs.27500/-</strong> per person (Super Deluxe)</p>
+    </section>
+
+    <section class="includes-excludes">
+      <div>
+        <h4>Package Includes</h4>
+        <ul>
+          <li>05 Nights’ accommodation in above hotels.</li>
+          <li>Breakfast & Dinner at all Hotels (Fixed Menu)</li>
+          <li>AC Sedan Car for 02 persons & AC Innova Crysta for 04 Persons</li>
+          <li>01 Jeep Safari at Sam Desert</li>
+          <li>All Taxes</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Package Excludes</h4>
+        <ul>
+          <li>Any Air fare, Train fare etc.</li>
+          <li>Monument entrance fees & Guide Charges</li>
+          <li>Any expenses of personal nature like laundry, mineral water, room service</li>
+          <li>Any items not mentioned in INCLUSIONS</li>
+        </ul>
+      </div>
+    </section>
+
+    <p class="note">
+      * Valid from: 01 Oct - 17 Oct’25 / 01 Nov - 20 Dec’25 / 06 Jan - 31 Mar’26<br>
+      * Rates are subject to change without prior notice.
+    </p>
+
+    <footer>
+      <h2>CONTACT US</h2>
+      <p>📞 <a href="tel:+919820979944">+91 98209 79944</a></p>
+      <p>📧 <a href="mailto:Sanskrutimumbai@gmail.com">Sanskrutimumbai@gmail.com</a></p>
+    </footer>
+  </div>
 </body>
 </html>
