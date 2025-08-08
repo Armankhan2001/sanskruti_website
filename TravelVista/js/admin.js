@@ -232,8 +232,8 @@ function generateItineraryText(package) {
         text += '\n';
     }
     
-    text += `📞 Book now: +91 70213 60582\n`;
-    text += `🌐 Website: sanskrutitravels.com\n\n`;
+    text += `📞 Book now: +91 98209 79944\n`;
+    text += `🌐 Website: sanskrutitravels.in\n\n`;
     text += `#SanskrutiTravels #TravelPackage #${package.category.charAt(0).toUpperCase() + package.category.slice(1)}Tour`;
     
     return text;
@@ -276,7 +276,7 @@ function downloadItinerary(id) {
         <body>
             <div class="header">
                 <h1>${package.name}</h1>
-                <p>📞 +91 70213 60582 | 🌐 sanskrutitravels.com</p>
+                <p>📞 +91 98209 79944 | 🌐 sanskrutitravels.in</p>
             </div>
             ${itinerary.split('\n').map(line => `<p>${line}</p>`).join('')}
         </body>
