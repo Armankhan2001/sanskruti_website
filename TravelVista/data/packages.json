@@ -1082,91 +1082,6 @@
       "notes": []
     },
     {
-      "id": "pkg_1754637072085_0bstb",
-      "name": "Norway (Northern Lights)",
-      "category": "international",
-      "location": "Norway",
-      "destinations": "Tromsø, the Lofoten Islands, and Kirkenes",
-      "price": 185000,
-      "originalPrice": 210000,
-      "duration": "8 Days",
-      "groupSize": "2-5",
-      "rating": 5,
-      "description": "The Northern Lights in Norway are primarily found in the Northern regions, specifically within the Arctic Circle. Key destinations include Tromsø, the Lofoten Islands, and Kirkenes. These areas are located within the \"Northern Lights Belt,\" offering the best chances for viewing the aurora borealis, according to travel guides. \nHere's a more detailed breakdown:\nTromsø:\nKnown as the \"Gateway to the Arctic,\" Tromsø is a popular destination for aurora viewing, with numerous viewing spots and tours available. \nLofoten Islands:\nThis archipelago offers stunning scenery and a great backdrop for photographing the Northern Lights, according to travel guides. \nKirkenes:\nSituated in the far north of Norway, Kirkenes is another excellent location for Northern Lights viewing, with opportunities for unique experiences like dog sledding and snowmobiling. \nFinnmark:\nThis region, further east than Tromsø, is also within the auroral oval and offers great viewing opportunities, especially in the wilderness areas away from light pollution. \nWhile the Northern Lights can be seen in other parts of Norway, the further north you go, the greater your chances of seeing them due to the auroral oval's location. ",
-      "images": [
-        "https://www.originaltravel.co.uk/travel-blog/showphoto/3413/0",
-        "https://www.anubhavvacations.in/blog/wp-content/uploads/2025/01/northern-light-featured-1200x675.jpg",
-        "https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2024/03/06180216/feature-2024-03-06T153043.252-1600x900.jpg"
-      ],
-      "inclusions": [
-        "Meal Plan : Breakfast",
-        "Visa : Assistance",
-        "Airfare Internal Sector only",
-        "Government taxes/VAT/Service Charges",
-        "Travel Insurance",
-        "Site seeing",
-        "(All mentioned site seeing are included on SIC basis)",
-        "Oslo to Bergen scenic train included",
-        "1 Flight from Bergen to Tromso Included Tromso to Oslo flight included ",
-        "Airport to Hotel and Hotel to Airport private transfers."
-      ],
-      "exclusions": [
-        "Lunch and Dinner not included",
-        "Personal expenses such as tips, laundry, phone calls, etc.",
-        "Any expenses of a personal nature",
-        "Any optional tours or activities not mentioned in the itinerary"
-      ],
-      "itinerary": [
-        {
-          "title": "Day 1",
-          "description": "Arrival Oslo Airport Norway"
-        },
-        {
-          "title": "Day 2",
-          "description": "Oslo: 24-Hour Hop-on Hop-Off Sightseeing Bus Ticket"
-        },
-        {
-          "title": "Day 3",
-          "description": "Oslo to Bergen via train (Scenic journey) Leisure Day"
-        },
-        {
-          "title": "Day 4",
-          "description": "Mostraumen Fjord Cruise Bergen Stay Bergen"
-        },
-        {
-          "title": "Day 5",
-          "description": "Bergen to Tromso via flight Evening Northern Lights chase tour from Tromso"
-        },
-        {
-          "title": "Day 6",
-          "description": "Reindeer and Dog Sledding Experience and Sami Culture Tour from Tromso"
-        },
-        {
-          "title": "Day 7",
-          "description": "Tromso to Oslo via flight Leisure day Stay Oslo Hotel"
-        },
-        {
-          "title": "Day 8",
-          "description": "Departure to India"
-        }
-      ],
-      "notes": [
-        "Rates are subject to change at the time of booking and availability.",
-        "The itinerary may change depending on local weather and operational conditions.",
-        "All sightseeing tours are on SIC (Seat-In-Coach) basis unless specified.",
-        "Flight and train timings are subject to airline and railway schedule changes.",
-        "Transfers are provided as per itinerary only and not at disposal.",
-        "Please carry valid travel insurance for the entire trip duration.",
-        "Visa assistance is provided, but approval is at the discretion of the consulate.",
-        "Standard check-in time is 14:00 hrs and check-out time is 12:00 hrs at hotels.",
-        "Early check-in or late check-out is subject to availability and may incur extra charges.",
-        "Personal expenses and optional tours are not included in the package cost.",
-        "Government taxes and VAT are included as per current rates; any changes will be applicable.",
-        "Travelers must ensure all travel documents (passport, visa, tickets) are in order before departure.",
-        "The tour operator will not be responsible for any loss, injury, or damage during the trip."
-      ]
-    },
-    {
       "id": "pkg_1754637072209_2xquh",
       "name": "Norway (Northern Lights)",
       "category": "international",
@@ -1177,7 +1092,7 @@
       "duration": "8 Days",
       "groupSize": "2-5",
       "rating": 5,
-      "description": "The Northern Lights in Norway are primarily found in the Northern regions, specifically within the Arctic Circle. Key destinations include Tromsø, the Lofoten Islands, and Kirkenes. These areas are located within the \"Northern Lights Belt,\" offering the best chances for viewing the aurora borealis, according to travel guides. \nHere's a more detailed breakdown:\nTromsø:\nKnown as the \"Gateway to the Arctic,\" Tromsø is a popular destination for aurora viewing, with numerous viewing spots and tours available. \nLofoten Islands:\nThis archipelago offers stunning scenery and a great backdrop for photographing the Northern Lights, according to travel guides. \nKirkenes:\nSituated in the far north of Norway, Kirkenes is another excellent location for Northern Lights viewing, with opportunities for unique experiences like dog sledding and snowmobiling. \nFinnmark:\nThis region, further east than Tromsø, is also within the auroral oval and offers great viewing opportunities, especially in the wilderness areas away from light pollution. \nWhile the Northern Lights can be seen in other parts of Norway, the further north you go, the greater your chances of seeing them due to the auroral oval's location. ",
+      "description": "The Northern Lights in Norway are primarily found in the Northern regions, specifically within the Arctic Circle. Key destinations include Tromsø, the Lofoten Islands, and Kirkenes. These areas are located within the \"Northern Lights Belt,\" offering the best chances for viewing the aurora borealis, according to travel guides. ",
       "images": [
         "https://www.originaltravel.co.uk/travel-blog/showphoto/3413/0",
         "https://www.anubhavvacations.in/blog/wp-content/uploads/2025/01/northern-light-featured-1200x675.jpg",
@@ -1235,23 +1150,9 @@
           "description": "Departure to India"
         }
       ],
-      "notes": [
-        "Rates are subject to change at the time of booking and availability.",
-        "The itinerary may change depending on local weather and operational conditions.",
-        "All sightseeing tours are on SIC (Seat-In-Coach) basis unless specified.",
-        "Flight and train timings are subject to airline and railway schedule changes.",
-        "Transfers are provided as per itinerary only and not at disposal.",
-        "Please carry valid travel insurance for the entire trip duration.",
-        "Visa assistance is provided, but approval is at the discretion of the consulate.",
-        "Standard check-in time is 14:00 hrs and check-out time is 12:00 hrs at hotels.",
-        "Early check-in or late check-out is subject to availability and may incur extra charges.",
-        "Personal expenses and optional tours are not included in the package cost.",
-        "Government taxes and VAT are included as per current rates; any changes will be applicable.",
-        "Travelers must ensure all travel documents (passport, visa, tickets) are in order before departure.",
-        "The tour operator will not be responsible for any loss, injury, or damage during the trip."
-      ]
+      "notes": []
     }
   ],
-  "lastUpdated": "2025-08-08T07:17:08.822Z",
-  "totalPackages": 18
+  "lastUpdated": "2025-08-09T10:48:44.746Z",
+  "totalPackages": 17
 }
