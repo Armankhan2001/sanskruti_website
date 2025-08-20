@@ -12,14 +12,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+    .logo-img {
+        width: 45px;             /* adjust size */
+        height: 45px;            /* keep square for perfect circle */
+        border-radius: 50%;      /*makes it circular */
+        border: 2px solid #1e90ff; /* nice blue border */
+        padding: 3px;            /*space between logo and border */
+        background: #fff;        /* background color inside border */
+    }
+
+    </style>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold d-flex align-items-center" href="/index.html">
-            <img src="../images/logo4.png" alt="Sanskruti Travels Logo" class="logo-img"> Sanskruti Travels
-
+            <a class="navbar-brand fw-bold d-flex align-items-center border-radius 30%" href="..\index.html">
+            <img src="../images/logo4.png" alt="Sanskruti Travels Logo" class="logo-img"> <span class="ms-2">Sanskruti Travels</span>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -380,8 +390,8 @@
                     <h5>Sanskruti Travels</h5>
                     <p>Your trusted partner in creating unforgettable travel experiences. We specialize in crafting personalized journeys that create memories for a lifetime.</p>
                     <div class="social-links">
-                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/sanskruti.travels.2025/" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/sanskruti_travels/?hl=en" class="text-white me-3"><i class="fab fa-instagram"></i></a>
                         <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
                         <a href="https://wa.me/919820979944" class="text-white" target="_blank"><i class="fab fa-whatsapp"></i></a>
                     </div>

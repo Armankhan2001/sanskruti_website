@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+        .logo-img {
+        width: 45px;             /* adjust size */
+        height: 45px;            /* keep square for perfect circle */
+        border-radius: 50%;      /*makes it circular */
+        border: 2px solid #1e90ff; /* nice blue border */
+        padding: 3px;            /*space between logo and border */
+        background: #fff;        /* background color inside border */
+    }
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +26,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">
-                <i class="fas fa-plane me-2"></i>Sanskruti Travels - Admin
+            <a class="navbar-brand fw-bold d-flex align-items-center border-radius 30%" href="..\index.html">
+            <img src="../images/logo4.png" alt="Sanskruti Travels Logo" class="logo-img"> <span class="ms-2">Sanskruti Travels</span>
             </a>
             <div class="navbar-nav ms-auto">
                 <a class="nav-link" href="index.html">Back to Website</a>
