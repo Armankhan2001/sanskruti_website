@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safari Flyer – Sanskruti Travels</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .flyer {
+      width: 100%;
+      max-width: 1080px;
+      background: #fff7ed;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+      position: relative;
+    }
+    .hero {
+      background: url('https://th.bing.com/th/id/OIP.0zwvJLwSCJQfb8ppelDZFQHaE8?w=285&h=190&c=7&r=0&o=7&dpr=1.7&pid=1.7&rm=3') center/cover;
+      padding: 80px 30px;
+      text-align: center;
+      color: white;
+      position: relative;
+      
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.55);
+    }
+    .hero h1, .hero p, .hero img {
+      position: relative;
+      z-index: 2;
+    }
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 800;
+      margin: 20px 0;
+    }
+    .hero h1 span { color: #fbbf24; }
+    .hero img { height: 90px; border-radius: 30px;}
+    .hero .tagline {
+      font-size: 20px;
+      font-style: italic;
+    }
+    .batches, .inclusions {
+      padding: 40px;
+      background: #fff;
+    }
+    .batches h2, .inclusions h2 {
+      text-transform: uppercase;
+      color: #92400e;
+      margin-bottom: 20px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fffbf0;
+      border: 2px solid #fbbf24;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+    .card h3 { margin: 0; color: #b45309; }
+    .card p { margin: 8px 0 0; color: #92400e; }
+    .inclusions ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .inclusions li {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+    .inclusions li::before {
+      content: "✔";
+      margin-right: 10px;
+      color: green;
+    }
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 40px;
+      background: #fff7ed;
+      border-top: 1px solid #ddd;
+      gap: 20px;
+    }
+    .footer-left { display: flex; align-items: center; gap: 15px; }
+    .footer-logo { height: 50px; }
+    .brand { font-weight: bold; font-size: 20px; }
+    .slogan { font-size: 14px; color: #555; }
+    .footer-right { display: flex; flex-direction: column; gap: 8px; }
+    .footer-right a { color: #92400e; text-decoration: none; font-size: 16px; }
+    .btn {
+      background: #fbbf24;
+      padding: 10px 16px;
+      border-radius: 8px;
+      color: #111;
+      font-weight: bold;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .btn:hover { background: #f59e0b; }
+    .corner-badge {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #fff;
+      padding: 10px 18px;
+      border-radius: 20px;
+      font-weight: bold;
+      color: #92400e;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      cursor: pointer;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 32px; }
+      .hero .tagline { font-size: 16px; }
+      .batches, .inclusions { padding: 20px; }
+      footer { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <div class="flyer">
+    <header class="hero">
+      <img src="https://www.sanskrutitravels.in/images/logo4.png" alt="Sanskruti Travels Logo" class="logo" />
+      <h1>LET'S GO TO <span>SAFARI</span> ADVENTURE!!</h1>
+      <p class="tagline">"Walking in the land of the tiger, where legends come alive."</p>
+    </header>
+
+    <section class="batches">
+      <h2>Upcoming Batches</h2>
+      <div class="cards">
+        <div class="card"><h3>Pench – 2N/3D</h3><p>27 Oct & 7 Nov</p></div>
+        <div class="card"><h3>Kanha – 3N/4D</h3><p>17 & 29 Oct</p></div>
+        <div class="card"><h3>Badhavgarh – 3N/4D</h3><p>17 Nov</p></div>
+        <div class="card"><h3>Tadoba – 2N/3D</h3><p>9 Nov</p></div>
+      </div>
+    </section>
+
+    <section class="inclusions">
+      <h2>Inclusions</h2>
+      <ul>
+        <li>Stay as mentioned</li>
+        <li>All Meals</li>
+        <li>Safari Guide</li>
+        <li>Confirmed Safari in Core Areas at each Place</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="footer-left">
+        <img src="https://www.sanskrutitravels.in/images/logo4.png" alt="Sanskruti Logo" class="footer-logo" />
+        <div>
+          <p class="brand">Sanskruti Travels</p>
+          <p class="slogan">Where every trip is a story</p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <a href="tel:+919820979944">📞 9820979944</a>
+        <a href="mailto:sanskrutimumbai@gmail.com">✉️ sanskrutimumbai@gmail.com</a>
+        <a href="https://wa.me/919820979944" target="_blank" class="btn">💬 Book Now on WhatsApp</a>
+      </div>
+    </footer>
+
+    <div class="corner-badge">Limited Seats · Book Now</div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const badge = document.querySelector(".corner-badge");
+      badge.addEventListener("click", () => {
+        window.location.href = "https://wa.me/919820979944";
+      });
+    });
+  </script>
+</body>
+</html>
