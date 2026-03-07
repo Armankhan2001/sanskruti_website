@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskruti Travels | Elite Portal</title>
+    <script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+        :root {
+            --royal-blue: #002349;
+            --gold-gradient: linear-gradient(135deg, #BF953F 0%, #FCF6BA 45%, #B38728 100%);
+            --accent-gold: #D4AF37;
+            --white: #ffffff;
+            --soft-bg: #f4f7fa;
+        }
+
+        body { font-family: 'Montserrat', sans-serif; background: #00152b; margin: 0; padding: 15px; display: flex; justify-content: center; }
+        
+        .container { width: 100%; max-width: 500px; background: var(--white); border-radius: 40px; overflow: hidden; box-shadow: 0 40px 80px rgba(0,0,0,0.5); }
+
+        /* Header Section */
+        .header { background: var(--royal-blue); padding: 45px 20px; text-align: center; border-bottom: 6px solid var(--accent-gold); position: relative; }
+        .logo-container { background: white; width: 100px; height: 100px; margin: 0 auto 15px; border-radius: 22px; padding: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
+        .logo-container img { width: 100%; }
+        
+        /* Gap Added Here */
+        h1 { font-family: 'Playfair Display', serif; color: white; margin: 25px 0 0; font-size: 28px; letter-spacing: 1px; }
+        
+        .subtitle { color: var(--accent-gold); font-size: 11px; letter-spacing: 3px; font-weight: bold; margin-top: 8px; text-transform: uppercase; }
+
+        /* QR Selector Tabs */
+        .qr-tabs { display: flex; justify-content: center; gap: 10px; padding: 25px 20px 0; }
+        .tab-btn { flex: 1; padding: 12px; border: none; border-radius: 12px; cursor: pointer; font-weight: bold; font-size: 12px; background: #eef2f6; color: #666; transition: 0.3s; }
+        .tab-btn.active { background: var(--royal-blue); color: white; box-shadow: 0 5px 15px rgba(0,35,73,0.3); }
+
+        /* QR Box */
+        .qr-display-box { padding: 30px 20px; text-align: center; }
+        .qr-frame { background: white; padding: 20px; border-radius: 30px; display: inline-block; box-shadow: 0 10px 30px rgba(0,0,0,0.06); border: 1px solid #eee; margin-bottom: 15px; }
+        canvas { width: 220px !important; height: 220px !important; }
+
+        /* Visible Contacts Table */
+        .contacts-panel { margin: 0 20px 25px; background: #f9fbff; border-radius: 20px; padding: 20px; border: 1px solid #e1e8f0; }
+        .section-title { font-size: 10px; font-weight: 800; color: var(--accent-gold); letter-spacing: 1px; margin-bottom: 15px; text-align: center; }
+        .num-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .num-item { background: white; padding: 10px; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.03); }
+        .num-item span { display: block; font-size: 9px; color: #999; font-weight: bold; }
+        .num-item b { font-size: 13px; color: var(--royal-blue); }
+
+        /* Action Buttons */
+        .action-area { padding: 0 20px 30px; }
+        .btn { width: 100%; padding: 18px; border-radius: 18px; border: none; font-weight: bold; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; margin-bottom: 12px; transition: 0.3s; }
+        .btn-download { background: var(--gold-gradient); color: #443300; }
+        .btn-save { background: var(--royal-blue); color: white; }
+
+        /* Office Footer Details */
+        .footer-info { background: #001d3d; color: #cbd5e1; padding: 25px 20px; font-size: 13px; }
+        .info-line { display: flex; gap: 15px; margin-bottom: 12px; align-items: flex-start; }
+        .info-line i { color: var(--accent-gold); margin-top: 3px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="logo-container">
+            <img id="sanskruti-logo" src="https://www.sanskrutitravels.in/images/logo4.png" alt="Sanskruti Travels" crossOrigin="anonymous">
+        </div>
+        <h1>SANSKRUTI TRAVELS</h1>
+        <div class="subtitle">PREMIUM HOLIDAYS & VISA SOLUTIONS</div>
+    </div>
+
+    <div class="qr-tabs">
+        <button class="tab-btn active" onclick="switchQR('web', this)">WEBSITE QR</button>
+        <button class="tab-btn" onclick="switchQR('contact', this)">CONTACT QR</button>
+    </div>
+
+    <div class="qr-display-box">
+        <div class="qr-frame">
+            <canvas id="main-qr"></canvas>
+            <p id="qr-label" style="margin:15px 0 0; font-size:12px; font-weight:bold; color:var(--royal-blue)">SCAN TO VISIT WEBSITE</p>
+        </div>
+    </div>
+
+    <div class="contacts-panel">
+        <div class="section-title">OFFICIAL CONTACT NUMBERS</div>
+        <div class="num-row">
+            <div class="num-item"><span>Mobile</span><b>9820979944</b></div>
+            <div class="num-item"><span>Office 1</span><b>9769880881</b></div>
+            <div class="num-item"><span>Office 2</span><b>7977527874</b></div>
+            <div class="num-item"><span>Office 3</span><b>8850503946</b></div>
+        </div>
+    </div>
+
+    <div class="action-area">
+        <button class="btn btn-download" onclick="generateFullPoster()">
+            <i class="fa-solid fa-file-arrow-down"></i> DOWNLOAD FULL DESIGNED QR
+        </button>
+        <button class="btn btn-save" onclick="saveVCard()">
+            <i class="fa-solid fa-address-book"></i> SAVE CONTACT TO PHONE
+        </button>
+    </div>
+
+    <div class="footer-info">
+        <div class="info-line">
+            <i class="fa-solid fa-envelope"></i>
+            <div>sanskrutimumbai@gmail.com / sanskrutivisa@gmail.com</div>
+        </div>
+        <div class="info-line">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>D-405 Neelkanth Business Park, Nathani Road, Skywalk, Vidyavihar (W), Mumbai 400086</div>
+        </div>
+        <div class="info-line">
+            <i class="fa-solid fa-clock"></i>
+            <div>Mon-Sat: 10:00 AM - 07:00 PM</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const qr = new QRious({
+        element: document.getElementById('main-qr'),
+        size: 800,
+        level: 'H',
+        value: 'https://www.sanskrutitravels.in/'
+    });
+
+    let currentMode = 'web';
+
+    function switchQR(mode, btn) {
+        currentMode = mode;
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        if(mode === 'web') {
+            qr.value = 'https://www.sanskrutitravels.in/';
+            document.getElementById('qr-label').innerText = 'SCAN TO VISIT WEBSITE';
+        } else {
+            qr.value = "BEGIN:VCARD\nVERSION:3.0\nFN:Sanskruti Travels\nTEL:9820979944\nTEL:7977527874\nEMAIL:sanskrutimumbai@gmail.com\nEND:VCARD";
+            document.getElementById('qr-label').innerText = 'SCAN TO SAVE CONTACT';
+        }
+    }
+
+    function saveVCard() {
+        const vcard = "BEGIN:VCARD\nVERSION:3.0\nFN:Sanskruti Travels\nTEL;TYPE=CELL:9820979944\nTEL;TYPE=WORK:9769880881\nTEL;TYPE=WORK:7977527874\nTEL;TYPE=WORK:8850503946\nADR:;;D-405 Neelkanth Business Park;Mumbai;MH;400086;India\nURL:https://www.sanskrutitravels.in/\nEND:VCARD";
+        const blob = new Blob([vcard], { type: "text/vcard" });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url; a.download = 'Sanskruti_Travels.vcf'; a.click();
+    }
+
+    // Advanced High-Resolution Poster Generator
+    function generateFullPoster() {
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = 1200;
+        canvas.height = 1600;
+
+        // 1. White Background
+        ctx.fillStyle = "#ffffff";
+        ctx.fillRect(0,0,1200,1600);
+        
+        // 2. Luxury Navy Blue Header Area (slightly taller now)
+        ctx.fillStyle = "#002349";
+        ctx.fillRect(0, 0, 1200, 480);
+
+        // 3. Gold Accent Bar
+        ctx.fillStyle = "#D4AF37";
+        ctx.fillRect(0, 480, 1200, 15);
+
+        // 4. Luxury Emblem Logo Area (ADJUSTED Y POSITION)
+        const logoImg = document.getElementById('sanskruti-logo');
+        
+        try {
+            // Circle Background for Logo
+            ctx.fillStyle = "white";
+            ctx.beginPath();
+            ctx.arc(600, 150, 120, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            // Gold Circle Border
+            ctx.strokeStyle = "#D4AF37";
+            ctx.lineWidth = 10;
+            ctx.stroke();
+
+            // Centering the image within the circle
+            const desiredSize = 180;
+            ctx.drawImage(logoImg, 600 - (desiredSize/2), 150 - (desiredSize/2), desiredSize, desiredSize);
+        } catch (e) {
+            console.warn("Logo rendering skipped due to CORS.");
+        }
+
+        // 5. Branding Text (Adjusted positions for GAP)
+        ctx.textAlign = "center";
+        ctx.fillStyle = "#ffffff";
+        ctx.font = "bold 80px Arial";
+        
+        // --- GAP ADDED HERE ---
+        // (Previously 280, moved down to 360)
+        ctx.fillText("SANSKRUTI TRAVELS", 600, 360);
+        
+        ctx.fillStyle = "#D4AF37";
+        ctx.font = "bold 35px Arial";
+        ctx.fillText("PREMIUM HOLIDAYS & VISA SERVICES", 600, 430);
+
+        // 6. Draw QR Code (Slightly adjusted for balance)
+        const qrCanvas = document.getElementById('main-qr');
+        ctx.drawImage(qrCanvas, 250, 550, 700, 700);
+
+        // 7. Footer Details - Professional Layout
+        ctx.fillStyle = "#002349";
+        ctx.font = "bold 45px Arial";
+        ctx.fillText(currentMode === 'web' ? "SCAN TO VISIT WEBSITE" : "SCAN TO SAVE CONTACT", 600, 1320);
+
+        ctx.fillStyle = "#444";
+        ctx.font = "35px Arial";
+        ctx.fillText("Mob: 9820979944 | Off: 9769880881", 600, 1420);
+        ctx.fillText("D-405 Neelkanth Business Park, Vidyavihar (W)", 600, 1490);
+        ctx.font = "bold 30px Arial";
+        ctx.fillStyle = "#B38728";
+        ctx.fillText("www.sanskrutitravels.in", 600, 1560);
+
+        // 8. Download
+        const link = document.createElement('a');
+        link.download = `Sanskruti_Travels_Poster_${currentMode}.png`;
+        link.href = canvas.toDataURL();
+        link.click();
+    }
+</script>
+
+</body>
+</html>
