@@ -1598,10 +1598,7 @@
       "groupSize": "",
       "rating": 4.5,
       "description": "Experience the vibrant culture, breathtaking landscapes, and rich history of Vietnam on this immersive 11-day journey. From the limestone karsts of Halong Bay to the lantern-lit streets of Hoi An and the dynamic energy of Ho Chi Minh City, this tour showcases the very best of Vietnam.\n\nCruise overnight in Halong Bay, explore the ancient imperial city of Hue, walk through the charming Old Quarter of Hanoi, visit the Cu Chi Tunnels, enjoy a Ba Na Hills cable car ride, and relax along scenic coastal towns.\n\nThis tour perfectly blends natural beauty, heritage architecture, war history, and authentic Vietnamese experiences — all while enjoying comfortable stays, guided tours, and Indian meals.\n\nIdeal for families, honeymooners, and explorers looking for an exotic yet value-for-money Asian destination.",
-      "images": [
-        "https://alohavietnam.net/media/data/322721831_1509874059482393_3325066819771154218_n.jpg",
-        "https://images.ajaymodi.com/uploads/WebsiteImage/639099468690059210.webp"
-      ],
+      "images": [],
       "inclusions": [
         "10 Nights accommodation in 4★ Hotels",
         "1 Night Overnight Cruise in Halong Bay",
@@ -1823,51 +1820,8 @@
       ],
       "itinerary": [],
       "notes": []
-    },
-    {
-      "id": "pkg_1777294450687_4icfu",
-      "name": "ASSAM – ARUNACHAL PRADESH",
-      "category": "domestic",
-      "location": "Guwahati + Tezpur + Dirang + Tawang + Bomdila",
-      "destinations": " ARUNACHAL PRADESH",
-      "price": 77999,
-      "originalPrice": null,
-      "duration": "(07 NIGHTS / 08 DAYS)",
-      "groupSize": "2 PAX",
-      "rating": 3.5,
-      "description": "A high-altitude Himalayan journey covering monasteries, mountain passes, lakes, and Indo-China border experiences. Highlights include Tawang Monastery, Sela Pass, Madhuri Lake, and spiritual visits in Guwahati including Kamakhya Temple.",
-      "images": [
-        "https://www.tourmyindia.com/states/assam/images/bamuni-hills1.jpg",
-        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/5c/0e/92/ancient-stone-sculpture.jpg?h=-1&s=1&w=1200",
-        "https://images.openai.com/static-rsc-4/mniYNTsliAy7vKCAUu6fK132v6GEADD99eHrNxkqqY7UywsMR2qSmBXuk6GJbWkik-iIK-irVhBmtZmD8dnP4ETaQIM9M65-pGGEZU2WoAiTm5B4xQm1-P7yrOStJQ9hGXW_zSkxPj2khv0koO9-wct3ySYEsJfBmrSRV9SBKb9e2jTnOGvVrOOn-t7GY71m?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/FW7Nxcl41Fh-VTcba-qpZAzVi9wIrLs9XpEVTLLBIA0rQY-bBkGxZb8b7m9k_lIb_VBSg3TjH-lFp1hhe7hZo0rpRtt28TWdpnY4WgG1dCQnK-l8P9CnvZlN-RUeq1yM9i1xA5Fw-zQ_2xw6uBmaegXqJKyjojpfU-Gwrs-2LImHEf2jRyEiiSmNzgGclA9r?purpose=fullsize",
-        "https://www.incredible-northeastindia.com/images/ap-head.jpg",
-        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/ca/48/04/well-designed-monestery.jpg?h=-1&s=1&w=1200"
-      ],
-      "inclusions": [
-        "Round-trip airfare from Mumbai to Guwahati",
-        "Accommodation on twin sharing basis",
-        "Meal plan (Breakfast & Dinner)",
-        "Exclusive A/C vehicle for transfers & sightseeing",
-        "All hotel taxes",
-        "Inner Line Permit (ILP)",
-        "Bumla Pass permit"
-      ],
-      "exclusions": [
-        "Airfare / Train fare",
-        "Personal expenses (laundry, tips, drinks, porterage)",
-        "Additional sightseeing / extra vehicle usage",
-        "Guide charges, entry fees & camera charges",
-        "VIP darshan charges",
-        "Costs due to natural calamities / roadblocks",
-        "Increase in fuel/taxes",
-        "Insurance",
-        "Anything not mentioned in inclusions"
-      ],
-      "itinerary": [],
-      "notes": []
     }
   ],
-  "lastUpdated": "2026-04-27T12:54:19.419Z",
-  "totalPackages": 33
+  "lastUpdated": "2026-02-24T13:21:34.452Z",
+  "totalPackages": 32
 }

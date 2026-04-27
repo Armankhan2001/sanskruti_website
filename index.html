@@ -8,6 +8,54 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <!-- AOS Animation -->
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+    .service-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 15px;
+        padding: 30px;
+        text-align: center;
+        background: #fff;
+    }
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+    .icon-box {
+        font-size: 3rem;
+        color: #0d6efd;
+        margin-bottom: 20px;
+    }
+
+    .services {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    transition: 0.3s;
+    border: 1px solid #ddd;
+}
+
+.service:hover {
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.service i {
+    font-size: 40px;
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+</style>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Poppins', sans-serif; background: #fdfdfd; color: #333; }
@@ -215,6 +263,7 @@
         font-size: 2rem;
       }
     }
+    
   </style>
 </head>
 
@@ -247,18 +296,25 @@
 <div class="section" data-aos="fade-up">
   <h2>Our Top Services</h2>
   <div class="services">
+    
     <div class="service">
+      <i class="fas fa-passport"></i>
       <h3>Visa Assistance</h3>
       <p>Get seamless visa approvals for UK, Canada, Europe, Dubai & more.</p>
     </div>
+
     <div class="service">
+      <i class="fas fa-suitcase-rolling"></i>
       <h3>Custom Tour Packages</h3>
       <p>Luxury tours & travel itineraries crafted specially for you.</p>
     </div>
+
     <div class="service">
+      <i class="fas fa-plane-departure"></i>
       <h3>Flight Bookings</h3>
       <p>Book international & domestic flights at the best prices.</p>
     </div>
+
   </div>
 </div>
 
@@ -282,25 +338,32 @@
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script>
   AOS.init();
-  const accessKey = 'LQ9FkUky9DVBryQ9sw5CPKU7U2G3siY7pilIEuJEyEU';
 
-  fetch(`https://api.unsplash.com/search/photos?query=vacation&per_page=6&client_id=${accessKey}`)
+  // Path ko hardcode karein taaki 'undefined' error na aaye
+  fetch('TravelVista/data/packages.json')
     .then(res => res.json())
     .then(data => {
       const packageGrid = document.getElementById('package-grid');
-      data.results.forEach((img, index) => {
+      
+      // JSON se packages array lein
+      let packages = data.packages; 
+
+      // .slice(-6) se sirf aakhri 6 packages milenge
+      const recentPackages = packages.slice(-8);
+
+      recentPackages.forEach(pkg => {
         const card = document.createElement('div');
         card.className = 'card';
-        const image = document.createElement('img');
-        image.src = img.urls.small;
-        const title = document.createElement('h3');
-        title.textContent = `Package ${index + 1}`;
-        card.appendChild(image);
-        card.appendChild(title);
+        card.innerHTML = `
+            <img src="${pkg.images[0]}" alt="${pkg.name}" style="width:100%; height:200px; object-fit:cover;">
+            <h3>${pkg.name}</h3>
+            <p>${pkg.location}</p>
+            <p>Price: ₹${pkg.price}</p>
+        `;
         packageGrid.appendChild(card);
       });
     })
-    .catch(err => console.error(err));
+    .catch(err => console.error('Error fetching data:', err));
 </script>
 
 </body>
