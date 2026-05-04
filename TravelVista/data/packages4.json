@@ -1233,52 +1233,7 @@
         "✖ GST (18% on INR payment)",
         "✖ Anything not mentioned in inclusions"
       ],
-      "itinerary": [
-        {
-          "title": "Arrival Cape Town",
-          "description": "Arrive in Cape Town, transfer to hotel and relax."
-        },
-        {
-          "title": "Cape Town City Tour",
-          "description": "City tour, Table Mountain cable car and helicopter ride."
-        },
-        {
-          "title": "Cape Peninsula Tour",
-          "description": "Hout Bay, Seal Island cruise, Chapman’s Peak, Cape of Good Hope, Penguin Colony."
-        },
-        {
-          "title": "Garden Route",
-          "description": "Drive via Hermanus to Mossel Bay."
-        },
-        {
-          "title": "Oudtshoorn",
-          "description": "Visit Cango Caves, Ostrich Farm and Wildlife Ranch."
-        },
-        {
-          "title": "Garden Route Highlights",
-          "description": "Knysna Waterfront, Bloukrans Bridge, scenic stops."
-        },
-        {
-          "title": "Johannesburg to Safari",
-          "description": "Fly to Johannesburg, transfer to Mabula Game Lodge and safari."
-        },
-        {
-          "title": "Sun City",
-          "description": "Morning safari, transfer to Sun City."
-        },
-        {
-          "title": "Sun City Activities",
-          "description": "Valley of Waves, Lion Walk and leisure activities."
-        },
-        {
-          "title": "Johannesburg",
-          "description": "Return to Johannesburg and city orientation."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer to airport for return journey."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
@@ -1317,32 +1272,7 @@
         "✖ Personal expenses",
         "✖ Anything not mentioned in inclusions"
       ],
-      "itinerary": [
-        {
-          "title": "Arrival Mahe",
-          "description": "Transfer to hotel."
-        },
-        {
-          "title": "Mahe to Praslin",
-          "description": "Ferry transfer and leisure."
-        },
-        {
-          "title": "Praslin",
-          "description": "Relax and explore beaches."
-        },
-        {
-          "title": "Back to Mahe",
-          "description": "Return ferry and leisure."
-        },
-        {
-          "title": "Mahe Exploration",
-          "description": "Self-drive and semi-submarine experience."
-        },
-        {
-          "title": "Departure",
-          "description": "Return flight."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
@@ -1383,48 +1313,7 @@
         "✔ Orientation tours: Lucerne, Interlaken & Innsbruck"
       ],
       "exclusions": [],
-      "itinerary": [
-        {
-          "title": "Arrival in Paris",
-          "description": "Arrive in Paris, transfer to hotel and relax."
-        },
-        {
-          "title": "Paris Sightseeing",
-          "description": "Guided city tour, visit Eiffel Tower and enjoy Seine River cruise."
-        },
-        {
-          "title": "Disneyland Paris",
-          "description": "Full day visit to Disneyland Paris."
-        },
-        {
-          "title": "Paris to Switzerland",
-          "description": "Travel to Switzerland via scenic route."
-        },
-        {
-          "title": "Mt. Titlis Excursion",
-          "description": "Visit Mt. Titlis via cable car and enjoy snow experiences."
-        },
-        {
-          "title": "Jungfraujoch",
-          "description": "Excursion to Jungfraujoch – Top of Europe."
-        },
-        {
-          "title": "Switzerland to Innsbruck",
-          "description": "Visit Liechtenstein and continue to Innsbruck, Austria."
-        },
-        {
-          "title": "Innsbruck to Venice",
-          "description": "Visit Swarovski Crystal Museum and enjoy Gondola ride in Venice."
-        },
-        {
-          "title": "Venice to Pisa",
-          "description": "Visit Leaning Tower of Pisa."
-        },
-        {
-          "title": "Departure from Rome",
-          "description": "Transfer to airport for return journey."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
@@ -1468,36 +1357,7 @@
         "✖ Flight changes / weather disruptions",
         "✖ Personal expenses"
       ],
-      "itinerary": [
-        {
-          "title": "Arrival Nairobi",
-          "description": "Transfer to Aberdares."
-        },
-        {
-          "title": "Aberdares to Masai Mara",
-          "description": "Drive and safari game drive."
-        },
-        {
-          "title": "Masai Mara Safari",
-          "description": "Full day wildlife safari."
-        },
-        {
-          "title": "Lake Naivasha",
-          "description": "Boat ride and Crescent Island visit."
-        },
-        {
-          "title": "Naivasha Experience",
-          "description": "Hell’s Gate National Park and spa."
-        },
-        {
-          "title": "Nairobi City Tour",
-          "description": "Visit museum, gardens, city landmarks."
-        },
-        {
-          "title": "Departure",
-          "description": "Return journey."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
@@ -1537,52 +1397,7 @@
         "✔ 500ml Mineral Water Daily"
       ],
       "exclusions": [],
-      "itinerary": [
-        {
-          "title": "Arrival in Paris",
-          "description": "Arrive in Paris, transfer to hotel and relax."
-        },
-        {
-          "title": "Paris Sightseeing",
-          "description": "Guided city tour, visit Eiffel Tower and enjoy Seine River cruise."
-        },
-        {
-          "title": "Disneyland Paris",
-          "description": "Full day visit to Disneyland Paris."
-        },
-        {
-          "title": "Paris to Switzerland",
-          "description": "Travel to Switzerland and enjoy scenic journey."
-        },
-        {
-          "title": "Mt. Titlis Excursion",
-          "description": "Visit Mt. Titlis via cable car and enjoy snow activities."
-        },
-        {
-          "title": "Jungfraujoch",
-          "description": "Excursion to Jungfraujoch – Top of Europe."
-        },
-        {
-          "title": "Switzerland to Innsbruck",
-          "description": "Visit Liechtenstein and continue to Innsbruck."
-        },
-        {
-          "title": "Innsbruck to Venice",
-          "description": "Visit Swarovski Museum and enjoy Gondola ride in Venice."
-        },
-        {
-          "title": "Venice to Florence & Pisa",
-          "description": "Visit Leaning Tower of Pisa and Florence viewpoints."
-        },
-        {
-          "title": "Rome & Vatican",
-          "description": "Visit Colosseum, Trevi Fountain and St. Peter’s Basilica."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer to airport for return journey."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
@@ -1631,60 +1446,7 @@
         "Daily 500ml Mineral Wate"
       ],
       "exclusions": [],
-      "itinerary": [
-        {
-          "title": "Arrival in Paris",
-          "description": "Arrive and check-in to hotel."
-        },
-        {
-          "title": "Paris Sightseeing",
-          "description": "City tour, Eiffel Tower, Seine River cruise."
-        },
-        {
-          "title": "Disneyland Paris",
-          "description": "Full day at Disneyland Paris."
-        },
-        {
-          "title": "Paris to Brussels",
-          "description": "Visit Atomium, Grand Place, continue to Netherlands."
-        },
-        {
-          "title": "Netherlands",
-          "description": "Keukenhof / Zaanse Schans and canal cruise."
-        },
-        {
-          "title": "Germany",
-          "description": "Black Forest, Titisee Lake, Rhine Falls."
-        },
-        {
-          "title": "Switzerland - Mt Titlis",
-          "description": "Excursion to Mt Titlis."
-        },
-        {
-          "title": "Switzerland - Jungfraujoch",
-          "description": "Visit Jungfraujoch."
-        },
-        {
-          "title": "Austria",
-          "description": "Visit Innsbruck and Swarovski Museum."
-        },
-        {
-          "title": "Venice",
-          "description": "Gondola ride in Venice."
-        },
-        {
-          "title": "Florence & Pisa",
-          "description": "Visit Pisa and Florence."
-        },
-        {
-          "title": "Rome & Vatican",
-          "description": "Visit Rome landmarks and Vatican."
-        },
-        {
-          "title": "Departure",
-          "description": "Return journey."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
@@ -1731,68 +1493,7 @@
         "500ml Mineral Water Daily"
       ],
       "exclusions": [],
-      "itinerary": [
-        {
-          "title": "Arrival in London",
-          "description": "Arrive in London, transfer to hotel, check-in and relax."
-        },
-        {
-          "title": "London City Tour",
-          "description": "Guided tour, Madame Tussauds, Tower of London, London Eye."
-        },
-        {
-          "title": "London to Paris",
-          "description": "Eurostar train to Paris and evening illumination tour."
-        },
-        {
-          "title": "Paris Sightseeing",
-          "description": "City tour, Eiffel Tower (3rd level), Seine River cruise."
-        },
-        {
-          "title": "Disneyland Paris",
-          "description": "Full day at Disneyland Paris."
-        },
-        {
-          "title": "Paris to Brussels",
-          "description": "Visit Mini-Europe, Atomium, Grand Place, continue to Netherlands."
-        },
-        {
-          "title": "Netherlands",
-          "description": "Visit Keukenhof / Zaanse Schans and Amsterdam canal cruise."
-        },
-        {
-          "title": "Germany",
-          "description": "Black Forest visit, Titisee Lake, Rhine Falls."
-        },
-        {
-          "title": "Switzerland - Mt Titlis",
-          "description": "Excursion to Mt Titlis via cable car."
-        },
-        {
-          "title": "Switzerland - Jungfraujoch",
-          "description": "Visit Jungfraujoch - Top of Europe."
-        },
-        {
-          "title": "Liechtenstein & Austria",
-          "description": "Visit Vaduz and Innsbruck."
-        },
-        {
-          "title": "Venice",
-          "description": "Gondola ride and Venice exploration."
-        },
-        {
-          "title": "Florence & Pisa",
-          "description": "Visit Leaning Tower of Pisa and Florence viewpoints."
-        },
-        {
-          "title": "Rome & Vatican",
-          "description": "Visit Colosseum, Trevi Fountain, St. Peter’s Basilica."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer to airport for return journey."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
@@ -1836,40 +1537,7 @@
         "500 ml Mineral Water Bottle Daily"
       ],
       "exclusions": [],
-      "itinerary": [
-        {
-          "title": "Arrival Vienna",
-          "description": "Check-in and leisure."
-        },
-        {
-          "title": "Vienna Tour",
-          "description": "City tour and Schönbrunn Palace."
-        },
-        {
-          "title": "Budapest",
-          "description": "City tour and Danube River cruise."
-        },
-        {
-          "title": "Budapest",
-          "description": "Visit Szentendre."
-        },
-        {
-          "title": "Bratislava to Prague",
-          "description": "Orientation tour and transfer."
-        },
-        {
-          "title": "Prague",
-          "description": "City tour."
-        },
-        {
-          "title": "Salzburg",
-          "description": "Visit Salzburg and Hallstatt."
-        },
-        {
-          "title": "Departure",
-          "description": "Return journey."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
@@ -1954,52 +1622,7 @@
         "500 ml Mineral Water Daily"
       ],
       "exclusions": [],
-      "itinerary": [
-        {
-          "title": "Hanoi to Sapa",
-          "description": "Arrival, transfer to Sapa, visit Cat Cat Village."
-        },
-        {
-          "title": "Sapa Exploration",
-          "description": "Fansipan cable car, glass bridge visit."
-        },
-        {
-          "title": "Sapa to Hanoi",
-          "description": "Return to Hanoi and city tour."
-        },
-        {
-          "title": "Halong Bay",
-          "description": "Cruise and cave exploration."
-        },
-        {
-          "title": "Danang",
-          "description": "Flight to Danang, Coconut village, Hoi An."
-        },
-        {
-          "title": "Bana Hills",
-          "description": "Visit Bana Hills, Golden Bridge."
-        },
-        {
-          "title": "Phu Quoc",
-          "description": "Flight to Phu Quoc, explore Grand World."
-        },
-        {
-          "title": "Safari & Theme Park",
-          "description": "Vinpearl Safari and VinWonders."
-        },
-        {
-          "title": "Island Tour",
-          "description": "4 islands tour and cable car ride."
-        },
-        {
-          "title": "Ho Chi Minh City",
-          "description": "City tour and shopping."
-        },
-        {
-          "title": "Departure",
-          "description": "Return flight."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
@@ -2037,25 +1660,23 @@
         "Any sightseeing not mentioned in itinerary",
         "Anything not specifically mentioned under “Package Includes”"
       ],
-      "itinerary": [
-        {
-          "title": "Arrival Agatti",
-          "description": "Island sightseeing and beach relaxation."
-        },
-        {
-          "title": "Thinnakara Island",
-          "description": "Boat trip and island exploration."
-        },
-        {
-          "title": "Water Sports",
-          "description": "Snorkeling, diving, optional activities."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer to airport."
-        }
-      ],
-      "notes": []
+      "itinerary": [],
+      "notes": [
+        "Package valid till 31st March only.",
+        "Prices are subject to change without prior notice.",
+        "Permit approval is mandatory and subject to Lakshadweep Administration policies.",
+        "A minimum of 12–15 working days is required for permit processing.",
+        "Required documents for permit:",
+        "Passport size photo",
+        "Aadhar Card / Election ID / Passport copy",
+        "Police Clearance Certificate (PCC)",
+        "Contact details (Phone & Email) of issuing Police Station",
+        "Island trips (Thinnakara/Sand Bank) are subject to weather conditions.",
+        "Water sports activities are optional and payable directly at the resort.",
+        "Check-in and check-out timings as per hotel policy.",
+        "No refund for unused services or early check-out.",
+        "In case of flight cancellation or delay, additional stay cost will be borne by the guest."
+      ]
     },
     {
       "id": "pkg_1771936454353_bv8wy",
@@ -2096,34 +1717,13 @@
         "Personal Expenses (Laundry, Tips, etc.)",
         "Anything not mentioned in “Includes”"
       ],
-      "itinerary": [
-        {
-          "title": "Arrival",
-          "description": "Transfer from Agatti to Kavaratti."
-        },
-        {
-          "title": "Island Activities",
-          "description": "Water sports and sightseeing."
-        },
-        {
-          "title": "Leisure",
-          "description": "Relax and explore island."
-        },
-        {
-          "title": "Excursions",
-          "description": "Optional island tours."
-        },
-        {
-          "title": "Departure",
-          "description": "Return via Agatti."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
       "id": "pkg_1771938726317_on415",
       "name": "BHUTAN SUMMER 2026 - 09TH & 11TH MAY",
-      "category": "group",
+      "category": "domestic",
       "location": "BHUTAN",
       "destinations": "BHUTAN",
       "price": 73500,
@@ -2167,36 +1767,7 @@
         "Any increase in fuel price, taxes, or government charges",
         "Anything not specifically mentioned under inclusions"
       ],
-      "itinerary": [
-        {
-          "title": "Arrival in Paro",
-          "description": "Arrive in Paro, transfer to Thimphu and check-in at hotel."
-        },
-        {
-          "title": "Thimphu Sightseeing",
-          "description": "Visit Buddha Dordenma, Memorial Chorten, Tashichho Dzong and local markets."
-        },
-        {
-          "title": "Thimphu to Punakha",
-          "description": "Drive via Dochula Pass, visit Punakha Dzong and suspension bridge."
-        },
-        {
-          "title": "Punakha to Paro",
-          "description": "Return to Paro and visit local attractions."
-        },
-        {
-          "title": "Tiger’s Nest Monastery",
-          "description": "Hike to Taktsang Monastery (Tiger’s Nest), Bhutan’s most iconic site."
-        },
-        {
-          "title": "Paro Sightseeing",
-          "description": "Visit Paro Dzong, National Museum and explore town."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer to airport for return journey."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
@@ -2250,978 +1821,53 @@
         "Any increase in airfare, fuel surcharge, or taxes before departure",
         "Anything not specifically mentioned under inclusion"
       ],
-      "itinerary": [
-        {
-          "title": "Arrival in Paro – Transfer to Thimphu",
-          "description": "Arrive at Paro Airport, meet & greet, and transfer to Thimphu. Check into luxury hotel and relax or take a leisure walk around the city."
-        },
-        {
-          "title": "Thimphu Sightseeing",
-          "description": "Visit Buddha Dordenma, National Memorial Chorten, Folk Heritage Museum, Sangaygang View Point, Takin Preserve Centre, Changangkha Lhakhang, and Tashichho Dzong."
-        },
-        {
-          "title": "Thimphu to Punakha/Wangdue",
-          "description": "Drive to Punakha via Dochu-La Pass. Visit Punakha Dzong and hike to Chhimi Lhakhang (Temple of Fertility)."
-        },
-        {
-          "title": "Excursion to Gangtey / Phobjikha Valley",
-          "description": "Full-day excursion to Gangtey Valley. Visit Gangtey Goemba and explore the scenic Phobjikha Valley, known for black-necked cranes."
-        },
-        {
-          "title": "Punakha to Paro",
-          "description": "Drive to Paro via Lamperi (Royal Botanical Park). Visit Ta Dzong (National Museum) and Rinpung Dzong. Evening at leisure in premium stay."
-        },
-        {
-          "title": "Excursion to Tiger’s Nest Monastery",
-          "description": "Hike to Taktshang Monastery (Tiger’s Nest). Later visit Drukgyel Dzong ruins and Kichu Lhakhang temple."
-        },
-        {
-          "title": "Excursion to Chele-La Pass",
-          "description": "Drive to Chele-La Pass for panoramic Himalayan views. Visit Kila Goemba and return to Paro for leisure and shopping."
-        },
-        {
-          "title": "Departure from Paro",
-          "description": "Check out from hotel and transfer to Paro Airport for onward journey."
-        }
-      ],
+      "itinerary": [],
       "notes": []
     },
     {
-      "id": "pkg_1777717422349_vroi0",
-      "name": "GLIMPSE OF KERALA",
+      "id": "pkg_1777294450687_4icfu",
+      "name": "ASSAM – ARUNACHAL PRADESH",
       "category": "domestic",
-      "location": "Kochi – Munnar – Thekkady – Alleppey – Kovalam – Thiruvananthapuram",
-      "destinations": "KERALA",
-      "price": 21000,
-      "originalPrice": null,
-      "duration": "06N07D",
-      "groupSize": "",
-      "rating": 4.5,
-      "description": "Experience the best of Kerala with this comprehensive tour covering lush hill stations, exotic wildlife, tranquil backwaters, and serene beaches. Explore tea gardens in Munnar, wildlife at Periyar National Park, enjoy a houseboat cruise in Alleppey, and relax on the beaches of Kovalam.",
-      "images": [
-        "https://images.openai.com/static-rsc-4/irirEQ0UwpAoLsy5ex-_EI-_7u8VMlaCh465hir4Epqis0ArLEPQh0txYQKhxSSlcLvKQsOfCfWPg6gNJRTs_QydS50KrAUONzXW_B198-q5xyrC5t2Ul_oakHJfjrEG5la5n6pQCXIcqStL_t9akwpthR-AwT52kIuW6lvimlqn1WW3gyG9J1Q4j65298Zg?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/PoN3ABf82Nx3uCjbLoeZ1rsifwHklO60gfBkxRONls4oW3YuZ3pPN51TQpXkYHdyPTKf5XK56-j9UkVgT2gLgM9WyiKkRT4Tr2LoOnd-lQbZ-mNA5L0UDYZVi6Io-YRqz-hSfU2tNAW_Jj21EU363zYhK2uQl8eJZbXz4Vr6rgTGKr6ihySibsN9h8o84HGi?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/fIw5KIoI8Ks27Kk4BQASdl5DqA46pMp6I-3dIfN8OGjXWt-bbaq35F72OLHXd2FKB9J_IRmgrvaoKNXA1Znkqw2CY_qqwS8vAxqWGOU36zrjNfLC7yRjzefyPoETDfRzWHJJPbMM3PAiFxZwV9lumptw05TU7HEIqkNy9JVjKamQbIujTG57DBH-JN9UHM-Z?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/IXKPo3kvo7QckX2E167tTdnc1PVIaR4k2ZWkgDlEqYF2HHjHoV_ZdKBVhBXYFPWtqzfCD-65rrUwzU6Br8w9hrrqQ_D68TbSRnS1lzNWJ2Uzpqu2ZBoQSbJcWSH1767WAem2aLkSgekLer41clwkpNkN5HLtU5xy9QL6rfhbBtN83GBwGQ32u99gRUwtZ4gd?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/R7wcqt6sbN1pWa77CThmp6VLoP243e3-PHVV_HjnI9-SWp5IdT0kt7Hl99S8Rsf71JjZqnWRDR2Fu8khRBN1ne-u3yZucOxuCeAt2qkyKV8lU4cOtlcaetfdcg0eqgdMcUE3_o5Q9XhoFV8Nht4O7oTImSRBTiq03DMp5OLdpvPhfqCEoZWZadztTr6vfgKZ?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/5BnmcqDr4cwmilXx5GAsTXumsoEoSf-jrhgab3Y861XbaW6F3rfoX9yzQ65_haJHhHouByOiP2_bRD_3LDWs79vdG1HnLGjT6IHntmEpQRA7xD5o4Eh-OFgcyZsSgLJY5dgmi18nSIBTKW5-IZqWdQXMMZjDGJAHQOAq3zSE3hSJqo7yQucCzU5IULBSVCOd?purpose=fullsize"
-      ],
-      "inclusions": [
-        "Accommodation in well-appointed hotels on twin sharing basis",
-        "Daily breakfast at all hotels",
-        "Houseboat stay in Alleppey with all meals",
-        "Private A/C vehicle for transfers and sightseeing",
-        "All toll taxes, parking charges, and driver allowance",
-        "All applicable hotel taxes"
-      ],
-      "exclusions": [
-        "Airfare or train tickets",
-        "Entry fees to monuments, parks, and attractions",
-        "Guide and escort charges",
-        "Personal expenses such as laundry, tips, beverages, and shopping",
-        "Additional sightseeing or vehicle usage not mentioned",
-        "Travel insurance",
-        "Anything not specifically mentioned in inclusions"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival in Kochi",
-          "description": "Arrive in Kochi. Check into hotel. Visit Fort Kochi, Chinese fishing nets, and Marine Drive. Evening at leisure."
-        },
-        {
-          "title": "Kochi to Munnar",
-          "description": "Drive to Munnar through scenic hills. En route visit waterfalls and tea plantations. Check into hotel and relax."
-        },
-        {
-          "title": "Munnar Sightseeing",
-          "description": "Visit Eravikulam National Park, Mattupetty Dam, Echo Point, and tea gardens. Enjoy cool hill station climate."
-        },
-        {
-          "title": "Munnar to Thekkady",
-          "description": "Drive to Thekkady. Visit spice plantations and enjoy optional Kathakali show in evening."
-        },
-        {
-          "title": "Thekkady Exploration",
-          "description": "Visit Periyar National Park. Enjoy optional boat safari and explore local markets."
-        },
-        {
-          "title": "Thekkady to Alleppey",
-          "description": "Drive to Alleppey. Check into houseboat and enjoy backwater cruise with meals onboard."
-        },
-        {
-          "title": "Alleppey to Kovalam",
-          "description": "Drive to Kovalam. Check into beach resort and relax by the sea."
-        },
-        {
-          "title": "Kovalam Leisure",
-          "description": "Visit Lighthouse Beach and Hawa Beach. Enjoy relaxation and beach activities."
-        },
-        {
-          "title": "Kovalam to Trivandrum",
-          "description": "Visit Padmanabhaswamy Temple and local attractions. Evening leisure."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer to Trivandrum airport. Tour concludes with Kerala memories."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777717823976_fkru5",
-      "name": "GETAWAY TO KERALA",
-      "category": "domestic",
-      "location": "Kochi – Munnar – Thekkady – Alleppey",
-      "destinations": "KERALA",
-      "price": 20040,
-      "originalPrice": null,
-      "duration": "05N 06D",
-      "groupSize": "2PAX",
-      "rating": 3.5,
-      "description": "A short yet fulfilling Kerala escape covering misty hills, wildlife experiences, and serene backwaters. Ideal for a quick relaxing holiday.",
-      "images": [
-        "https://images.openai.com/static-rsc-4/EDELU3tTpIzFxVA0SMAP-40vpZzS--FoxWdwcNeJPzyk0_YTfT7M1v70v66r77JorrKu0pQQL3bGPfuHGtYGdzVZFIMZL4ANEdJkcJEmpQlcP5_quqs2rNTTRwAuxFy5qX_aBfaODGMy4JJbKC3KSdLr0M1NT00bpQTjzhesUxEK3OZ-UUwLU4GmjI0jWmqL?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/hnWrGq30SW2NiAUU7XQz_DsFoQrHC423-BIGW09bOuRAGmthQLrRXJav5K6uI4emaDWmST417yy7UOAKz8pFmmgAw94fqKsjzmbmV4Aa2SrO8urzuG58U4h9QRMCRwTe4vITb2tVMx9vYHnBv4Hx6GJlLLcyVX0yajKAiAykxGJPRtDelvPh5cHbtlgIwE2u?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/LZj5AdvGXuFDYF2WaqFkth2lV2Lk4nIk7HuJJU7mVWH2FB-oJXTODFVql5b_HVLs4qEQ-pnFCD3MGLA9wLV7Mjg0gpr_8FSbFNluNbMtXyxOvz7MJpe0ECcs_7GrqJGVIy3YqhEzXvDw7s_ugPaXIaGKHnRLgQn6FQ7yo_2P-vV88r_Eg90yWNhBdhgwAJCp?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/R7wcqt6sbN1pWa77CThmp6VLoP243e3-PHVV_HjnI9-SWp5IdT0kt7Hl99S8Rsf71JjZqnWRDR2Fu8khRBN1ne-u3yZucOxuCeAt2qkyKV8lU4cOtlcaetfdcg0eqgdMcUE3_o5Q9XhoFV8Nht4O7oTImSRBTiq03DMp5OLdpvPhfqCEoZWZadztTr6vfgKZ?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/PGWXWR4p7QL2RGUvZnQeJvleli9_C9Zy1q8vT2GUFET1ai0_j9jZmlOZSmTcLun7gWN4JWilffuY_5MuVZeCjI_UzxjSid2q_YoVHfA2NjK7aNh1-E3U3uZFkfBq_FuoQzCiduny-19yYCW_8og-ce1gPE5QoJqFhik13N6GMkpJx2X4Pj4pymfGVKXZWBOe?purpose=fullsize"
-      ],
-      "inclusions": [
-        "Accommodation on twin sharing basis",
-        "Daily breakfast",
-        "Houseboat stay in Alleppey with meals",
-        "Private A/C vehicle for transfers and sightseeing",
-        "Toll taxes, parking, and driver allowance",
-        "Hotel taxes"
-      ],
-      "exclusions": [
-        "Airfare or train tickets",
-        "Entry fees and guide charges",
-        "Personal expenses",
-        "Extra sightseeing or transport usage",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Munnar",
-          "description": "Arrive at Kochi and drive to Munnar. Visit waterfalls and tea plantations. Check into hotel."
-        },
-        {
-          "title": "Munnar Sightseeing",
-          "description": "Visit Eravikulam National Park, Mattupetty Dam, Echo Point, and scenic tea gardens."
-        },
-        {
-          "title": "Munnar to Thekkady",
-          "description": "Drive to Thekkady. Visit spice plantation and enjoy optional cultural shows."
-        },
-        {
-          "title": "Thekkady to Alleppey",
-          "description": "Drive to Alleppey. Check into houseboat and enjoy backwater cruise."
-        },
-        {
-          "title": "Alleppey to Kochi",
-          "description": "Drive to Kochi. Visit Fort Kochi and local attractions."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer to Kochi airport for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777718567181_kpryp",
-      "name": "ASSAM – ARUNACHAL FIX Departure : 29 May 2026(8D)",
-      "category": "group",
-      "location": "Guwahati – Tezpur – Dirang – Tawang – Bomdila",
-      "destinations": "ARUNACHAL",
+      "location": "Guwahati + Tezpur + Dirang + Tawang + Bomdila",
+      "destinations": " ARUNACHAL PRADESH",
       "price": 77999,
       "originalPrice": null,
-      "duration": "07N 08D",
-      "groupSize": "2PAX",
+      "duration": "(07 NIGHTS / 08 DAYS)",
+      "groupSize": "2 PAX",
       "rating": 3.5,
-      "description": "\n\n\nAn adventurous Himalayan journey featuring high-altitude passes, ancient monasteries, and breathtaking landscapes. Visit iconic sites like Tawang Monastery and Sela Pass.\n",
+      "description": "A high-altitude Himalayan journey covering monasteries, mountain passes, lakes, and Indo-China border experiences. Highlights include Tawang Monastery, Sela Pass, Madhuri Lake, and spiritual visits in Guwahati including Kamakhya Temple.",
       "images": [
-        "https://images.openai.com/static-rsc-4/ppUcDpZBNLoZlWSizKrPrlZOJ4ZbUffC2LWVViyktdqDuuLB6sTTngxlyPXC9Eyqf1ur2XhK4Z1nPsCe2C5d8k6XR151-wAa7jN2ww32mBZAZ7FcD4mnxabzdfddK61Q6Gz3QAKf2r99ZYV5qmJ2hIPcJyQ9XfeRLaIZeuBRt3b1XrHpP0UFkrleNr86vXAC?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/VZknfF1AGcWn298NHT-BIWrQCzBEB9jnSyyTtI9Me3v5F7EVt00T0ogo5VTC9HCtG2gWS5UMMAlwv01vvsTt5QVmuUcWGNWpUugaK-dxPW48dqiNhPG8CvV7wxHI7X9LggPWF_vY06sou44Gm8BhG0HwXhso881z_i4tgcSIFBjftvnfOHucFfTwvjDB7rTO?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/o3iIlgrCXCNgRqPz-HAzZQBsl5WpAZb1fG-1rleDXQh9f-Fk1AEuvFr-_tv-FbMHILdsbg29TFDdZm76AOdN5c4tuizfmUQr5GdIZu7XzHJo3UOXGGYvqVy5vLyAC1b8WZk-fZF_vcubbl8TEKq_fNvq5wYPdGIxhLcDzg66zKvKu9rB1KubaWqrXeCjL4PI?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/hUvIc4PKeHrjnnypuIRWdCYtxIidKvxKYVXPXiybPZAuM0Tlc-Y_8S3xr8SvDu3Gce09zyhsD48YuP0KCLanA-d9YyRr81qTrEg1GREUBc3_1KChetatJ9_B3kn2yhSJNyf0neACyPyd4jD5OM2W_yZIr-OGcXpchuJsDeuhQnqam1Qd8h7jQ30mq0zzf1GC?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/C34mHKBuu-ThD2kOPb_t6X1Y4C5zvMYpO2M6pxkugfBaFnZLdCh5EizPA_jbZuRGMNfDUNXq-jSJ2VaHYrx-G3PZ7fTL-uHhWvt-6Ub8EDxlr15WcUA65dmpkTC6MWGJ-RgF9-tSOydSxwUbVWiW6mr27cFu5-SIzRFPJUWdrLUbHYytSFEi5lS5kqtun8hn?purpose=fullsize",
+        "https://www.tourmyindia.com/states/assam/images/bamuni-hills1.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/5c/0e/92/ancient-stone-sculpture.jpg?h=-1&s=1&w=1200",
+        "https://images.openai.com/static-rsc-4/mniYNTsliAy7vKCAUu6fK132v6GEADD99eHrNxkqqY7UywsMR2qSmBXuk6GJbWkik-iIK-irVhBmtZmD8dnP4ETaQIM9M65-pGGEZU2WoAiTm5B4xQm1-P7yrOStJQ9hGXW_zSkxPj2khv0koO9-wct3ySYEsJfBmrSRV9SBKb9e2jTnOGvVrOOn-t7GY71m?purpose=fullsize",
+        "https://images.openai.com/static-rsc-4/FW7Nxcl41Fh-VTcba-qpZAzVi9wIrLs9XpEVTLLBIA0rQY-bBkGxZb8b7m9k_lIb_VBSg3TjH-lFp1hhe7hZo0rpRtt28TWdpnY4WgG1dCQnK-l8P9CnvZlN-RUeq1yM9i1xA5Fw-zQ_2xw6uBmaegXqJKyjojpfU-Gwrs-2LImHEf2jRyEiiSmNzgGclA9r?purpose=fullsize",
         "https://www.incredible-northeastindia.com/images/ap-head.jpg",
-        "https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_c_fill_q_auto%3Agood_f_auto_w_800_h_500/v1531917006/Guwahati789765_1531916402.jpg",
-        "https://s7ap1.scene7.com/is/image/incredibleindia/bamuni-hills-tezpur-assam-1-attr-hero?qlt=82&ts=1751459128630"
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/ca/48/04/well-designed-monestery.jpg?h=-1&s=1&w=1200"
       ],
       "inclusions": [
+        "Round-trip airfare from Mumbai to Guwahati",
         "Accommodation on twin sharing basis",
-        "Daily breakfast and dinner",
-        "Private vehicle for entire journey",
-        "Inner Line Permit (ILP) and Bumla Pass permit",
-        "All hotel taxes"
+        "Meal plan (Breakfast & Dinner)",
+        "Exclusive A/C vehicle for transfers & sightseeing",
+        "All hotel taxes",
+        "Inner Line Permit (ILP)",
+        "Bumla Pass permit"
       ],
       "exclusions": [
-        "Airfare or train fare",
-        "Entry fees and guide charges",
-        "Personal expenses",
-        "Travel insurance",
-        "Expenses due to natural disruptions"
+        "Airfare / Train fare",
+        "Personal expenses (laundry, tips, drinks, porterage)",
+        "Additional sightseeing / extra vehicle usage",
+        "Guide charges, entry fees & camera charges",
+        "VIP darshan charges",
+        "Costs due to natural calamities / roadblocks",
+        "Increase in fuel/taxes",
+        "Insurance",
+        "Anything not mentioned in inclusions"
       ],
-      "itinerary": [
-        {
-          "title": "Arrival to Tezpur",
-          "description": "Arrive at Guwahati and drive to Tezpur. Check into hotel and relax."
-        },
-        {
-          "title": "Tezpur to Dirang",
-          "description": "Drive to Dirang. Visit Tipi Orchidarium, monasteries, and local farms."
-        },
-        {
-          "title": "Dirang to Tawang",
-          "description": "Drive via Sela Pass. Visit Sela Lake, Jaswant Garh, and Nuranng Falls."
-        },
-        {
-          "title": "Tawang Sightseeing",
-          "description": "Visit Tawang Monastery, War Memorial, and local monasteries."
-        },
-        {
-          "title": "Madhuri Lake & Bumla Pass",
-          "description": "Excursion to Madhuri Lake and Bumla Pass near Indo-China border."
-        },
-        {
-          "title": "Tawang to Bomdila",
-          "description": "Drive to Bomdila. Visit monasteries and local market."
-        },
-        {
-          "title": "Bomdila to Guwahati",
-          "description": "Drive to Guwahati. Check into hotel and relax."
-        },
-        {
-          "title": "Guwahati Sightseeing & Departure",
-          "description": "Visit Kamakhya Temple and local attractions. Transfer for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777719373362_0vg7q",
-      "name": "SEA SHORE OF ODISHA",
-      "category": "domestic",
-      "location": "Puri – Konark – Bhubaneswar – Gopalpur",
-      "destinations": "ODISHA",
-      "price": 30600,
-      "originalPrice": null,
-      "duration": "5N-6D",
-      "groupSize": "2PAX",
-      "rating": 3.5,
-      "description": "A culturally rich journey through Odisha’s spiritual and coastal highlights. Visit the sacred Jagannath Temple in Puri, explore the architectural marvel of Konark Sun Temple, and discover ancient temples and caves in Bhubaneswar. The tour also includes scenic coastal experiences at Gopalpur and Chilika Lake.",
-      "images": [
-        "https://images.openai.com/static-rsc-4/M_S8vWc0wNbBn8_AolBHTHvxP2MN89ukLIdYRT4qkWkbr6UhEREgR87nBf_v5LW_5PK_q-YbZY6-9EB2JhAipYiE5D9ZokNvtWq2fVU0ZpA-4pO0cH1ippIAob393VdwWhfpDFFIneW-qd31lymgpml1Uu6kW0aLQPqP5qp5CzOHfc1bNskhFApvAcfWWqDg?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/8Y07Md7Kd0FWCHFIfXypjHKPUyyaBjyu6BsLornvNL2u0cvNGhzrlbznqTEoDWmVzYBqpfLJXCFF0c24AUWm8nwbkx7XsISVeXaKW0T9KgVzMs47ECG7aooQBAxJwX1k5_WrYPBJNFEVVN2UMMUZ7QfX80nr_nYhEpJHjiAuTjZ63zpYHr5Lgf3RrQrbYNy0?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/O8hU9qtJSYAYHgCn7xEUM063YrGNLs2FbSq829SFtQP3HbkeBTQHmHVhceOU-fYDvC8OBzjXWqFtcObHbXn8ftkwIVaXXkO79YI4bsYY2vEtIk-GzyD1--qkcRKQXRtppq4EfMKVq5vAtzAg4ltBJTfGgcT2YMyNPcNy1KWaMQl19dxqFubDEKW8d5IQJMqi?purpose=fullsize",
-        "https://bhubaneswartourism.in/images/places-to-visit/headers/lingaraja-temple-bhubaneswar-tourism-entry-fee-timings-holidays-reviews-header.jpg",
-        "https://bhubaneswartourism.in/images/places-to-visit/headers/udayagiri-and-khandagiri-caves-bhubaneswar-tourism-entry-fee-timings-holidays-reviews-header.jpg",
-        "https://images.openai.com/static-rsc-4/gG5FBHmQdRsHPsuOwAAT1B_c7T1CXD1tBhwJyIqko4pU2qpr6EZ9L_MymCcisSgv4H26_G8S3Gqe4HjJCa6BrWeepfHlsdYMN0kiLCBiWR-QGAiyeSJB_-WW1GrVHtYab5d7zbdymqibe-9I8dW8LsPnq5Klv-xSWSUyR9sS-1rNpCK78LPaPxY88LvLtwRC?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/-4W6ImsTyL-rajo2w75NLJ-0AijhLEKBHQo-VYX7LSheysnMB0_FInJzMmCf6XzsWUykYpXr12V8lje9cNJ7JFGQZU-bk_3ip70IlN-UYMzL5SZG4Ie8aiwcOI4FxE621F6ibCAstw9DqtXaGv6a_nqTHjWyiXQKXtugn4gpMbg0i0LA2kJH5Y7xz-KKV8Hw?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/WsWDR2dXcTvTkuTIiSYtMe5N_lSpoQBKJG7Rzc2drjXXGDaLSr4ygYp-8FMjq0RF44YFon_0e14Nkp-oLxKtnnufohZgSW0-1oKY5QwKVDn-S_TJyJtXm8l0LvcEf6FFtuL9PXWAAhBsh-7fuhW1cKRSvLAPJ9xUBcWwyr0iApb81s9CWe9jnXkvx-HGMNTy?purpose=fullsize"
-      ],
-      "inclusions": [
-        "Accommodation in standard hotels on twin sharing basis",
-        "Daily breakfast at all hotels",
-        "Private vehicle for transfers and sightseeing",
-        "All toll, parking, and driver allowance",
-        "All applicable hotel taxes"
-      ],
-      "exclusions": [
-        "Airfare or train fare",
-        "Entry fees to monuments and attractions",
-        "Guide charges",
-        "Personal expenses",
-        "Additional sightseeing not mentioned",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Puri",
-          "description": "Arrive at Bhubaneswar and transfer to Puri. Visit Jagannath Temple and relax."
-        },
-        {
-          "title": "Puri & Konark",
-          "description": "Visit Konark Sun Temple and Chandrabhaga Beach. Enjoy Puri beach and local market."
-        },
-        {
-          "title": "Puri to Bhubaneswar",
-          "description": "Visit Pipli village, Dhauli, Lingaraj Temple, and caves. Overnight in Bhubaneswar."
-        },
-        {
-          "title": "Bhubaneswar to Gopalpur",
-          "description": "Drive via Chilika Lake. Visit Kalijai Island and continue to Gopalpur."
-        },
-        {
-          "title": "Gopalpur Excursion",
-          "description": "Visit Tibetan settlement, monastery, and Taptapani hot springs."
-        },
-        {
-          "title": "Departure",
-          "description": "Return to Bhubaneswar for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777719635385_i8nl1",
-      "name": "ODISHA WILDLIFE TOUR WITH TEMPLES ",
-      "category": "domestic",
-      "location": "Bhitarkanika National Park – Bhubaneswar – Puri",
-      "destinations": "ODISHA",
-      "price": 38900,
-      "originalPrice": null,
-      "duration": "6N 7D",
-      "groupSize": "2PAX",
-      "rating": 3.4,
-      "description": "A unique wildlife and nature tour exploring the mangrove forests of Bhitarkanika, known for saltwater crocodiles and migratory birds. Combined with cultural experiences in Bhubaneswar and spiritual visits in Puri, this tour offers a perfect mix of nature and heritage.",
-      "images": [
-        "https://www.bunkarvalley.com/wp-content/uploads/2025/12/Bhitarkanika-National-Park.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/72/Khandagari_and_Udaygiri_featured_image.jpg",
-        "https://s7ap1.scene7.com/is/image/incredibleindia/1-khandagiri-udaigiri-caves-attr-hero?qlt=82&ts=1742172787783",
-        "https://images.openai.com/static-rsc-4/3RXQJWiOKf4GmJwXUTFyS3gVip5XBjFzP0vh_n6xmcxq5gsCTD06mvqBvoWspEae_fGwPmMJrjWCnQYLg3OhucyNYXFmgF8iqoQ92Xw2pJhWikNnq15OfuHffljLfQC7f5zhPhVDq_3TdxsCadZ2Jc24E6pqyD3-aXIi-aIaRAqeKUALhMctXJWLNAenVMZV?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/Owb9XTPE6O5_6Mn8CCIweB6C-xAZb_F7w2mVc_Q2qcYkGVMzQ05v4qmwyWkFCb45Gj_1NGdIp-yvZMeWaqQz8CDmFPQ7SExOypqfU50eGsSsmROs6YrkvAPS_I4w35Jxw6nob0WEkhnMkcDbmAXTcIt9E263TDh8_6mgN7n3yhTbwXccAP5qTRKSZYJFh9c_?purpose=fullsize"
-      ],
-      "inclusions": [
-        "Accommodation in hotels/resorts on twin sharing basis",
-        "Daily breakfast",
-        "Private vehicle for transfers and sightseeing",
-        "All tolls, parking, and driver charges",
-        "Hotel taxes"
-      ],
-      "exclusions": [
-        "Safari and boat ride charges",
-        "Entry fees and guide services",
-        "Personal expenses",
-        "Additional sightseeing",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Puri",
-          "description": "Arrive at Bhubaneswar and transfer to Puri. Visit Jagannath Temple and relax."
-        },
-        {
-          "title": "Puri & Konark",
-          "description": "Visit Konark Sun Temple and Chandrabhaga Beach. Enjoy Puri beach and local market."
-        },
-        {
-          "title": "Puri to Bhubaneswar",
-          "description": "Visit Pipli village, Dhauli, Lingaraj Temple, and caves. Overnight in Bhubaneswar."
-        },
-        {
-          "title": "Bhubaneswar to Gopalpur",
-          "description": "Drive via Chilika Lake. Visit Kalijai Island and continue to Gopalpur."
-        },
-        {
-          "title": "Gopalpur Excursion",
-          "description": "Visit Tibetan settlement, monastery, and Taptapani hot springs."
-        },
-        {
-          "title": "Departure",
-          "description": "Return to Bhubaneswar for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777720315614_k40zp",
-      "name": "EASTERN HIMALAYAN 3 JEWELS",
-      "category": "domestic",
-      "location": "Darjeeling 2N + Pelling 2N + Gangtok 3N  ",
-      "destinations": "",
-      "price": 48800,
-      "originalPrice": null,
-      "duration": "7N-8D",
-      "groupSize": "2PAX",
-      "rating": 3.5,
-      "description": "A scenic Himalayan escape covering three beautiful destinations. Explore the monasteries and lakes of Gangtok, enjoy the calm charm of Kalimpong, and experience the colonial heritage and tea gardens of Darjeeling. This tour is ideal for nature lovers and mountain enthusiasts.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/b/b7/Zang_Dhok_Palri_Phodang_01.jpg",
-        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/f4/18/4e/20160604-113448-largejpg.jpg?h=-1&s=1&w=1200",
-        "https://images.openai.com/static-rsc-4/wDjGCaBMMMYWCz-NRC54R83dw9ycp73oh7Zt5kgApjKzCzTAkcz-iZ9fLh0Y6nv7youc0qxnsrjBr8n-d1VkYyVNNEnPMSCpQZcPPoJZquoTT5Qywh6p3ZKadd4uPnsWQ8eWnTl6DIG7DwOjJo_NzaCJ35n0V4AN_upXSDBZzSlZyutZTAgVu809y8lc7cWz?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/iAZTufGK3NdhOXj33N6I4Xqxi6zmhnrcUrnQWFzyhTgi-aayJMmmbldGRgAEdRWOcUWCsWHcizFmLxKNYxPDMX4jTZmpyWlZMRlYPiLlp9I08DbhXg8nN1WfNmHLBRuMyAtdj7rSlnqTiTCxKWci_iypSdSh8xyDhxeFWzP04peJ8PSyATGEtFEQKSfMJr8u?purpose=fullsize"
-      ],
-      "inclusions": [
-        "Accommodation in selected hotels on twin sharing basis",
-        "Daily breakfast",
-        "Private vehicle for transfers and sightseeing",
-        "Required permits for restricted areas",
-        "All hotel taxe"
-      ],
-      "exclusions": [
-        "Airfare or train fare",
-        "Entry fees and guide charges",
-        "Personal expenses",
-        "Additional sightseeing",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Gangtok",
-          "description": "Arrive at Bagdogra/NJP and transfer to Gangtok. Relax at hotel."
-        },
-        {
-          "title": "Tsomgo Lake Excursion",
-          "description": "Visit Tsomgo Lake and Baba Mandir. Return to Gangtok."
-        },
-        {
-          "title": "Gangtok to Kalimpong",
-          "description": "Drive to Kalimpong. Visit monasteries and scenic viewpoints."
-        },
-        {
-          "title": "Kalimpong to Darjeeling",
-          "description": "Transfer to Darjeeling. Leisure and local market visit."
-        },
-        {
-          "title": "Darjeeling Sightseeing",
-          "description": "Visit Tiger Hill, Batasia Loop, Ghoom Monastery, and tea gardens."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer to Bagdogra/NJP for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777720777984_t6miz",
-      "name": "SIKKIM ENGROSSED ",
-      "category": "domestic",
-      "location": "Gangtok 3N - Lachen 2N - Lachung 1N - Pelling 2N",
-      "destinations": "SIKKIM",
-      "price": 63300,
-      "originalPrice": null,
-      "duration": "08N 09D",
-      "groupSize": "2 PAX",
-      "rating": 3.5,
-      "description": "An extensive Sikkim tour covering high-altitude lakes, valleys, and monasteries. Visit the stunning Gurudongmar Lake, explore Yumthang Valley, and enjoy panoramic views from Pelling. A perfect blend of adventure and scenic beauty",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vikramjit-Kakati-Rumtek.jpg",
-        "https://images.openai.com/static-rsc-4/TqF-xhISnPe0RPicBtyY0vmkIDG5Qo2Cjy5vVtWdRzRwetTrnKSe1uo2AOyBuwKksrfkFzixzdDuTWkUQaW5B5AaNfWoJzOxBmaJgIDNph-wMcx6wsiFeKmwdWLfjFDFPSLbWmIosWGG3_w0nc2o7LnMJezi-bQdvDVPmFwfrenueittiBIYse0cqGyxppeB?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/qBCf9MrOzVS13wo-ziuuXw6FXZxOuxKg1NbBeMwHFXh--24gVYKH6nIgyzeOP3CgUu-_y1UpTUV5nP9YznwwWi2LJLkzwS5FSpHQyF5HhXrf_PVOEyFmjccUZJi0aQ3IV8sUeb5_1IrXY9o9n_LO5MZplTiwACWhibcQMy984R3G7XSmJIUaY1ANCNMgxADe?purpose=fullsize",
-        "https://hblimg.mmtcdn.com/content/hubble/img/gangtok/mmt/activities/m_activities-gangtok-rumtek-monastery_l_400_640.jpg"
-      ],
-      "inclusions": [
-        "Accommodation on twin sharing basis",
-        "Meals as per itinerary",
-        "Private vehicle for all transfers and sightseeing",
-        "Permits for restricted areas",
-        "Hotel taxes"
-      ],
-      "exclusions": [
-        "Airfare or train fare",
-        "Entry fees and guide charges",
-        "Personal expenses",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Gangtok",
-          "description": "Arrive at Bagdogra/NJP and transfer to Gangtok."
-        },
-        {
-          "title": "Tsomgo Lake",
-          "description": "Visit Tsomgo Lake and Baba Mandir."
-        },
-        {
-          "title": "Gangtok to Lachen",
-          "description": "Drive to Lachen with scenic mountain views."
-        },
-        {
-          "title": "Gurudongmar Lake",
-          "description": "Visit Gurudongmar Lake and transfer to Lachung."
-        },
-        {
-          "title": "Yumthang Valley",
-          "description": "Visit Yumthang Valley and return to Gangtok."
-        },
-        {
-          "title": "Gangtok to Pelling",
-          "description": "Transfer to Pelling and relax."
-        },
-        {
-          "title": "Pelling Sightseeing",
-          "description": "Visit monasteries, lakes, and viewpoints."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer to Bagdogra/NJP for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777721165852_fc20s",
-      "name": "MESMERISING MEGHALAYA",
-      "category": "domestic",
-      "location": " Shillong 2N + Cherrapunjee 2N + Guwahati 2N 6N-7D",
-      "destinations": "6N-7D",
-      "price": 38700,
-      "originalPrice": null,
-      "duration": "06N 07D",
-      "groupSize": "2 PAX",
-      "rating": 3.5,
-      "description": "Explore the natural beauty of Meghalaya, known for its waterfalls, caves, and living root bridges. Visit Shillong’s scenic spots and travel to Cherrapunjee, one of the wettest places on Earth, offering breathtaking landscapes and unique trekking experiences.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/7/78/NohKaLikai_Falls_V2_Wiki.jpg",
-        "https://s7ap1.scene7.com/is/image/incredibleindia/double-decker-living-root-bridge-cherrapunjee-meghalaya-city-ff?qlt=82&ts=1742165333655",
-        "https://images.openai.com/static-rsc-4/4stnzqRpt4rQPKo9YHHD26XQF5Z_k9Dj9yRDYElPYl31xzJF-qwbjHEvTepNUbKEHPw6vHl4Owb2IvAdVD8XRV9FbqDDR74V6kzqPcy88-oYSvnmt9BPfEHMlvQfK1cfDrfjhB0ODNNo9kPcexMwTykAzRBusM7tiGtuRJi2sIcga5FHuNaOZlgrocR2VrVQ?purpose=fullsize"
-      ],
-      "inclusions": [
-        "Accommodation on twin sharing basis",
-        "Meals as per itinerary",
-        "Private vehicle for transfers and sightseeing",
-        "All tolls and parking",
-        "Hotel taxe"
-      ],
-      "exclusions": [
-        "Entry fees and guide charges",
-        "Personal expenses",
-        "Additional sightseeing",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Shillong",
-          "description": "Arrive at Guwahati and transfer to Shillong. Visit Umiam Lake."
-        },
-        {
-          "title": "Shillong Sightseeing",
-          "description": "Visit museums, parks, and local attractions."
-        },
-        {
-          "title": "Shillong to Cherrapunjee",
-          "description": "Drive to Cherrapunjee. Visit valleys, waterfalls, and caves."
-        },
-        {
-          "title": "Cherrapunjee Trek",
-          "description": "Trek to Double Decker Root Bridge and visit scenic spots."
-        },
-        {
-          "title": "Cherrapunjee to Guwahati",
-          "description": "Drive to Guwahati via waterfalls."
-        },
-        {
-          "title": "Guwahati Leisure",
-          "description": "Relax or explore local markets and temples."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777721344159_gkjgm",
-      "name": "NORTHEAST PARADISE ",
-      "category": "domestic",
-      "location": "Kaziranga 2N – Shillong 3N – Cherapunjee 2N – Guwahati 1N",
-      "destinations": "ASSAM & MEGHALAYA ",
-      "price": 55300,
-      "originalPrice": null,
-      "duration": "08N 09D",
-      "groupSize": "2 PAX",
-      "rating": 3.5,
-      "description": "A perfect combination of wildlife and scenic beauty. Experience thrilling safaris in Kaziranga National Park and explore the waterfalls, caves, and landscapes of Meghalaya",
-      "images": [
-        "https://images.openai.com/static-rsc-4/hwLLwtH5_Yo8-iUimJFcufTVdDwkvdwXVmbzFm4GjyALlZeXgN9Od8unbYPs4mO362sNmQ8mFgU3B7UyNdJgCmdaOYS-yk9IdJGEcbYbDf3V7QN5L8-IyQsSszf2rRxGvjzJ8Qjod7m0zfbFCNRwgBzA6q1YbODfLg0LQIwteHw1irOO3jAlxiPp7uZNIHal?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/Rxk7GPz7iN1nbHogsBaUT0Aqpq5isKZ-ykrukwkoZbTtHWnfqvmlpb1oM76-gImtYWphA91urXtqKjIIlCqtkB1qn02_fS4DPjJyFksSoxawDEu0akAnBM_Q2jFiuSWVhSN4MYri49jUmDK0IoXOLgQKzAvo-CGKv2e-LEOQVXs2f12LDdtH6YYYh5s63zuP?purpose=fullsize",
-        "https://upload.wikimedia.org/wikipedia/commons/7/78/NohKaLikai_Falls_V2_Wiki.jpg",
-        "https://images.openai.com/static-rsc-4/OjnSUR0AG2YXD6uWjSJ1KgrXN0U7TxEiTtBvEIuvA-0VDLd8z41KjyKD2KDuzomu1aq8oIgKBi2EU0VWfZqxyw85_qDqwY0EN-fmYPTMx3a6kOciekutlFfTOy23PWVE6dltobkn4HCJq1ihHTblM45bTU-c0bo0HgLX_ytEjMJqMznPD4cE4y7lv2upfG5N?purpose=fullsize"
-      ],
-      "inclusions": [
-        "Accommodation on twin sharing basis",
-        "Meals as per itinerary",
-        "Private vehicle for transfers and sightseeing",
-        "All tolls and parking",
-        "Hotel taxes"
-      ],
-      "exclusions": [
-        "Safari charges",
-        "Entry fees and guide charges",
-        "Personal expenses",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Kaziranga",
-          "description": "Arrive at Guwahati and transfer to Kaziranga National Park."
-        },
-        {
-          "title": "Kaziranga Safari",
-          "description": "Enjoy elephant and jeep safari in national park."
-        },
-        {
-          "title": "Kaziranga to Shillong",
-          "description": "Drive to Shillong via scenic routes."
-        },
-        {
-          "title": "Shillong Sightseeing",
-          "description": "Explore local attractions and viewpoints."
-        },
-        {
-          "title": "Shillong to Cherrapunjee",
-          "description": "Drive to Cherrapunjee and visit waterfalls and caves."
-        },
-        {
-          "title": "Cherrapunjee Exploration",
-          "description": "Enjoy nature and scenic landscapes."
-        },
-        {
-          "title": "Cherrapunjee to Guwahati",
-          "description": "Drive to Guwahati and relax."
-        },
-        {
-          "title": "Guwahati Leisure",
-          "description": "Explore city or relax."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777721566397_miifu",
-      "name": "PULSE OF RAJASTHAN",
-      "category": "domestic",
-      "location": "Jaipur – Ajmer – Pushkar – Udaipur",
-      "destinations": "RAJASTHAN",
-      "price": 26060,
-      "originalPrice": null,
-      "duration": "05N 06D",
-      "groupSize": "2PAX",
-      "rating": 3.5,
-      "description": "A classic Rajasthan experience covering royal heritage, spiritual sites, and lakes. Explore Jaipur’s forts and palaces, visit Ajmer Sharif and Pushkar, and enjoy the romantic charm of Udaipur.",
-      "images": [
-        "https://images.openai.com/static-rsc-4/lLrRH5Xo2uURVkNQLrYQwGJEm1QyWnPIpfawhuUz0AAz7wbzlYrAW7dfGSIhJH0tV8L0kwTY80BmaIIESfquaFWaZoZZnsGtUVinj10n9RLMA49_29m2lv8-Ry6n_L5Mc-AxymLn1mxLYV_I4zTajSCWQgL60hH-l2yai3QH5KKaj-d0K5qnD6mVV-MqAqr_?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/DjwK1ukTHW0T9iTH0jk-fiV1EhiEcxMTcxiSNRzn2q5pNSxWBh8nD-NWkJ_ihp1tWqU_M5EU8pFdTRSWoLbBydBhjyrSfayynzwODqzSa84Yf5TmtmAKwELSxcuCU2A-DP6uWk3mAZx3KsVlyV9oMA77HwCeyP9Bn-KB3LqdUgzcgm1U3JsA_O96MJF9rRYM?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/gC3aoBjk176bOYglXR7DH-jJpOy9B6bWHtgpQD51ROoLLDZvltRcC-emHbJkfqXGzb8-au0vvx5uT6ungMMTtwgqP583UklsyMZI5Zm_6ncSStEWM1cl8U20RnXYIcw6DsMW2rdA-yS1BlFJ0KJ1zPVJUIXmsTI-qCbjIvjqwiI00jM-5p4S8drzDtHAwEPt?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/KSZHbYki7kI6kJop0BylGfUlYQJSQ_xMlQ9_kBr5mhsawi92mlEZI_9C0-unr7jAVyz-cmUGim0LZAUdxm6h-w1JXUJZcbwth-nv8hKTdhmuLzweEpS_-czIYvL3TDecacujYxToMdSy-HbUI9R1PI4Hu4JTAz1umulpK-bOm2zBYaJ1z_kkV6dvFld4YFv9?purpose=fullsize"
-      ],
-      "inclusions": [
-        "Accommodation on twin sharing basis",
-        "Daily breakfast",
-        "Private vehicle for transfers and sightseeing",
-        "All tolls, parking, and driver allowance",
-        "Hotel taxes"
-      ],
-      "exclusions": [
-        "Airfare or train fare",
-        "Entry fees and guide charges",
-        "Personal expenses",
-        "Additional sightseeing",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Jaipur",
-          "description": "Arrive in Jaipur and check into hotel."
-        },
-        {
-          "title": "Jaipur Sightseeing",
-          "description": "Visit Amber Fort, City Palace, and Hawa Mahal."
-        },
-        {
-          "title": "Jaipur to Pushkar",
-          "description": "Drive to Ajmer and Pushkar. Visit temples and lake."
-        },
-        {
-          "title": "Pushkar to Udaipur",
-          "description": "Drive to Udaipur and relax."
-        },
-        {
-          "title": "Udaipur Sightseeing",
-          "description": "Visit City Palace, lakes, and gardens."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777721886615_j55t1",
-      "name": "RAJ WITH TAJ",
-      "category": "domestic",
-      "location": "Delhi – Agra – Jaipur – Jaisalmer – Jodhpur – Udaipur",
-      "destinations": "Rajasthan",
-      "price": 53620,
-      "originalPrice": null,
-      "duration": "9N 10D",
-      "groupSize": "2 PAX",
-      "rating": 3.5,
-      "description": "A grand North India tour combining the Golden Triangle with Rajasthan’s royal cities. Visit the iconic Taj Mahal, explore majestic forts, experience desert landscapes in Jaisalmer, and enjoy the lakes of Udaipur.",
-      "images": [
-        "https://images.openai.com/static-rsc-4/ttLH8KPfrmDTQ_hA1OVer9fl_Wo6Pa62T1p4HSpRKPymJUt3KVTL2A0jUZ4JTeGzrT4UQvjaz7uyszYgi55YPCCTvA6Zu1RYRMzAz9IMrcmVieXvPv4RnG1YM5JmXdhfHAGv5Sw2lABCT_DrkvnRTzv7oI2eia_KI2sa3NCaWAb80NnitL02AK6V8gYtQGir?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/SvVU-Vz56keuSFV7iN7V1WjC4QmeMkyfucxsnFyAL1-TtNP2-a139msm9UfnZ_C2lbt8u2wMm-3SfePM5WOWmN_QL2scsn727CjNnyFApzK-amNFxC_VQ1w6wP_yZVJTm0KNWvxMNlCIXIDdXtrWWgAaxbGip64pYWYkc9PBXam_I5QsiwuGOLrn9kHndYfG?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/sUKce6BcO31Alk6WdChut9qmfNqyqAS4PemeocAZvnkLDoJzP4Fxl3WKQuLjUVa7sgVel9KNodd7Raab631dI7hRmft_Q8qcXny1gJfHcv51IkESPo7txUWcysgKdGaYt48OQbEBMUdmnGi9XgGrYulA0SrqM9o_upL2AVJOtZeXf4QR5PWv6QaIVCpwC_Rc?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/2OlL_UfD_TdGcEqEGUk8_sTToVj6p6wLMuoEnqDD4ScORx8XcAzPMpnM6-YaNqhOmdZQBAP7q9AnFyg6vx0K2mbjaQbJEbO-K3_V7n3GxdkHnegst9_lycJpyqo7nkSqx1ybkazkjliIZFonQMabhZk72PhDKYq7Cuh0lTpNqyeId8AD-hRlxdrIxeBAnkaW?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/lLrRH5Xo2uURVkNQLrYQwGJEm1QyWnPIpfawhuUz0AAz7wbzlYrAW7dfGSIhJH0tV8L0kwTY80BmaIIESfquaFWaZoZZnsGtUVinj10n9RLMA49_29m2lv8-Ry6n_L5Mc-AxymLn1mxLYV_I4zTajSCWQgL60hH-l2yai3QH5KKaj-d0K5qnD6mVV-MqAqr_?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/7JKaif1ecuZ-Jr7yoAwycgV5k_4iSkL7G41m39XFKKwuXj8MCP1fy8-LaMtJJ25djnk_LrPHshIIiT6QWFSs6krbzhnlxvJsdQPvxtGEnf82XjHBZuAOwd7D5jakWSX1-nkzfESmJLM_gRSlBsnJiyxH-gkXjuGvcgXYOPhUSkfPYrQwrgPibA0_cFE8wogt?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/cHtjfUFogLc50Nn4m3zc-LJiHdMpT4AQ4E8BkmaYclpGo5ZE0MPKxoPX3SJDYiXu0H91yomHU47FUIV5t6f1lOSf9gG0_CKC0IyO4myEP_7qRM_veysqMdIcKpjJ2tp-Qwm4PDZ9lT8u7lQtyzaCwi1G4156uQuasm57CfkhBVQbPeNKr8yeI0J1zu0kG1L5?purpose=fullsize",
-        "https://images.openai.com/static-rsc-4/tYFavqENsqIsvP6ueKrKIx2vZakwpD_lHcRsU9WXPCy0cXRUfTVohMBcPVI_XekKDPpq3KVEHKFu1-F_jiXLP5wlCLjck02x2QOfQySuzfcWzNvxkmYP_psZKiZe8c6WJM1WSjxNp1wHMidXEfjyuR6mpgSMvehvoFEXCJupISjMtS4sg6Ckrbl5v4aEBfia?purpose=fullsize"
-      ],
-      "inclusions": [
-        "Accommodation on twin sharing basis",
-        "Daily breakfast",
-        "Private vehicle for entire tour",
-        "All tolls, parking, and driver allowance",
-        "Hotel taxes"
-      ],
-      "exclusions": [
-        "Airfare or train fare",
-        "Entry fees and guide charges",
-        "Personal expenses",
-        "Additional sightseeing",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Delhi",
-          "description": "Arrive in Delhi and check into hotel."
-        },
-        {
-          "title": "Delhi to Agra",
-          "description": "Drive to Agra. Visit Taj Mahal and Agra Fort."
-        },
-        {
-          "title": "Agra to Jaipur",
-          "description": "Drive via Fatehpur Sikri to Jaipur."
-        },
-        {
-          "title": "Jaipur Sightseeing",
-          "description": "Visit Amber Fort, City Palace, and Hawa Mahal."
-        },
-        {
-          "title": "Jaipur to Bikaner",
-          "description": "Drive to Bikaner and visit Junagarh Fort."
-        },
-        {
-          "title": "Bikaner to Jaisalmer",
-          "description": "Drive to Jaisalmer and relax."
-        },
-        {
-          "title": "Jaisalmer Exploration",
-          "description": "Visit fort, havelis, and enjoy desert safari."
-        },
-        {
-          "title": "Jaisalmer to Jodhpur",
-          "description": "Drive to Jodhpur and visit forts."
-        },
-        {
-          "title": "Jodhpur to Udaipur",
-          "description": "Drive to Udaipur and relax."
-        },
-        {
-          "title": "Departure",
-          "description": "Transfer for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777722348771_7cbha",
-      "name": "STATUE OF UNITY WITH DWARKA & SOMNATH",
-      "category": "domestic",
-      "location": "Kevadia – Gir National Park – Somnath – Dwarka",
-      "destinations": "Gujarat",
-      "price": 32500,
-      "originalPrice": null,
-      "duration": "06N 07D",
-      "groupSize": "2 PAX",
-      "rating": 3.5,
-      "description": "Accommodation on twin sharing basis\nDaily breakfast\nPrivate vehicle for transfers and sightseeing\nAll tolls, parking, and driver allowance\nHotel taxes",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/0/07/Statue_of_Unity.jpg",
-        "https://myholidayhappiness.com/uploads/sardar-sarovar-dam-7851.jpg",
-        "https://images.openai.com/static-rsc-4/qpRz7ia1I8xGnBLDqPTkXMlMiNNCvycoBt0lK2Rkd9kQVLklA_6NfJQh7At9e7xm7VIe8aTQkfafadCPf3S5vTfqV5HZ-bnQ_XB8mMhwqHUf6d4JRNI0dVOwxTreWo9QUUyyuQPob-c1bjr6CVAQ_foi2BLN3Po98Gp5g1tdnZc-QQ_RRwl08V64oc82twze?purpose=fullsize",
-        "https://upload.wikimedia.org/wikipedia/commons/1/10/Somanath_mandir_%28cropped%29.jpg",
-        "https://s7ap1.scene7.com/is/image/incredibleindia/gomti-ghat-dwarka-gujarat-4-musthead-hero?qlt=82&ts=1726734760164"
-      ],
-      "inclusions": [
-        "Accommodation on twin sharing basis",
-        "Daily breakfast",
-        "Private vehicle for transfers and sightseeing",
-        "All tolls, parking, and driver allowance",
-        "Hotel taxes"
-      ],
-      "exclusions": [
-        "Airfare or train fare",
-        "Entry fees and safari charges",
-        "Personal expenses",
-        "Additional sightseeing",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Kevadia",
-          "description": "Visit Statue of Unity and nearby attractions."
-        },
-        {
-          "title": "Kevadia to Bhavnagar",
-          "description": "Drive to Bhavnagar and visit temples."
-        },
-        {
-          "title": "Bhavnagar to Gir",
-          "description": "Drive to Gir National Park."
-        },
-        {
-          "title": "Gir to Diu",
-          "description": "Drive to Diu and visit beaches and fort."
-        },
-        {
-          "title": "Diu to Somnath",
-          "description": "Visit Somnath Temple and attend aarti."
-        },
-        {
-          "title": "Somnath to Dwarka",
-          "description": "Drive via Porbandar and visit temples."
-        },
-        {
-          "title": "Departure",
-          "description": "Return for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
-    },
-    {
-      "id": "pkg_1777722540503_w1yyf",
-      "name": "WONDERFUL GUJARAT",
-      "category": "domestic",
-      "location": "Ahmedabad – Vadodara – Somnath – Dwarka",
-      "destinations": "GUJARAT",
-      "price": 40000,
-      "originalPrice": null,
-      "duration": "09N 10D",
-      "groupSize": "2 PAX",
-      "rating": 3.4,
-      "description": "An extensive Gujarat tour covering heritage cities, temples, wildlife, and modern attractions. Explore Ahmedabad’s culture, visit Statue of Unity, and experience spiritual destinations like Somnath and Dwarka.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/10/Somanath_mandir_%28cropped%29.jpg",
-        "https://www.incredibleindia.gov.in/content/dam/incredible-india/images/gujarat/dwarka/city/gomti-ghat-dwarka-city-hero.jpg",
-        "https://s7ap1.scene7.com/is/image/incredibleindia/gomti-ghat-dwarka-gujarat-1-musthead-hero?qlt=82&ts=1726734709126",
-        "https://images.openai.com/static-rsc-4/YnTB79O6TBc9_8RTq3SGxmXGLgx28_Whmv9bqq3fghLdqlpsre6XXzRT5d5EMAofjOm8Sg6Akdhekb0rMBUfVHd7OHx0NNKOvHsXIWyn1PUQ8lDjY7jxtEzMA85B0350a6-4Li4ZR23CxcBF5ce-O1LCCqiHzd4fcG9tJZKfvqL05ss4bOYoK85g8kg-ybWz?purpose=fullsize"
-      ],
-      "inclusions": [
-        "Accommodation on twin sharing basis",
-        "Daily breakfast",
-        "Private vehicle for entire tour",
-        "All tolls, parking, and driver allowance",
-        "Hotel taxes"
-      ],
-      "exclusions": [
-        "Airfare or train fare",
-        "Entry fees and guide charges",
-        "Personal expenses",
-        "Additional sightseeing",
-        "Travel insurance"
-      ],
-      "itinerary": [
-        {
-          "title": "Arrival to Kevadia",
-          "description": "Visit Statue of Unity and nearby attractions."
-        },
-        {
-          "title": "Kevadia to Bhavnagar",
-          "description": "Drive to Bhavnagar and visit temples."
-        },
-        {
-          "title": "Bhavnagar to Gir",
-          "description": "Drive to Gir National Park."
-        },
-        {
-          "title": "Gir to Diu",
-          "description": "Drive to Diu and visit beaches and fort."
-        },
-        {
-          "title": "Diu to Somnath",
-          "description": "Visit Somnath Temple and attend aarti."
-        },
-        {
-          "title": "Somnath to Dwarka",
-          "description": "Drive via Porbandar and visit temples."
-        },
-        {
-          "title": "Departure",
-          "description": "Return for departure."
-        }
-      ],
-      "notes": [
-        "Prices are subject to change without prior notice",
-        "Rates may vary depending on season, hotel availability, and demand",
-        "Final confirmation will be provided at the time of booking",
-        "Any increase in government taxes or fuel charges will be extra"
-      ]
+      "itinerary": [],
+      "notes": []
     }
   ],
-  "lastUpdated": "2026-05-02T13:29:03.457Z",
-  "totalPackages": 45
+  "lastUpdated": "2026-04-27T12:54:19.419Z",
+  "totalPackages": 33
 }
